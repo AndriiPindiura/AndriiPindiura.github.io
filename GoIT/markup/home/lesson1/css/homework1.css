@@ -1,0 +1,17 @@
+body {
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p, ul {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+img {
+    width: 33%;
+    margin-left: 33%;  
+}
