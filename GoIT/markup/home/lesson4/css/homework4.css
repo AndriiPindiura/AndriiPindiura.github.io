@@ -76,6 +76,7 @@ body {
     float: right;
     margin: 0 5px;
     text-align: center;
+    cursor: pointer;
     /*background: url("../img/m_flag.png");*/
 }
 
