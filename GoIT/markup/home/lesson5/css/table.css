@@ -1,0 +1,51 @@
+/*table {
+    border: none;
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    padding: 15px;
+    border: 5px solid black;
+    /*width: 25px;
+    height: 25px;*/
+}
+
+.white {
+    background: white;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.orange {
+    background: coral;
+}
+
+.black {
+    background: black;
+}
+
+.blue {
+    background: darkblue;
+}
+
+.woleft {
+    border-left: none;
+}
+
+.woright {
+    border-right: none;
+}
+
+.wotop {
+    border-top: none;
+}
+
+.wobottom {
+    border-bottom: none;
+}
