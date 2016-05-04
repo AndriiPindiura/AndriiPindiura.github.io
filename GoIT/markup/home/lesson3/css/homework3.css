@@ -26,8 +26,10 @@ a {
 
 .container {
     height: 100%;
-    margin-left: 154px;
-    margin-right: 154px;
+    width: 1160px;
+    margin: 0 auto;
+    /*margin-left: 154px;
+    margin-right: 154px;*/
     padding: 50px 47px 61px 47px;
     background: #fff;
     /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
@@ -42,7 +44,7 @@ a {
     margin-bottom: 40px;
 }
 
-.divMenu {
+.divmenu {
     height: 40px;
     background-image: -webkit-gradient(
 	linear,
@@ -57,24 +59,28 @@ a {
     background-image: -ms-linear-gradient(bottom, #5E5E5E 0%, #464646 100%);
     background-image: linear-gradient(to bottom, #5E5E5E 0%, #464646 100%);
 }
-.mainMenu {
+.mainmenu {
     height: 100%;
     list-style: none;
 }
 
-.mainMenu a {
-    margin: 9px 40px 9px 24px;
+.mainmenu a {
+    margin: 9px 24px;
     color: #fff;
     font-size: 11pt;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
 }
 
-.mainMenu li:hover {
+.mainmenu li:hover {
     background: #444;
+    border-right: solid 1px #838383;
+    border-left: solid 1px #838383;
 }
 
-.mainMenu li.selected {
+.mainmenu li.selected {
     background: #444;
+    border-right: solid 1px #838383;
+    border-left: solid 1px #838383;
 }
 
 /* CONTENT */
@@ -108,6 +114,7 @@ a {
 }
 
 .menu li:hover {
+    padding: 11px 24px 11px 35px;
     background: #f9f9f9;
 }
 
@@ -127,16 +134,16 @@ a {
     float: left;
 }
 
-.divImage {
+.divimage {
     border: solid 1px #c8c8c8;
 }
 
-.itemImage {
+.itemimage {
     display: block;
     margin: auto;
 }
 
-.itemDescription {
+.itemdescription {
     margin: 50px 24px 20px 24px;
     color: #2c2c2c;
     font-size: 10pt;
@@ -147,24 +154,24 @@ a {
     height: 40px;
     background: #e1e1e1;
 }
-.footerMenu {
+.footermenu {
     height: 100%;
     list-style: none;
 }
 
 
-.footerMenu a {
+.footermenu a {
     margin: 9px 45px 9px 24px;
     color: #2c2c2c;
     font-size: 10pt;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.footerMenu li:hover {
+.footermenu li:hover {
     text-decoration: underline;
 }
 
-.footerMenu li.selected {
+.footermenu li.selected {
     text-decoration: underline;
 }
 
