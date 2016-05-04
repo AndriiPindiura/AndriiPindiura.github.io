@@ -44,7 +44,7 @@ a {
     margin-bottom: 40px;
 }
 
-.divmenu {
+.div-menu {
     height: 40px;
     background-image: -webkit-gradient(
 	linear,
@@ -59,25 +59,25 @@ a {
     background-image: -ms-linear-gradient(bottom, #5E5E5E 0%, #464646 100%);
     background-image: linear-gradient(to bottom, #5E5E5E 0%, #464646 100%);
 }
-.mainmenu {
+.main-menu {
     height: 100%;
     list-style: none;
 }
 
-.mainmenu a {
+.main-menu a {
     margin: 9px 24px;
     color: #fff;
     font-size: 11pt;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
 }
 
-.mainmenu li:hover {
+.main-menu li:hover {
     background: #444;
     border-right: solid 1px #838383;
     border-left: solid 1px #838383;
 }
 
-.mainmenu li.selected {
+.main-menu li.selected {
     background: #444;
     border-right: solid 1px #838383;
     border-left: solid 1px #838383;
@@ -134,16 +134,16 @@ a {
     float: left;
 }
 
-.divimage {
+.div-image {
     border: solid 1px #c8c8c8;
 }
 
-.itemimage {
+.item-image {
     display: block;
     margin: auto;
 }
 
-.itemdescription {
+.item-description {
     margin: 50px 24px 20px 24px;
     color: #2c2c2c;
     font-size: 10pt;
@@ -154,24 +154,24 @@ a {
     height: 40px;
     background: #e1e1e1;
 }
-.footermenu {
+.footer-menu {
     height: 100%;
     list-style: none;
 }
 
 
-.footermenu a {
+.footer-menu a {
     margin: 9px 45px 9px 24px;
     color: #2c2c2c;
     font-size: 10pt;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.footermenu li:hover {
+.footer-menu li:hover {
     text-decoration: underline;
 }
 
-.footermenu li.selected {
+.footer-menu li.selected {
     text-decoration: underline;
 }
 
