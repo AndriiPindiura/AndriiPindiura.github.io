@@ -112,6 +112,10 @@ body {
 
 .menu {
     height: 100%;
+    border-bottom: 2px solid #000;
+    -webkit-box-shadow: 0px 2px 1px 1px rgba(178,178,180,0.75);
+    -moz-box-shadow: 0px 2px 1px 1px rgba(178,178,180,0.75);
+    box-shadow: 0px 2px 1px 1px rgba(178,178,180,0.75);
 }
 
 .menu li {
@@ -154,13 +158,13 @@ body {
 .subMenu {
     position: absolute;
     display: none;
-    margin-top: 8px;
+    margin-top: 11px;
     left: 121px;
     background: #373737;
-    border-top: 1px solid #000;
-    -webkit-box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.75);
-    box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.75);
+    /*border-top: 1px solid #000;*/
+    -webkit-box-shadow: 1px 5px 4px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 4px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 5px 4px 1px rgba(0,0,0,0.75);
 }
 
 .subMenu li {

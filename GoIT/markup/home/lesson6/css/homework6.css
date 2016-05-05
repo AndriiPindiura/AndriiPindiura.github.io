@@ -1,0 +1,21 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue";
+    font-size: 10pt;
+}
+
+/*body {
+    background: url("../img/background.jpg") no-repeat;
+}*/
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container {
+    width: 909px;
+    margin: 0 auto;
+}
