@@ -7,6 +7,7 @@
 
 body {
     background: url("../img/background.jpg") repeat-x;
+    background-position-y:  -38px;
 }
 
 .clearfix:after {
@@ -16,7 +17,7 @@ body {
 }
 
 .container {
-    margin: 38px auto 38px;
+    margin: 0 auto 38px;
     width: 1000px;
     height: 988px;
     background-color: #fff;
