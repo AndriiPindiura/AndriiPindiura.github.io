@@ -98,7 +98,7 @@ body {
 
 /* MENU */
 
-.divMenu {
+.divmenu {
     position: relative;
     height: 30px;
     margin: -2px auto 0;
@@ -151,24 +151,24 @@ body {
     background: #000;
 }
 
-.dropdown:hover .subMenu {
+.dropdown:hover .submenu {
     display: block;
 }
 
 
-.subMenu {
+.submenu {
     position: absolute;
     display: none;
-    margin-top: 11px;
+    top: 30px;
     left: 121px;
     background: #373737;
-    /*border-top: 2px solid rgba(0,0,0,0);*/
+    border-top: 2px solid;
     -webkit-box-shadow: 1px 5px 4px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 5px 4px 1px rgba(0,0,0,0.75);
     box-shadow: 1px 5px 4px 1px rgba(0,0,0,0.75);
 }
 
-.subMenu li {
+.submenu li {
     list-style: none;
     padding: 0 50px 0 33px;
     display: block;
@@ -177,7 +177,7 @@ body {
     /*cursor: pointer;*/
 }
 
-.subMenu a {
+.submenu a {
     display: block;
     color: #fff;
     font-size: 11pt;
