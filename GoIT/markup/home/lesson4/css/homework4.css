@@ -162,7 +162,7 @@ body {
     margin-top: 11px;
     left: 121px;
     background: #373737;
-    /*border-top: 1px solid #000;*/
+    /*border-top: 2px solid rgba(0,0,0,0);*/
     -webkit-box-shadow: 1px 5px 4px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 5px 4px 1px rgba(0,0,0,0.75);
     box-shadow: 1px 5px 4px 1px rgba(0,0,0,0.75);
