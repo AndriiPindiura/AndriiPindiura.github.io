@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Homework Lesson6</title>
     <link rel="stylesheet" href="css/homework6.css">
 </head>
+
 <body>
     <div class="container">
-        <header class="main-header">
-            <div class="user clearfix">
-                <div class="phones">
-                    <div class="phoneimage">
+        <header class="header">
+            <div class="clearfix">
+                <div class="header__phones">
+                    <div class="header__phones__phoneimage">
                         <img src="img/phone.png" alt="">
                     </div>
                     <p>(044)123-45-67 (044)567-89-10</p>
                 </div>
-                <div class="login">
+                <div class="header__login">
                     <img src="img/user.png" alt="">
                     <form action="#">
                         <input type="text" placeholder="логин">
@@ -27,19 +29,19 @@
                         <!--<input type="text" class="submit">-->
                     </form>
                 </div>
-                <nav class="navi">
-                    <div class="shape">
+                <nav class="header__navi">
+                    <div class="header__navi__shape">
                         <img src="img/home.png" alt="" id="img-home">
                         <img src="img/tree.png" alt="" id="img-tree">
                         <img src="img/letter.png" alt="" id="img-letter">
                     </div>
-                    <div class="shadow"></div>
+                    <div class="header__navi__shadow"></div>
                 </nav>
             </div>
             <img src="img/tier.jpg" alt="zazor.com.ua" class="image-tier">
         </header>
         <div class="menu">
-            <ul class="menu-list">
+            <ul class="menu__list">
                 <li class="selected"><a href="#">О компани</a></li>
                 <li><a href="#">Оплата</a></li>
                 <li><a href="#">Доставка</a></li>
@@ -57,42 +59,206 @@
                 <img src="img/basket.png" alt="">
             </div>
         </div>
+        <section class="filters">
+            <section class="cars">
+                <header>
+                    <span class="cars__header__wheel">
+                        Диски:
+                    </span>
+                    <h1>Поиск по автомобилю</h1>
+                    <span class="cars__header__tiers">
+                        Шины:
+                    </span>
+                </header>
+                <section class="cars__section">
+                    <div class="cars__section__column">
+                        <div class="car__section__caption">
+                            <p class="mt7">Марка <span>авто:</span></p>
+                            <p class="mt8">Модель <span>автомобиля:</span></p>
+                            <p class="mt6">Год выпуска <span>автомобиля:</span></p>
+                            <p class="mt10">Комплектация:</p>
+                        </div> <!--div.car__section__caption-->
+                        <div class="car__section__select">
+                            <div class="filter__select">
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value="">Car 1</option>
+                                    <option value="">Car 2</option>
+                                    <option value="">Car 3</option>
+                                    <option value="">Car 4</option>
+                                    <option value="">Car 5</option>
+                                </select>
+                            </div>
+                            <div class="filter__select mt4">
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value="">Car 1</option>
+                                    <option value="">Car 2</option>
+                                    <option value="">Car 3</option>
+                                    <option value="">Car 4</option>
+                                    <option value="">Car 5</option>
+                                </select>
+                            </div>
+                            <div class="filter__selects mt4">
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value="">Car 1</option>
+                                    <option value="">Car 2</option>
+                                    <option value="">Car 3</option>
+                                    <option value="">Car 4</option>
+                                    <option value="">Car 5</option>
+                                </select>
+                            </div>
+                            <div class="filter__select mt4">
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value="">Car 1</option>
+                                    <option value="">Car 2</option>
+                                    <option value="">Car 3</option>
+                                    <option value="">Car 4</option>
+                                    <option value="">Car 5</option>
+                                </select>
+                            </div>
+                        </div> <!--div.car__section__select-->
+                    </div> <!--div.cars__section__column-->
+                    <div class="cars__section__column">
+                        <div class="car__section__caption">
+                            <p class="mt5">Марка <span>авто:</span></p>
+                            <p class="mt8">Модель <span>автомобиля:</span></p>
+                            <p class="mt6">Год выпуска <span>автомобиля:</span></p>
+                            <p class="mt10">Комплектация:</p>
+                        </div> <!--div.car__section__caption-->
+                        <div class="car__section__select">
+                            <div class="filter__select mt-2">
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value="">Car 1</option>
+                                    <option value="">Car 2</option>
+                                    <option value="">Car 3</option>
+                                    <option value="">Car 4</option>
+                                    <option value="">Car 5</option>
+                                </select>
+                            </div>
+                            <div class="filter__select mt4">
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value="">Car 1</option>
+                                    <option value="">Car 2</option>
+                                    <option value="">Car 3</option>
+                                    <option value="">Car 4</option>
+                                    <option value="">Car 5</option>
+                                </select>
+                            </div>
+                            <div class="filter__selects mt4">
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value="">Car 1</option>
+                                    <option value="">Car 2</option>
+                                    <option value="">Car 3</option>
+                                    <option value="">Car 4</option>
+                                    <option value="">Car 5</option>
+                                </select>
+                            </div>
+                            <div class="filter__select mt4">
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value="">Car 1</option>
+                                    <option value="">Car 2</option>
+                                    <option value="">Car 3</option>
+                                    <option value="">Car 4</option>
+                                    <option value="">Car 5</option>
+                                </select>
+                            </div>
+                        </div> <!--div.car__section__select-->
+                    </div> <!--div.cars__section__column-->
+                </section>
+                <footer class="search">
+                    <a href="#">поиск...</a>
+                </footer>
+            </section>
+            <section class="tiers">
+                <header>
+                    <h1>поиск шин</h1>
+                </header>
+                    <section class="tiers__section">
+                        <div class="tier__section__caption">
+                            <p class="mt7">Размер:</p>
+                            <p class="mt7">R</p>
+                            <span>Сезон:</span>
+                        </div> <!--div.car__section__caption-->
+                        <div class="tiers__section__select">
+                            <div>
+                                <div class="tier52">
+                                    <select name="" id="">
+                                        <option value="">145</option>
+                                        <option value="">145</option>
+                                        <option value="">145</option>
+                                        <option value="">145</option>
+                                        <option value="">145</option>
+                                        <option value="">145</option>
+                                    </select>
+                                </div>
+                                <span class="tiers__span">/</span>
+                                <div class="tier53">
+                                    <select name="" id="">
+                                        <option value=""></option>
+                                        <option value="">Car 1</option>
+                                        <option value="">Car 2</option>
+                                        <option value="">Car 3</option>
+                                        <option value="">Car 4</option>
+                                        <option value="">Car 5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="tier45">
+                                <select name="" id="">
+                                    <option value="">12</option>
+                                    <option value="">13</option>
+                                    <option value="">14</option>
+                                    <option value="">15</option>
+                                    <option value="">16</option>
+                                    <option value="">17</option>
+                                </select>
+                            </div>
+                            <!--<div class="clearfix"></div>-->
+                            <div class="tiers__checkbox">
+                                <input type="checkbox" name="" id="summer"><label for="summer">лето</label>
+                                <input type="checkbox" name="" id="winter"><label for="winter">зима</label>
+                                <input type="checkbox" name="" id="all"><label for="all">всесез</label>
+                            </div>
+                        </div> <!--div.car__section__select-->
+                    </section>
+            </section>
+            <section class="wheels">
+
+            </section>
+        </section>
         <main role="main">
-            <header class="filter">
-                <section class="cars">
-                    
-                </section>
-                <section class="tiers">
-                    
-                </section>
-                <section class="wheels">
-                    
-                </section>
-            </header>
             <div class="wrapper clearfix">
                 <section class="catalogue">
-                    
+
                 </section>
                 <article class="goods">
                     <aside class="good">
                         <div class="good-title"></div>
                         <figure class="good-image">
                             <figcaption>
-                                
+
                             </figcaption>
                         </figure>
-                        
+
                     </aside>
                 </article>
                 <section class="brands-filter">
-                    
+
                 </section>
             </div>
             <footer class="brands"></footer>
         </main>
         <footer class="main-footer">
-            
+
         </footer>
     </div>
 </body>
+
 </html>
