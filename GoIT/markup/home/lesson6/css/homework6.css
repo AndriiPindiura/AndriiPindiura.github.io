@@ -1172,11 +1172,127 @@
             height: 628px;
             margin: 14px auto 0;
             background: rgba(35, 75, 93, 1);
-            background: -webkit-linear-gradient(rgba(201, 207, 209, 1) 0%, rgba(35, 75, 93, 1) 100%);
-            background: -o-linear-gradient(rgba(201, 207, 209, 1) 0%, rgba(35, 75, 93, 1) 100%);
-            background: linear-gradient(rgba(201, 207, 209, 1) 0%, rgba(35, 75, 93, 1) 100%);
+            background: -webkit-linear-gradient(rgba(201, 207, 209, 0.49) 0%, rgba(35, 75, 93, 0.49) 100%);
+            background: -o-linear-gradient(rgba(201, 207, 209, 0.49) 0%, rgba(35, 75, 93, 0.49) 100%);
+            background: linear-gradient(rgba(201, 207, 209, 0.49) 0%, rgba(35, 75, 93, 0.49) 100%);
             border-radius: 3px;
         }
+        
+            .goods__good {
+                float: left;
+                margin: 8px 8px 29px 22px;
+                cursor: pointer;
+            }
+            
+                .goods__good:hover figure {
+                    border: 1px solid rgba(35, 75, 93, 1);
+                }
+                    .goods__good__title>p,span {
+                        display: block;
+                        font-family: 'Lucida Sans Regular', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        text-align: center;
+                        line-height: 10px;
+                    }
+                    
+                    .goods__good__title>p {
+                        color: #206988;
+                        font-size: 97%;
+                    }
+                    
+                    .goods__good__title>p>span {
+                        /*display: block;*/
+                        color: #1f2528;
+                        font-size: 82%;
+                    }
+                    
+                    .goodyear>p {
+                        margin: 11px 0 2px -38px;
+                    }
+                    
+                        .goodyear>p>span {
+                            margin: 3px 0 0 4px;
+                        }
+
+                    .nokian>p {
+                        margin: 11px 0 2px -31px;
+                    }
+                    
+                        .nokian>p>span {
+                            margin: 3px 0 0 0;
+                        }
+                        
+                    .hankook>p {
+                        margin: 11px 0 2px -30px;
+                    }
+                    
+                        .hankook>p>span {
+                            margin: 3px 0 0 -4px;
+                        }
+
+                    
+                .goods__good__image {
+                    width: 136px;
+                    height: 127px;
+                    background: #fff;
+                    border: 1px solid #a4aeb1;
+                    border-radius: 10px;
+                }
+                                
+                    .goods__good__image img {
+                        display: block;
+                    }
+                    
+                    .goodyear--image {
+                        margin-left: 29px;
+                    }
+                    
+                    .nokian--image {
+                        margin-left: 32px;
+                    }
+                    
+                    .hankook--image {
+                        margin-left: 27px;
+                    }
+                    
+                    .goods__good__image figcaption {
+                        color: #114165;
+                        font-family: Arial Bold, Helvetica, sans-serif;
+                        font-weight: bold;
+                        font-style: italic;
+                        font-size: 100%;
+                        /*text-align: center;*/
+                    }
+                    
+                        .goods__good__image figcaption>span {
+                            display: inline;
+                            font-size: 79%;
+                        }
+                    
+                    .goodyear {
+                        margin: 8px 0px 0 37px;
+                    }
+                    
+                        .goodyear>span {
+                            margin: 0 0 0 0;
+                        }
+                    
+                    .nokian {
+                        margin: 10px 0 0 34px;
+                    }
+                    
+                        .nokian>span {
+                            margin: 0 0 0 1px;
+                        }
+                    
+                    .hankook {
+                        margin: 9px 0 0 34px;
+                    }
+                    
+                        .hankook>span {
+                            margin: 0 0 0 1px;
+                        }
+                    
+                
         /* EoF GOODS */
         
         .brands-filter {
@@ -1360,8 +1476,44 @@
     /* EoF WRAPPER */
     
     .brands {
-        height: 50px;
+        margin: 42px 0 0 117px;
     }
+        .brands img {
+            display: block;
+            float: left;
+        }
+        
+        .brand--toyotires {
+            margin: 0 0 0 0;
+        }
+        
+        .brand--bridgestone {
+            margin: 0 0 0 12px;
+        }
+        
+        .brand--continental {
+            margin: 0 0 0 13px;
+        }
+        
+        .brand--goodyear {
+            margin: -1px 0 0 15px;
+        }
+        
+        .brand--avon {
+            margin: 1px 0 0 12px;
+        }
+        
+        .brand--tirefactory {
+            margin: -4px 0 0 13px;
+        }
+        
+        .brand--tirelli {
+            margin: 1px 0 0 13px;
+        }
+
+        .brand--dunlop {
+            margin: 1px 0 0 15px;
+        }
     /* EoF BRANDS */
 /* EoF MAIN */
 
