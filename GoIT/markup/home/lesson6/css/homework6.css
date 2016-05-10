@@ -1572,17 +1572,18 @@
                 text-decoration: none;
             }
             
-            .main-footer a>span {
+            .main-footer a:hover {
+                color: #52abcb;
+            }
+            
+            .main-footer span {
+                display: inline;
                 color: #bec6c9;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 78%;
                 text-decoration: none;
             }
-            
-            .main-footer span {
-                display: inline;
-            }
-    
+                
     .copyright  {
         clear: both;
         width: 153px;
@@ -1596,5 +1597,9 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 65%;
         text-decoration: none;
+    }
+    
+    .main-footer>a:hover {
+        color: #7f4740;
     }
 
