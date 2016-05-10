@@ -952,11 +952,13 @@
 /* EoF FILTERS */
 
 .main {
-    
+    margin: 0;
+    padding: 0;
 }
 
     .wrapper {
-        
+        margin: 0;
+        padding: 0;
     }
     
         .wrapper__column header {
@@ -1187,7 +1189,14 @@
                 .goods__good:hover figure {
                     border: 1px solid rgba(35, 75, 93, 1);
                 }
-                    .goods__good__title>p,span {
+                    .goods__good__title>p {
+                        display: block;
+                        font-family: 'Lucida Sans Regular', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        text-align: center;
+                        line-height: 10px;
+                    }
+                    
+                    .good__good__title>p>span {
                         display: block;
                         font-family: 'Lucida Sans Regular', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                         text-align: center;
@@ -1210,6 +1219,7 @@
                     }
                     
                         .goodyear>p>span {
+                            display: block;
                             margin: 3px 0 0 4px;
                         }
 
@@ -1218,6 +1228,7 @@
                     }
                     
                         .nokian>p>span {
+                            display: block;
                             margin: 3px 0 0 0;
                         }
                         
@@ -1226,6 +1237,7 @@
                     }
                     
                         .hankook>p>span {
+                            display: block;
                             margin: 3px 0 0 -4px;
                         }
 
@@ -1460,9 +1472,9 @@
                 background: -webkit-linear-gradient(rgba(32, 105, 136, 1) 0%, rgba(17, 65, 101, 1) 59%, rgba(12, 50, 86, 1) 100%);
                 background: -o-linear-gradient(rgba(32, 105, 136, 1) 0%, rgba(17, 65, 101, 1) 59%, rgba(12, 50, 86, 1) 100%);
                 background: linear-gradient(rgba(32, 105, 136, 1) 0%, rgba(17, 65, 101, 1) 59%, rgba(12, 50, 86, 1) 100%);
-                /* -webkit-box-shadow: 0px 1px 2px 1px rgba(188, 188, 188, 0.7); */
+                -webkit-box-shadow: 0px 1px 2px 1px rgba(188, 188, 188, 0.7);
                 -moz-box-shadow: 0px 1px 2px 1px rgba(188, 188, 188, 0.7);
-                /* box-shadow: 0px 1px 2px 1px rgba(188, 188, 188, 0.7); */
+                box-shadow: 0px 1px 2px 1px rgba(188, 188, 188, 0.7);
                 border: 1px solid #a7abae;
                 border-radius: 10px;
                 font-family: Arial, Helvetica, sans-serif;
@@ -1476,7 +1488,7 @@
     /* EoF WRAPPER */
     
     .brands {
-        margin: 42px 0 0 117px;
+        margin: 42px 0 25px 117px;
     }
         .brands img {
             display: block;
@@ -1516,4 +1528,73 @@
         }
     /* EoF BRANDS */
 /* EoF MAIN */
+
+.main-footer {
+    height: 99px;
+    background: #213a4d;
+    border: 1px solid #242a3c;
+}
+
+    .main-footer ul {
+        margin: 7px 0 0 308px;
+    }
+    
+        .main-footer li:nth-child(1) span {
+            margin: 0 11px 0 0;
+        }
+        
+        .main-footer li:nth-child(2) span {
+            margin: 0 11px 0 0;
+        }
+
+        .main-footer li:nth-child(3) span {
+            margin: 0 11px 0 0;
+        }
+
+        .main-footer li:nth-child(4) span {
+            margin: 0 15px 0 0;
+        }
+        
+        .main-footer li {
+            list-style: none;
+            display: block;
+            float: left;
+            padding: 0 11px 0 0;
+        }
+        
+        .main-footer li.footer-menu--selected a {
+            color: #52abcb;
+        }
+            .main-footer a {
+                color: #bec6c9;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 78%;
+                text-decoration: none;
+            }
+            
+            .main-footer a>span {
+                color: #bec6c9;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 78%;
+                text-decoration: none;
+            }
+            
+            .main-footer span {
+                display: inline;
+            }
+    
+    .copyright  {
+        clear: both;
+        width: 153px;
+        margin: 0 auto;
+    }      
+    
+    .main-footer>a {
+        display: block;
+        margin: 13px 0 0 375px;
+        color: #7f4740;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 65%;
+        text-decoration: none;
+    }
 
