@@ -1,0 +1,105 @@
+css\homework5.css:12 [W] EmptyLineBetweenBlocks: Rule declaration should be preceded by an empty line
+css\homework5.css:12 [W] TrailingWhitespace: Line contains trailing whitespace
+css\homework5.css:15 [W] StringQuotes: Prefer single quoted strings
+css\homework5.css:23 [W] PseudoElement: Begin pseudo elements with double colons: `::`
+css\homework5.css:24 [W] PropertySortOrder: Properties should be ordered display, clear, content
+css\homework5.css:30 [W] PropertySortOrder: Properties should be ordered line-height, text-decoration
+css\homework5.css:35 [W] StringQuotes: Prefer single quoted strings
+css\homework5.css:40 [W] StringQuotes: Prefer single quoted strings
+css\homework5.css:46 [W] PropertySortOrder: Properties should be ordered position, width, height, margin
+css\homework5.css:57 [W] PropertySortOrder: Properties should be ordered margin-right, padding, float, background
+css\homework5.css:59 [W] StringQuotes: Prefer single quoted strings
+css\homework5.css:72 [W] PropertySortOrder: Properties should be ordered margin, padding, float, border-left
+css\homework5.css:81 [W] PropertySortOrder: Properties should be ordered display, float, color, line-height
+css\homework5.css:86 [W] Indentation: Line should be indented 4 spaces, but was indented 3 spaces
+css\homework5.css:86 [W] PropertySortOrder: Properties should be ordered margin, float
+css\homework5.css:87 [W] Indentation: Line should be indented 4 spaces, but was indented 3 spaces
+css\homework5.css:87 [W] TrailingWhitespace: Line contains trailing whitespace
+css\homework5.css:87 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `5px 5px 0` instead of `5px 5px 0 5px`
+css\homework5.css:91 [W] PropertySortOrder: Properties should be ordered display, padding, float, list-style, cursor
+css\homework5.css:99 [W] TrailingSemicolon: Declaration should be terminated by a semicolon
+css\homework5.css:120 [W] PropertySortOrder: Properties should be ordered position, top, left, width, height, margin
+css\homework5.css:130 [W] TrailingSemicolon: Declaration should be terminated by a semicolon
+css\homework5.css:130 [W] LeadingZero: `0.63` should be written without a leading zero as `.63`
+css\homework5.css:134 [W] PropertySortOrder: Properties should be ordered color, font-size, font-weight, line-height, text-align
+css\homework5.css:146 [W] TrailingSemicolon: Declaration should be terminated by a semicolon
+css\homework5.css:146 [W] LeadingZero: `0.63` should be written without a leading zero as `.63`
+css\homework5.css:151 [W] EmptyLineBetweenBlocks: Rule declaration should be followed by an empty line
+css\homework5.css:154 [W] PropertySortOrder: Properties should be ordered display, width, height, margin, cursor
+css\homework5.css:165 [W] PropertySortOrder: Properties should be ordered width, height, float, border-top, border-right, border-radius, background
+css\homework5.css:178 [W] PropertySortOrder: Properties should be ordered display, margin, color, font-family, font-size, font-weight
+css\homework5.css:184 [W] PropertySortOrder: Properties should be ordered width, height, float, border-top, border-left, border-radius, background
+css\homework5.css:195 [W] PropertySortOrder: Properties should be ordered display, width, margin, float, color, font-family, font-size, font-weight, opacity
+css\homework5.css:210 [W] PropertySortOrder: Properties should be ordered display, width, margin, color, font-size, text-align
+css\homework5.css:221 [W] PropertySortOrder: Properties should be ordered display, width, margin-top, float, border-bottom, box-shadow, content
+css\homework5.css:233 [W] PropertySortOrder: Properties should be ordered display, width, margin-top, float, border-bottom, box-shadow, content
+css\homework5.css:244 [W] SpaceBeforeBrace: Opening curly brace `{` should be preceded by one space
+css\homework5.css:244 [W] SingleLinePerSelector: Each selector in a comma sequence should be on its own single line
+css\homework5.css:244 [W] SingleLinePerSelector: Each selector in a comma sequence should be on its own single line
+css\homework5.css:244 [W] QualifyingElement: Avoid qualifying attribute selectors with an element.
+css\homework5.css:244 [W] QualifyingElement: Avoid qualifying attribute selectors with an element.
+css\homework5.css:244 [W] QualifyingElement: Avoid qualifying attribute selectors with an element.
+css\homework5.css:248 [W] PropertySortOrder: Properties should be ordered display, width, margin, padding, border, background, color, font-size, line-height, box-shadow
+css\homework5.css:252 [W] BorderZero: `border: 0` is preferred over `border: none`
+css\homework5.css:254 [W] LeadingZero: `0.00` should be written without a leading zero as `.00`
+css\homework5.css:254 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:254 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:254 [W] UnnecessaryMantissa: `0.00px` should be written without the mantissa as `0px`
+css\homework5.css:259 [W] PropertySortOrder: Properties should be ordered background, -moz-box-shadow, -o-box-shadow, -webkit-box-shadow, box-shadow
+css\homework5.css:259 [W] HexNotation: Color `#ABABAB` should be written as `#ababab`
+css\homework5.css:259 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:259 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:259 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:259 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:259 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:260 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:260 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:260 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:260 [W] HexNotation: Color `#ABABAB` should be written as `#ababab`
+css\homework5.css:260 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:260 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:261 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:261 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:261 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:261 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:261 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:261 [W] HexNotation: Color `#ABABAB` should be written as `#ababab`
+css\homework5.css:262 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:262 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:262 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:262 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:262 [W] ZeroUnit: `0px` should be written without units as `0`
+css\homework5.css:262 [W] HexNotation: Color `#ABABAB` should be written as `#ababab`
+css\homework5.css:270 [W] QualifyingElement: Avoid qualifying attribute selectors with an element.
+css\homework5.css:272 [W] PropertySortOrder: Properties should be ordered display, margin, float
+css\homework5.css:276 [W] QualifyingElement: Avoid qualifying attribute selectors with an element.
+css\homework5.css:278 [W] PropertySortOrder: Properties should be ordered display, width, height, margin, border, border-radius, background, color, cursor
+css\homework5.css:282 [W] BorderZero: `border: 0` is preferred over `border: none`
+css\homework5.css:284 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:284 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:284 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:285 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:285 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:285 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:285 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:285 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:285 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:286 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:286 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:286 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:286 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:286 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:286 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:287 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:287 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:287 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:287 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:287 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:287 [W] SpaceAfterComma: Commas in function arguments should be followed by a single space
+css\homework5.css:287 [W] DuplicateProperty: Property `background` already defined on line 284
+css\homework5.css:294 [W] PropertySortOrder: Properties should be ordered display, margin-left, float, color, opacity
+css\homework5.css:297 [W] LeadingZero: `0.75` should be written without a leading zero as `.75`
+css\homework5.css:301 [W] PropertySortOrder: Properties should be ordered display, width, margin, color, font-size, text-align, opacity
+css\homework5.css:305 [W] LeadingZero: `0.75` should be written without a leading zero as `.75`
+css\homework5.css:308 [W] FinalNewline: Files should end with a trailing newline
+

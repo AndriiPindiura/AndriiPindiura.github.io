@@ -16,8 +16,18 @@
     margin: 0 auto;
 }
 
+select {
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none; 
+ }
+
     .mt-2 {
         margin-top: -2px
+    }
+
+    .mt-1 {
+        margin-top: -1px
     }
 
     .mt1 {
@@ -371,22 +381,25 @@
             display: block;
             float: right;
             color: #0d5a8f;
-            /*font-size: 120%;*/
+            font-family: Arial, Helvetica, sans-serif;
+            /* font-size: 120%; */
             font-size: 14px;
-            margin: 8px 15px 0 0;
+            margin: 8px 14px 0 0;
         }
 
         .koshyk .summ {
             display: block;
             float: right;
             color: #0d5a8f;
-            /*font-size: 120%;*/
+            font-family: Arial, Helvetica, sans-serif;
+            /* font-size: 120%; */
             font-size: 14px;
-            margin: 8px 10px 0 0;
+            margin: 8px 6px 0 0;        
         }
 
             .koshyk .summ>span {
                 margin: 1px 11px 0 0;
+                font-size: 80%;
             }
 
             .koshyk .goods-count>span {
@@ -487,7 +500,7 @@
             }
 
                 .car__section__select select {
-                    width: 101px;
+                    width: 102px;
                     background: transparent;
                     border: none;
                     box-shadow: none;
@@ -502,14 +515,19 @@
                 }
 
                     .filter__select {
-                        width: 102px;
+                        width: 101px;
+                        height: 16px;
                         float: right;
                         overflow: hidden;
-                        background: url("../img/select.png") no-repeat;
+                        border-top: 1px solid #b0b0b0;
+                        border-left: 1px solid #b0b0b0;
+                        background: url("../img/selectbg.png") no-repeat;
+                        background-position-x: 84px;
                     }
 
                         .filter__select select {
-                            width: 101px;
+                            width: 102px;
+                            margin-left: -1px;
                             background: transparent;
                             border: none;
                             box-shadow: none;
@@ -525,13 +543,19 @@
 
                     .filter__selects {
                         width: 58px;
+                        height: 16px;
+                        margin-left: -2px;
                         float: left;
                         overflow: hidden;
-                        background: url("../img/selects.png") no-repeat;
+                        border-top: 1px solid #b0b0b0;
+                        border-left: 1px solid #b0b0b0;
+                        background: url("../img/selectbg.png") no-repeat;
+                        background-position-x: 41px;
                     }
 
                         .filter__selects select {
-                            width: 58px;
+                            width: 59px;
+                            margin-left: -1px;
                             background: transparent;
                             border: none;
                             box-shadow: none;
@@ -547,7 +571,7 @@
 
         .search a {
             display: inline-block;
-            margin: 5px 0 0 138px;
+            margin: 7px 0 0 138px;
             color: #154467;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 14px;
@@ -564,9 +588,12 @@
         background: #fff;
         border: 1px solid #9c9c9d;
         border-radius: 18px;
-        -webkit-box-shadow: 2px 2px 2px 2px rgba(104,104,104,0.2);
+        /*-webkit-box-shadow: 2px 2px 2px 2px rgba(104,104,104,0.2);
         -moz-box-shadow: 2px 2px 2px 2px rgba(104,104,104,0.2);
-        box-shadow: 2px 2px 2px 2px rgba(104,104,104,0.2);
+        box-shadow: 2px 2px 2px 2px rgba(104,104,104,0.2);*/
+        -webkit-box-shadow: 2px 4px 5px 0.00px rgba(150, 150, 150, 0.75);
+        -moz-box-shadow: 2px 4px 5px 0.00px rgba(150, 150, 150, 0.75);
+        box-shadow: 2px 4px 5px 0.00px rgba(150, 150, 150, 0.75);
     }
 
         .tiers h1 {
@@ -617,15 +644,21 @@
 
             .tier45 {
                 width: 44px;
-                margin: 6px 0 0 0;
-                /*padding-left: 1px;*/
+                height: 16px;
+                /*margin-left: -50px;*/
+                margin: 23px 0 2px -120px;
+                padding-left: 1px;
                 float: left;
                 overflow: hidden;
-                background: url("../img/select45.png") no-repeat;
+                border-top: 1px solid #b0b0b0;
+                border-left: 1px solid #b0b0b0;
+                background: url("../img/selectbg.png") no-repeat;
+                background-position-x: 28px;
             }
 
                 .tier45 select {
-                    width: 45px;
+                    width: 46px;
+                    margin-left: -2px;
                     background: transparent;
                     border: none;
                     box-shadow: none;
@@ -643,14 +676,20 @@
                 }
 
             .tier52 {
-                width: 52px;
+                width: 51px;
+                height: 16px;
+                margin-left: -1px;
                 float: left;
                 overflow: hidden;
-                background: url("../img/select52.png") no-repeat;
+                border-top: 1px solid #b0b0b0;
+                border-left: 1px solid #b0b0b0;
+                background: url("../img/selectbg.png") no-repeat;
+                background-position-x: 35px;
             }
 
                 .tier52 select {
-                    width: 51px;
+                    width: 52px;
+                    margin-left: -1px;
                     padding-left: 1px;
                     background: transparent;
                     border: none;
@@ -669,14 +708,20 @@
 
             .tier53 {
                 width: 53px;
-                margin: 0 0 0 5px;
+                height: 16px;
+                margin-left: 6px;
+                /*margin: 0 0 0 5px;*/
                 float: left;
                 overflow: hidden;
-                background: url("../img/select53.png") no-repeat;
+                border-top: 1px solid #b0b0b0;
+                border-left: 1px solid #b0b0b0;
+                background: url("../img/selectbg.png") no-repeat;
+                background-position-x: 36px;
             }
 
                 .tier53 select {
-                    width: 53px;
+                    width: 54px;
+                    margin-left: -1px;
                     background: transparent;
                     border: none;
                     box-shadow: none;
@@ -796,6 +841,7 @@
                 float: left;
                 width: 85px;
                 margin: 8px 0 0 16px;
+                transform: scaleX(1.005);
             }
 
                 .wheels__caption p {
@@ -871,15 +917,20 @@
             }
 
             .wheel52 {
-                width: 52px;
+                width: 50px;
+                height: 16px;
                 margin: 4px 0 11px 10px;
                 float: left;
                 overflow: hidden;
-                background: url("../img/select522.png") no-repeat;
+                border-top: 1px solid #b0b0b0;
+                border-left: 1px solid #b0b0b0;
+                background: url("../img/selectbg.png") no-repeat;
+                background-position-x: 33px;
             }
 
                 .wheel52 select {
                     width: 51px;
+                    margin-left: -1px;
                     padding-left: 1px;
                     background: transparent;
                     border: none;
@@ -897,16 +948,21 @@
                 }
 
             .wheel582 {
-                width: 58px;
+                width: 56px;
+                height: 16px;
                 margin: 2px 0 10px 11px;
                 /*padding: 0 0 0 2px;*/
                 float: left;
                 overflow: hidden;
-                background: url("../img/select582.png") no-repeat;
+                border-top: 1px solid #b0b0b0;
+                border-left: 1px solid #b0b0b0;
+                background: url("../img/selectbg.png") no-repeat;
+                background-position-x: 39px;
             }
 
                 .wheel582 select {
-                    width: 58px;
+                    width: 57px;
+                    margin-left: -1px;
                     background: transparent;
                     border: none;
                     box-shadow: none;
@@ -923,16 +979,22 @@
                 }
 
             .wheel58 {
-                width: 58px;
-                margin: 3px 0 3px 11px;
+                width: 57px;
+                height: 16px;
+                margin-left: 11px;
+                margin-bottom: 3px;
                 /*padding: 0 0 0 2px;*/
                 float: left;
                 overflow: hidden;
-                background: url("../img/select58.png") no-repeat;
+                border-top: 1px solid #b0b0b0;
+                border-left: 1px solid #b0b0b0;
+                background: url("../img/selectbg.png") no-repeat;
+                background-position-x: 41px;
             }
 
                 .wheel58 select {
                     width: 58px;
+                    margin-left: -1px;
                     background: transparent;
                     border: none;
                     box-shadow: none;
