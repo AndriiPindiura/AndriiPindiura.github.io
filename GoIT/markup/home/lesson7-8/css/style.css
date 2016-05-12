@@ -160,6 +160,41 @@ body {
                 text-shadow: 0px 2px rgba(0, 0, 0, .3);
             }
 
+.navi__wrapper {
+    width: 960px;
+    margin: 655px auto 0;
+}
+    .navigation
+    {
+        float: right;
+        margin: 0 169px 0 0;
+    }
+    
+        .navi__button {
+            float: right;
+            width: 15px;
+            height: 15px;
+            margin: 0 0 0 7px;
+            cursor: pointer;
+            /*border: 3px solid rgba(0, 0, 0, .3);*/
+            box-sizing: border-box;
+            border-radius: 17px;
+            background: rgba(0, 0, 0, .3);
+        }
+        
+        .navi__button--selected {
+            background: #fff;
+            background: linear-gradient(#d4d4d4 0%, #fff 100%);
+            border: 3px solid rgba(0, 0, 0, .5);
+        }
+        
+        .navi__button:hover {
+            background: #fff;
+            background: linear-gradient(#d4d4d4 0%, #fff 100%);
+            border: 3px solid rgba(0, 0, 0, .5);
+        }
+    
+
 /*          960PX           */
 /*      1368 = -525px       */
 @media (min-width: 960px) {
@@ -241,14 +276,14 @@ body {
                     word-wrap: break-word;
                 }
             
-                /*.slider__info::before {
-                    content: 'adklajskdajsdklasd';
-                }*/
-                
-                /*.slider__info::after {
-                    content: 'Semper sollicitudin gravida eget, ves-tibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper.';
-                }*/
-
+    .navi__wrapper {
+        width: 768px;
+        margin: 511px auto 0;
+    }
+    
+        .navigation {
+            margin: 0 145px 0 0;
+        }
 }
 
 /*          480PX           */
@@ -359,6 +394,17 @@ body {
                 .slider__span {
                     display: none;
                 }
+                
+    .navi__wrapper {
+        width: 480px;
+        margin: 81px auto 0;
+    }
+    
+        .navigation {
+            float: unset;
+            width: 88px;
+            margin: 0 auto;
+        }
 
 }
 
@@ -435,6 +481,11 @@ body {
                 .slider__span {
                     display: none;
                 }
+
+    .navi__wrapper {
+        width: 320px;
+        margin: 254px auto 0;
+    }
 
 }
 
