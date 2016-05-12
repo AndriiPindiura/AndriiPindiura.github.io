@@ -194,19 +194,112 @@ body {
             border: 3px solid rgba(0, 0, 0, .5);
         }
     
+.blurbs {
+    position: absolute;
+    width: 100%;
+    height: 340px;
+    left: 0;
+    margin: 59px 0 0 0;
+    border-top: 1px solid #33253a;
+    background: linear-gradient(#745083 0%, #322539 100%)
+}
 
+.blurbs__wrapper {
+    width: 960px;
+    margin: 70px auto 0;
+}
+
+    .blurb {
+        float: left;
+        margin: 2px 0 0;
+    }
+    
+        .blurb__logo {
+            margin: 10px 23px 0 8px;
+            display: block;
+            float: left;
+        }
+        
+        .blurb--chat .blurb__logo {
+            margin: 12px 21px 0 58px;
+        }
+        
+        .blurb--media .blurb__logo {
+            margin: 10px 22px 0 58px;
+        }
+
+        
+        .blurb__info {
+            margin: 0 0 0 0;
+            width: 226px;
+            clear: right;
+            float: left;
+            color: #fff;
+        }
+            
+            .blurb__header {
+                margin: 0 0 0 1px;
+                font-family: 'League Gothic', Arial, Helvetica, sans-serif;
+                font-weight: 300;
+                font-size: 30px;
+                text-transform: uppercase;
+            }
+            
+            .blurb__description {
+                margin: 5px 0 0 0;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 16px;
+                font-weight: 300;
+                text-shadow: 0 1px #0f1518;
+                line-height: 24px;
+            }
+            
+        .blurb--chat .blurb__more {
+            margin: 17px 5px 0 0;
+        }
+           
+        .blurb--media .blurb__more {
+            margin: 17px 3px 0 0;
+        }
+            
+        .blurb__more {
+            /*display: block;*/
+            float: right;
+            margin: 17px 10px 0 0;
+            color: #fff;
+            font-family: 'League Gothic', Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        
+        .blurb__more:hover {
+            text-shadow: 0 1px 8px rgba(255, 255, 255, .8);
+        }
+        
+        .blurb__more--selected {
+            text-shadow: 0 1px 8px rgba(255, 255, 255, .8);
+        }
+
+
+.blurbs-line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    /*top: 400px;*/
+    margin: 400px 0 0 0;
+    background: #1d2f37;
+    border-bottom: 1px solid #0d151b;
+}
 /*          960PX           */
 /*      1368 = -525px       */
-@media (min-width: 960px) {
+/*@media (min-width: 960px) {
     .main-header {
         max-height: 846px;
     }
-    
-    /*.container {
-        max-width: 960px;
-    }*/
-    
-}
+}*/
 
 /*          768PX           */
 /*      960 = -729px        */
@@ -284,6 +377,73 @@ body {
         .navigation {
             margin: 0 145px 0 0;
         }
+        
+        
+    .blurbs {
+        margin: 101px 0 0;
+    }
+        
+        .blurbs__wrapper {
+            width: 768px;
+        }
+    
+            .blurb {
+                margin: 4px 18px 0 0;
+            }
+        
+                .blurb__info {
+                    width: 153px;
+                    height: 173px;
+                    overflow: hidden;     
+                }
+                
+                    .blurb__header {
+                        font-size: 24px;
+                    }
+                    
+                .blurb__logo {
+                    margin: 4px 21px 0 29px;
+                }
+                
+                .blurb--chat .blurb__logo {
+                    margin: 4px 21px 0 29px;
+                }
+
+
+                .blurb--media .blurb__logo {
+                    margin: 4px 32px 0 29px;
+                }
+                
+                .blurb__header {
+                    margin: 0 1px;
+                }
+                
+                .blurb--chat .blurb__header {
+                    margin: 0 -1px;
+                }
+                
+                .blurb--media .blurb__header {
+                    margin: 0 -1px;
+                }
+                
+                .blurb__description {
+                    margin: 1px 0 0 0;
+                    line-height: 24px;
+                }
+
+                .blurb__more {
+                    margin: 7px 5px 0 0;
+                }
+
+                .blurb--chat .blurb__more {
+                    margin: 7px 7px 0 0;
+                }
+
+                .blurb--media .blurb__more {
+                    margin: 7px 7px 0 0;
+                }
+
+
 }
 
 /*          480PX           */
@@ -406,6 +566,60 @@ body {
             margin: 0 auto;
         }
 
+
+    .blurbs {
+        margin: 61px 0 0;
+        height: 596px;
+    }
+
+        .blurbs__wrapper {
+            width: 480px;
+            margin: 74px auto 0;
+        }
+        
+            .blurb {
+                float: unset;
+                margin: 0 0 55px 0;
+            }
+            
+                .blurb__logo {
+                    margin: 4px 22px 0 30px;
+                }
+                
+                .blurb--chat .blurb__logo {
+                    margin: 5px 20px 0 30px;
+                }
+
+
+                .blurb--media .blurb__logo {
+                    margin: 3px 27px 0 7px;
+                }
+
+            
+                .blurb__info {
+                    width: 370px;
+                    height: unset;
+                }
+                
+                .blurb__more {
+                    margin: 14px 27px 0 0;
+                }
+                
+                .blurb--chat .blurb__more {
+                    margin: 13px 27px 0 0;
+                }
+                
+                .blurb--media .blurb__more {
+                    margin: 13px 27px 0 0;
+                }
+                
+            .blurb--media.blurb {
+                margin: 59px 0 0 20px;
+            }
+                
+    .blurbs-line {
+        margin: 658px 0 0 0;
+    }
 }
 
 /*          320PX           */
@@ -486,7 +700,58 @@ body {
         width: 320px;
         margin: 254px auto 0;
     }
+    
+    .blurbs {
+        margin: 69px 0 0 0;
+    }
+    
+        .blurbs__wrapper {
+            width: 320px;
+            margin: 67px auto 0;
+        }
 
+            .blurb {
+                margin: 0 0 57px 0;
+            }
+            
+                .blurb__logo {
+                    margin: 4px 22px 0 29px;
+                }
+                
+                .blurb--chat .blurb__logo {
+                    margin: 6px 21px 0 28px;
+                }
+
+
+                .blurb--media .blurb__logo {
+                    margin: 5px 26px 0 27px;
+                }
+            
+                .blurb__info {
+                    width: 199px;
+                    height: 100px;
+                    overflow: hidden;
+                }
+                
+                .blurb__more {
+                    margin: 15px 27px 0 0;
+                }
+                
+                .blurb--chat .blurb__more {
+                    margin: 15px 27px 0 0;
+                }
+                
+                .blurb--media .blurb__more {
+                    margin: 15px 27px 0 0;
+                }
+               
+            .blurb--media.blurb {
+                margin: 73px 0 0;
+            }
+
+    .blurbs-line {
+       margin: 666px 0 0 0;
+    }
 }
 
 @media (max-width: 320px) {
