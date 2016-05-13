@@ -1,0 +1,720 @@
+css\style.css:41 [W] Indentation: Line should be indented 0 spaces, but was indented 4 spaces
+css\style.css:42 [W] PropertySortOrder: Properties should be ordered margin, float
+css\style.css:46 [W] SpaceBeforeBrace: Opening curly brace `{` should be preceded by one space
+css\style.css:46 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:50 [W] PropertySortOrder: Properties should be ordered float, color, font-family, font-size, font-weight, text-shadow, text-transform
+css\style.css:54 [W] ZeroUnit: `0px` should be written without units as `0`
+css\style.css:57 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:59 [W] PropertySortOrder: Properties should be ordered background, text-shadow, -webkit-background-clip, -webkit-text-fill-color
+css\style.css:64 [W] Indentation: Line should be indented 0 spaces, but was indented 4 spaces
+css\style.css:65 [W] PropertySortOrder: Properties should be ordered margin, float
+css\style.css:66 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `70px 0 0` instead of `70px 0 0 0`
+css\style.css:69 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:69 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:71 [W] PropertySortOrder: Properties should be ordered display, margin, padding, float, list-style
+css\style.css:78 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:78 [W] SelectorFormat: Selector `menu__link` should be written in lowercase with hyphens
+css\style.css:81 [W] PropertySortOrder: Properties should be ordered color, font-family, font-size, letter-spacing, text-decoration, text-shadow, text-transform
+css\style.css:89 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:89 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:93 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:93 [W] SelectorFormat: Selector `menu__item--selected` should be written in lowercase with hyphens
+css\style.css:99 [W] PropertySortOrder: Properties should be ordered position, top, left, width, height, background, z-index
+css\style.css:107 [W] Indentation: Line should be indented 0 spaces, but was indented 4 spaces
+css\style.css:107 [W] SelectorFormat: Selector `slider__wrapper` should be written in lowercase with hyphens
+css\style.css:113 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:113 [W] SelectorFormat: Selector `slider__iphone` should be written in lowercase with hyphens
+css\style.css:115 [W] PropertySortOrder: Properties should be ordered display, height, margin, float
+css\style.css:119 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:120 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:120 [W] SelectorFormat: Selector `slider__lorem` should be written in lowercase with hyphens
+css\style.css:121 [W] PropertySortOrder: Properties should be ordered width, margin, float
+css\style.css:125 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:126 [W] SelectorFormat: Selector `slider__header` should be written in lowercase with hyphens
+css\style.css:126 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:131 [W] ZeroUnit: `0px` should be written without units as `0`
+css\style.css:133 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:134 [W] SelectorFormat: Selector `slider__slogan` should be written in lowercase with hyphens
+css\style.css:134 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:138 [W] PropertySortOrder: Properties should be ordered margin, color, font-family, font-size, font-weight, text-shadow, text-transform
+css\style.css:141 [W] ZeroUnit: `0px` should be written without units as `0`
+css\style.css:143 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:144 [W] SelectorFormat: Selector `slider__info` should be written in lowercase with hyphens
+css\style.css:144 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:150 [W] ZeroUnit: `0px` should be written without units as `0`
+css\style.css:153 [W] SelectorFormat: Selector `slider__span` should be written in lowercase with hyphens
+css\style.css:153 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:160 [W] ZeroUnit: `0px` should be written without units as `0`
+css\style.css:163 [W] SelectorFormat: Selector `navi__wrapper` should be written in lowercase with hyphens
+css\style.css:166 [W] EmptyLineBetweenBlocks: Rule declaration should be followed by an empty line
+css\style.css:167 [W] Indentation: Line should be indented 0 spaces, but was indented 4 spaces
+css\style.css:168 [W] SpaceBeforeBrace: Opening curly brace `{` should be preceded by one space
+css\style.css:169 [W] PropertySortOrder: Properties should be ordered margin, float
+css\style.css:172 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:173 [W] SelectorFormat: Selector `navi__button` should be written in lowercase with hyphens
+css\style.css:173 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:174 [W] PropertySortOrder: Properties should be ordered width, height, margin, float, border-radius, background, cursor, box-sizing
+css\style.css:184 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:185 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:185 [W] SelectorFormat: Selector `navi__button--selected` should be written in lowercase with hyphens
+css\style.css:186 [W] PropertySortOrder: Properties should be ordered border, background
+css\style.css:187 [W] DuplicateProperty: Property `background` already defined on line 186
+css\style.css:190 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:191 [W] SelectorFormat: Selector `navi__button` should be written in lowercase with hyphens
+css\style.css:191 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:192 [W] PropertySortOrder: Properties should be ordered border, background
+css\style.css:193 [W] DuplicateProperty: Property `background` already defined on line 192
+css\style.css:196 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:197 [W] Indentation: Line should be indented 0 spaces, but was indented 4 spaces
+css\style.css:198 [W] PropertySortOrder: Properties should be ordered margin, float
+css\style.css:202 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:202 [W] SelectorFormat: Selector `navi__button` should be written in lowercase with hyphens
+css\style.css:203 [W] PropertySortOrder: Properties should be ordered width, height, margin, border, background, box-shadow
+css\style.css:212 [W] SelectorFormat: Selector `navi__button` should be written in lowercase with hyphens
+css\style.css:212 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:217 [W] SelectorFormat: Selector `navi__button--selected` should be written in lowercase with hyphens
+css\style.css:217 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:222 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:225 [W] PropertySortOrder: Properties should be ordered position, left, width, height, margin, border-top, background
+css\style.css:228 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `59px 0 0` instead of `59px 0 0 0`
+css\style.css:230 [W] TrailingSemicolon: Declaration should be terminated by a semicolon
+css\style.css:233 [W] Indentation: Line should be indented 0 spaces, but was indented 4 spaces
+css\style.css:233 [W] SelectorFormat: Selector `blurbs__wrapper` should be written in lowercase with hyphens
+css\style.css:238 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:239 [W] PropertySortOrder: Properties should be ordered margin, float
+css\style.css:242 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:243 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:243 [W] SelectorFormat: Selector `blurb__logo` should be written in lowercase with hyphens
+css\style.css:244 [W] PropertySortOrder: Properties should be ordered width, height, margin, float, background
+css\style.css:250 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:251 [W] SelectorFormat: Selector `blurb__logo` should be written in lowercase with hyphens
+css\style.css:251 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:252 [W] PropertySortOrder: Properties should be ordered margin, background-position-x
+css\style.css:255 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:256 [W] SelectorFormat: Selector `blurb__logo` should be written in lowercase with hyphens
+css\style.css:256 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:257 [W] PropertySortOrder: Properties should be ordered margin, background-position-x
+css\style.css:261 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:262 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:262 [W] SelectorFormat: Selector `blurb__info` should be written in lowercase with hyphens
+css\style.css:263 [W] PropertySortOrder: Properties should be ordered width, margin, float, clear, color
+css\style.css:263 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0` instead of `0 0 0 0`
+css\style.css:269 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:270 [W] Indentation: Line should be indented 0 spaces, but was indented 16 spaces
+css\style.css:270 [W] SelectorFormat: Selector `blurb__header` should be written in lowercase with hyphens
+css\style.css:273 [W] PropertySortOrder: Properties should be ordered margin, font-family, font-size, font-weight, text-transform
+css\style.css:277 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:278 [W] Indentation: Line should be indented 0 spaces, but was indented 16 spaces
+css\style.css:278 [W] SelectorFormat: Selector `blurb__description` should be written in lowercase with hyphens
+css\style.css:279 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `5px 0 0` instead of `5px 0 0 0`
+css\style.css:283 [W] PropertySortOrder: Properties should be ordered margin, font-family, font-size, font-weight, line-height, text-shadow
+css\style.css:286 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:287 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:287 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:290 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:291 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:291 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:294 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:295 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:295 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:297 [W] PropertySortOrder: Properties should be ordered margin, float, color, font-family, font-size, font-weight, text-decoration, text-transform
+css\style.css:306 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:307 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:307 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:310 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:311 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:311 [W] SelectorFormat: Selector `blurb__more--selected` should be written in lowercase with hyphens
+css\style.css:318 [W] PropertySortOrder: Properties should be ordered position, left, width, height, margin, border-bottom, background, z-index
+css\style.css:322 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `400px 0 0` instead of `400px 0 0 0`
+css\style.css:331 [W] PropertySortOrder: Properties should be ordered position, left, width, height, margin, border-bottom, background
+css\style.css:334 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `403px 0 0` instead of `403px 0 0 0`
+css\style.css:339 [W] SelectorFormat: Selector `main__wrapper` should be written in lowercase with hyphens
+css\style.css:339 [W] Indentation: Line should be indented 0 spaces, but was indented 4 spaces
+css\style.css:345 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:346 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:351 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:351 [W] SelectorFormat: Selector `testimonials__logo` should be written in lowercase with hyphens
+css\style.css:356 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:356 [W] SelectorFormat: Selector `testimonials__info` should be written in lowercase with hyphens
+css\style.css:359 [W] PropertySortOrder: Properties should be ordered max-width, height, margin, background, color, box-shadow, overflow
+css\style.css:360 [W] ZeroUnit: `0px` should be written without units as `0`
+css\style.css:366 [W] SelectorFormat: Selector `testimonials__header` should be written in lowercase with hyphens
+css\style.css:366 [W] Indentation: Line should be indented 0 spaces, but was indented 16 spaces
+css\style.css:371 [W] PropertySortOrder: Properties should be ordered margin, font-family, font-size, font-weight, text-shadow, text-transform
+css\style.css:375 [W] Indentation: Line should be indented 0 spaces, but was indented 16 spaces
+css\style.css:375 [W] SelectorFormat: Selector `testimonials__span` should be written in lowercase with hyphens
+css\style.css:380 [W] Indentation: Line should be indented 0 spaces, but was indented 16 spaces
+css\style.css:380 [W] SelectorFormat: Selector `testimonials__description` should be written in lowercase with hyphens
+css\style.css:389 [W] SelectorFormat: Selector `testimonials__triangle` should be written in lowercase with hyphens
+css\style.css:389 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:390 [W] PropertySortOrder: Properties should be ordered width, height, margin, border-width, border-style, border-color
+css\style.css:394 [W] ZeroUnit: `0px` should be written without units as `0`
+css\style.css:395 [W] Shorthand: Shorthand form for property `border-color` should be written more concisely as `#fff rgba(255, 255, 255, 0) rgba(255, 255, 255, 0)` instead of `#fff rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0)`
+css\style.css:399 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:404 [W] SelectorFormat: Selector `updates__header` should be written in lowercase with hyphens
+css\style.css:404 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:410 [W] PropertySortOrder: Properties should be ordered margin, color, font-family, font-size, font-weight, text-shadow, text-transform
+css\style.css:413 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:414 [W] SelectorFormat: Selector `updates__posts` should be written in lowercase with hyphens
+css\style.css:414 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:415 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `13px 0 0` instead of `13px 0 0 0`
+css\style.css:417 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:418 [W] Indentation: Line should be indented 0 spaces, but was indented 16 spaces
+css\style.css:418 [W] SelectorFormat: Selector `updates__post` should be written in lowercase with hyphens
+css\style.css:419 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0 0 17px` instead of `0 0 17px 0`
+css\style.css:421 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:422 [W] SelectorFormat: Selector `post__image` should be written in lowercase with hyphens
+css\style.css:422 [W] Indentation: Line should be indented 0 spaces, but was indented 20 spaces
+css\style.css:423 [W] ZeroUnit: `0px` should be written without units as `0`
+css\style.css:426 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:427 [W] SelectorFormat: Selector `post__info` should be written in lowercase with hyphens
+css\style.css:427 [W] Indentation: Line should be indented 0 spaces, but was indented 20 spaces
+css\style.css:432 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:433 [W] Indentation: Line should be indented 0 spaces, but was indented 24 spaces
+css\style.css:433 [W] SelectorFormat: Selector `post__header` should be written in lowercase with hyphens
+css\style.css:434 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0 0 3px` instead of `0 0 3px 0`
+css\style.css:439 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:440 [W] SelectorFormat: Selector `post__description` should be written in lowercase with hyphens
+css\style.css:440 [W] Indentation: Line should be indented 0 spaces, but was indented 24 spaces
+css\style.css:441 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0` instead of `0 0 0 0`
+css\style.css:446 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:447 [W] Indentation: Line should be indented 0 spaces, but was indented 16 spaces
+css\style.css:447 [W] SelectorFormat: Selector `updates__more` should be written in lowercase with hyphens
+css\style.css:457 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:458 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:461 [W] PropertySortOrder: Properties should be ordered position, left, width, height, margin, border-bottom, background
+css\style.css:464 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `891px 0 0` instead of `891px 0 0 0`
+css\style.css:469 [W] SelectorFormat: Selector `logos__wrapper` should be written in lowercase with hyphens
+css\style.css:469 [W] Indentation: Line should be indented 0 spaces, but was indented 4 spaces
+css\style.css:474 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:475 [W] PropertySortOrder: Properties should be ordered width, height, margin, float, background
+css\style.css:481 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:482 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:484 [W] ZeroUnit: `0px` should be written without units as `0`
+css\style.css:487 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:488 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:494 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:500 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:501 [W] PropertySortOrder: Properties should be ordered width, margin, background-position-x
+css\style.css:506 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:514 [W] PropertySortOrder: Properties should be ordered position, left, width, height, margin, background
+css\style.css:517 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `1012px 0 0` instead of `1012px 0 0 0`
+css\style.css:522 [W] SelectorFormat: Selector `footer-posts__wrapper` should be written in lowercase with hyphens
+css\style.css:522 [W] Indentation: Line should be indented 0 spaces, but was indented 4 spaces
+css\style.css:526 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:527 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:528 [W] PropertySortOrder: Properties should be ordered width, height, margin, float, overflow
+css\style.css:534 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:535 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:538 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:539 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:539 [W] SelectorFormat: Selector `footer-post__header` should be written in lowercase with hyphens
+css\style.css:540 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0 0 5px` instead of `0 0 5px 0`
+css\style.css:547 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:548 [W] SelectorFormat: Selector `footer-post__header` should be written in lowercase with hyphens
+css\style.css:548 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:551 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:552 [W] SelectorFormat: Selector `footer-post__span` should be written in lowercase with hyphens
+css\style.css:552 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:555 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:556 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:556 [W] SelectorFormat: Selector `footer-post__slogan` should be written in lowercase with hyphens
+css\style.css:562 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:563 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:563 [W] SelectorFormat: Selector `footer-post__text` should be written in lowercase with hyphens
+css\style.css:564 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0` instead of `0 0 0 0`
+css\style.css:574 [W] PropertySortOrder: Properties should be ordered position, left, width, height, margin, background
+css\style.css:577 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `1408px 0 0` instead of `1408px 0 0 0`
+css\style.css:581 [W] Indentation: Line should be indented 0 spaces, but was indented 4 spaces
+css\style.css:581 [W] SelectorFormat: Selector `footer__wrapper` should be written in lowercase with hyphens
+css\style.css:584 [W] Shorthand: Shorthand form for property `padding` should be written more concisely as `41px 0 0` instead of `41px 0 0 0`
+css\style.css:587 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:588 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:588 [W] SpaceBeforeBrace: Opening curly brace `{` should be preceded by one space
+css\style.css:591 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:592 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:592 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:595 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:596 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:596 [W] SelectorFormat: Selector `menu__link` should be written in lowercase with hyphens
+css\style.css:599 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:600 [W] Indentation: Line should be indented 0 spaces, but was indented 8 spaces
+css\style.css:601 [W] PropertySortOrder: Properties should be ordered margin, float
+css\style.css:602 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `6px 0 0` instead of `6px 0 0 0`
+css\style.css:604 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:605 [W] SelectorFormat: Selector `copy__info` should be written in lowercase with hyphens
+css\style.css:605 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:608 [W] PropertySortOrder: Properties should be ordered color, font-family, font-size, font-weight, text-decoration
+css\style.css:612 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:613 [W] SelectorFormat: Selector `copy__span` should be written in lowercase with hyphens
+css\style.css:613 [W] Indentation: Line should be indented 0 spaces, but was indented 12 spaces
+css\style.css:616 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:632 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:636 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:640 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:643 [W] PropertySortOrder: Properties should be ordered margin, float
+css\style.css:644 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:646 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:647 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:647 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:654 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:655 [W] SelectorFormat: Selector `slider__wrapper` should be written in lowercase with hyphens
+css\style.css:655 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:660 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:661 [W] SelectorFormat: Selector `slider__iphone` should be written in lowercase with hyphens
+css\style.css:661 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:664 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:665 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:665 [W] SelectorFormat: Selector `slider__lorem` should be written in lowercase with hyphens
+css\style.css:669 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:670 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:670 [W] SelectorFormat: Selector `slider__header` should be written in lowercase with hyphens
+css\style.css:673 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:674 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:674 [W] SelectorFormat: Selector `slider__slogan` should be written in lowercase with hyphens
+css\style.css:675 [W] PropertySortOrder: Properties should be ordered height, margin, font-size, overflow
+css\style.css:680 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:681 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:681 [W] SelectorFormat: Selector `slider__info` should be written in lowercase with hyphens
+css\style.css:685 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:686 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:686 [W] SelectorFormat: Selector `slider__span` should be written in lowercase with hyphens
+css\style.css:693 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:694 [W] SelectorFormat: Selector `navi__wrapper` should be written in lowercase with hyphens
+css\style.css:698 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:699 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:702 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:703 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:707 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:708 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:708 [W] SelectorFormat: Selector `blurbs__wrapper` should be written in lowercase with hyphens
+css\style.css:711 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:712 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:715 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:716 [W] SelectorFormat: Selector `blurb__info` should be written in lowercase with hyphens
+css\style.css:716 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:719 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:721 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:722 [W] Indentation: Line should be indented 4 spaces, but was indented 20 spaces
+css\style.css:722 [W] SelectorFormat: Selector `blurb__header` should be written in lowercase with hyphens
+css\style.css:725 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:726 [W] SelectorFormat: Selector `blurb__logo` should be written in lowercase with hyphens
+css\style.css:726 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:729 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:730 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:730 [W] SelectorFormat: Selector `blurb__logo` should be written in lowercase with hyphens
+css\style.css:735 [W] SelectorFormat: Selector `blurb__logo` should be written in lowercase with hyphens
+css\style.css:735 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:738 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:739 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:739 [W] SelectorFormat: Selector `blurb__header` should be written in lowercase with hyphens
+css\style.css:742 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:743 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:743 [W] SelectorFormat: Selector `blurb__header` should be written in lowercase with hyphens
+css\style.css:746 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:747 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:747 [W] SelectorFormat: Selector `blurb__header` should be written in lowercase with hyphens
+css\style.css:750 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:751 [W] SelectorFormat: Selector `blurb__description` should be written in lowercase with hyphens
+css\style.css:751 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:752 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `1px 0 0` instead of `1px 0 0 0`
+css\style.css:756 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:756 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:760 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:760 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:764 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:764 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:769 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `441px 0 0` instead of `441px 0 0 0`
+css\style.css:774 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `444px 0 0` instead of `444px 0 0 0`
+css\style.css:775 [W] EmptyLineBetweenBlocks: Rule declaration should be followed by an empty line
+css\style.css:776 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:776 [W] SelectorFormat: Selector `main__wrapper` should be written in lowercase with hyphens
+css\style.css:781 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:782 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:786 [W] SelectorFormat: Selector `testimonials__info` should be written in lowercase with hyphens
+css\style.css:786 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:789 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:790 [W] SelectorFormat: Selector `testimonials__header` should be written in lowercase with hyphens
+css\style.css:790 [W] Indentation: Line should be indented 4 spaces, but was indented 20 spaces
+css\style.css:793 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:794 [W] SelectorFormat: Selector `testimonials__span` should be written in lowercase with hyphens
+css\style.css:794 [W] Indentation: Line should be indented 4 spaces, but was indented 20 spaces
+css\style.css:798 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:799 [W] Indentation: Line should be indented 4 spaces, but was indented 20 spaces
+css\style.css:799 [W] SelectorFormat: Selector `testimonials__description` should be written in lowercase with hyphens
+css\style.css:800 [W] PropertySortOrder: Properties should be ordered width, height, overflow
+css\style.css:804 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:805 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:808 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:809 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:810 [W] PropertySortOrder: Properties should be ordered max-width, margin
+css\style.css:813 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:814 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:814 [W] SelectorFormat: Selector `updates__post` should be written in lowercase with hyphens
+css\style.css:815 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0 0 18px` instead of `0 0 18px 0`
+css\style.css:817 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:818 [W] SelectorFormat: Selector `post__image` should be written in lowercase with hyphens
+css\style.css:818 [W] Indentation: Line should be indented 4 spaces, but was indented 20 spaces
+css\style.css:819 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0` instead of `0 0 0 0`
+css\style.css:821 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:822 [W] SelectorFormat: Selector `post__info` should be written in lowercase with hyphens
+css\style.css:822 [W] Indentation: Line should be indented 4 spaces, but was indented 20 spaces
+css\style.css:825 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:826 [W] Indentation: Line should be indented 4 spaces, but was indented 20 spaces
+css\style.css:826 [W] SelectorFormat: Selector `post__description` should be written in lowercase with hyphens
+css\style.css:827 [W] PropertySortOrder: Properties should be ordered height, overflow
+css\style.css:830 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:831 [W] SelectorFormat: Selector `updates__more` should be written in lowercase with hyphens
+css\style.css:831 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:834 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:836 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `932px 0 0` instead of `932px 0 0 0`
+css\style.css:838 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:839 [W] SelectorFormat: Selector `logos__wrapper` should be written in lowercase with hyphens
+css\style.css:839 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:844 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:845 [W] PropertySortOrder: Properties should be ordered width, height, margin, float, background
+css\style.css:851 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:852 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:854 [W] ZeroUnit: `0px` should be written without units as `0`
+css\style.css:857 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:858 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:864 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:870 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:871 [W] PropertySortOrder: Properties should be ordered width, margin, background-position-x
+css\style.css:876 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:881 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:883 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `1053px 0 0` instead of `1053px 0 0 0`
+css\style.css:886 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:886 [W] SelectorFormat: Selector `footer-posts__wrapper` should be written in lowercase with hyphens
+css\style.css:890 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:891 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:896 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:897 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:900 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:901 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:901 [W] SelectorFormat: Selector `footer-post__header` should be written in lowercase with hyphens
+css\style.css:902 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0` instead of `0 0 0 0`
+css\style.css:905 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:906 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:906 [W] SelectorFormat: Selector `footer-post__header` should be written in lowercase with hyphens
+css\style.css:907 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0 0 7px` instead of `0 0 7px 0`
+css\style.css:911 [W] SelectorFormat: Selector `footer-post__text` should be written in lowercase with hyphens
+css\style.css:911 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:915 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:918 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `1449px 0 0` instead of `1449px 0 0 0`
+css\style.css:922 [W] SelectorFormat: Selector `footer__wrapper` should be written in lowercase with hyphens
+css\style.css:922 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:925 [W] Shorthand: Shorthand form for property `padding` should be written more concisely as `43px 0 0` instead of `43px 0 0 0`
+css\style.css:927 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:928 [W] SpaceBeforeBrace: Opening curly brace `{` should be preceded by one space
+css\style.css:928 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:931 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:932 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:949 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:951 [W] PropertySortOrder: Properties should be ordered width, margin, float, clear
+css\style.css:956 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:958 [W] PropertySortOrder: Properties should be ordered width, margin, padding-top, float, clear
+css\style.css:964 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:965 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:968 [W] PropertySortOrder: Properties should be ordered width, margin, border, border-radius, background, text-align, box-shadow
+css\style.css:974 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:975 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:976 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:976 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:978 [W] PropertySortOrder: Properties should be ordered display, margin, float, clear, border-bottom, box-shadow, cursor
+css\style.css:985 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:986 [W] SelectorFormat: Selector `menu__link` should be written in lowercase with hyphens
+css\style.css:986 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:987 [W] PropertySortOrder: Properties should be ordered margin, letter-spacing, line-height
+css\style.css:991 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:992 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:992 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:995 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:996 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:996 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:1000 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1000 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:1003 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1004 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1004 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:1007 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1008 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1008 [W] SelectorFormat: Selector `menu__item--selected` should be written in lowercase with hyphens
+css\style.css:1009 [W] Shorthand: Shorthand form for property `padding` should be written more concisely as `0 6px 6px` instead of `0 6px 6px 6px`
+css\style.css:1013 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1018 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1019 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1019 [W] SelectorFormat: Selector `slider__wrapper` should be written in lowercase with hyphens
+css\style.css:1024 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1024 [W] SelectorFormat: Selector `slider__iphone` should be written in lowercase with hyphens
+css\style.css:1029 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1029 [W] SelectorFormat: Selector `slider__lorem` should be written in lowercase with hyphens
+css\style.css:1033 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1034 [W] SelectorFormat: Selector `slider__header` should be written in lowercase with hyphens
+css\style.css:1034 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1037 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1038 [W] SelectorFormat: Selector `slider__slogan` should be written in lowercase with hyphens
+css\style.css:1038 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1039 [W] PropertySortOrder: Properties should be ordered height, margin, font-size
+css\style.css:1043 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1044 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1044 [W] SelectorFormat: Selector `slider__span` should be written in lowercase with hyphens
+css\style.css:1047 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1048 [W] SelectorFormat: Selector `navi__wrapper` should be written in lowercase with hyphens
+css\style.css:1052 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1053 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1065 [W] PropertySortOrder: Properties should be ordered height, margin
+css\style.css:1069 [W] SelectorFormat: Selector `blurbs__wrapper` should be written in lowercase with hyphens
+css\style.css:1069 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1073 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1074 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1075 [W] PropertySortOrder: Properties should be ordered margin, float
+css\style.css:1076 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0 0 55px` instead of `0 0 55px 0`
+css\style.css:1078 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1079 [W] SelectorFormat: Selector `blurb__logo` should be written in lowercase with hyphens
+css\style.css:1079 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1082 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1083 [W] SelectorFormat: Selector `blurb__logo` should be written in lowercase with hyphens
+css\style.css:1083 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1088 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1088 [W] SelectorFormat: Selector `blurb__logo` should be written in lowercase with hyphens
+css\style.css:1092 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1093 [W] SelectorFormat: Selector `blurb__info` should be written in lowercase with hyphens
+css\style.css:1093 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1097 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1098 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:1098 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1101 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1102 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1102 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:1105 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1106 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1106 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:1109 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1110 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1113 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1115 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `658px 0 0` instead of `658px 0 0 0`
+css\style.css:1117 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1120 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `661px 0 0` instead of `661px 0 0 0`
+css\style.css:1123 [W] SelectorFormat: Selector `main__wrapper` should be written in lowercase with hyphens
+css\style.css:1123 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1126 [W] Shorthand: Shorthand form for property `padding` should be written more concisely as `56px 0 0` instead of `56px 0 0 0`
+css\style.css:1128 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1129 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1130 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1134 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1135 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1135 [W] SelectorFormat: Selector `testimonials__header` should be written in lowercase with hyphens
+css\style.css:1139 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1140 [W] SelectorFormat: Selector `testimonials__info` should be written in lowercase with hyphens
+css\style.css:1140 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1141 [W] PropertySortOrder: Properties should be ordered width, max-width
+css\style.css:1144 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1145 [W] SelectorFormat: Selector `testimonials__span` should be written in lowercase with hyphens
+css\style.css:1145 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1148 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1149 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1149 [W] SelectorFormat: Selector `testimonials__description` should be written in lowercase with hyphens
+css\style.css:1150 [W] PropertySortOrder: Properties should be ordered width, height, margin
+css\style.css:1154 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1155 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1155 [W] SelectorFormat: Selector `testimonials__triangle` should be written in lowercase with hyphens
+css\style.css:1158 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1159 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1162 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1163 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1164 [W] PropertySortOrder: Properties should be ordered margin, float, clear
+css\style.css:1167 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1168 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1169 [W] SelectorFormat: Selector `updates__more` should be written in lowercase with hyphens
+css\style.css:1169 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1171 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1172 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1175 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `1448px 0 0` instead of `1448px 0 0 0`
+css\style.css:1177 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1178 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1178 [W] SelectorFormat: Selector `logos__wrapper` should be written in lowercase with hyphens
+css\style.css:1183 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1184 [W] PropertySortOrder: Properties should be ordered width, height, margin, float, background
+css\style.css:1190 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1191 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1193 [W] ZeroUnit: `0px` should be written without units as `0`
+css\style.css:1196 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1197 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1203 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1209 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1210 [W] PropertySortOrder: Properties should be ordered width, margin, background-position-x
+css\style.css:1215 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1222 [W] PropertySortOrder: Properties should be ordered height, margin
+css\style.css:1222 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `1680px 0 0` instead of `1680px 0 0 0`
+css\style.css:1226 [W] SelectorFormat: Selector `footer-posts__wrapper` should be written in lowercase with hyphens
+css\style.css:1226 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1230 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1231 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1236 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1237 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1237 [W] SelectorFormat: Selector `footer-post__slogan` should be written in lowercase with hyphens
+css\style.css:1238 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0` instead of `0 0 0 0`
+css\style.css:1240 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1241 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1244 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1247 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `2348px 0 0` instead of `2348px 0 0 0`
+css\style.css:1251 [W] SelectorFormat: Selector `footer__wrapper` should be written in lowercase with hyphens
+css\style.css:1251 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1254 [W] Shorthand: Shorthand form for property `padding` should be written more concisely as `44px 0 0` instead of `44px 0 0 0`
+css\style.css:1256 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1257 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1258 [W] PropertySortOrder: Properties should be ordered width, margin, border, box-shadow
+css\style.css:1263 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1264 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:1264 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1265 [W] PropertySortOrder: Properties should be ordered margin, float, clear, border-bottom, border-radius, box-shadow
+css\style.css:1272 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1273 [W] SelectorFormat: Selector `menu__link` should be written in lowercase with hyphens
+css\style.css:1273 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1276 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1277 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1277 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:1278 [W] PropertySortOrder: Properties should be ordered border-bottom, background
+css\style.css:1281 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1282 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1285 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1294 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1298 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1304 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1305 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1307 [W] PropertySortOrder: Properties should be ordered border, border-radius, background, box-shadow
+css\style.css:1311 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1312 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1313 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1313 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:1319 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1320 [W] SelectorFormat: Selector `menu__item` should be written in lowercase with hyphens
+css\style.css:1320 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1323 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1324 [W] SelectorFormat: Selector `menu__item--selected` should be written in lowercase with hyphens
+css\style.css:1324 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1328 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1330 [W] PropertySortOrder: Properties should be ordered top, background
+css\style.css:1333 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1334 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1334 [W] SelectorFormat: Selector `slider__wrapper` should be written in lowercase with hyphens
+css\style.css:1339 [W] SelectorFormat: Selector `slider__iphone` should be written in lowercase with hyphens
+css\style.css:1339 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1343 [W] SelectorFormat: Selector `slider__lorem` should be written in lowercase with hyphens
+css\style.css:1343 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1347 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1348 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1348 [W] SelectorFormat: Selector `slider__header` should be written in lowercase with hyphens
+css\style.css:1351 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1352 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1352 [W] SelectorFormat: Selector `slider__slogan` should be written in lowercase with hyphens
+css\style.css:1353 [W] PropertySortOrder: Properties should be ordered height, margin, font-size
+css\style.css:1357 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1358 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1358 [W] SelectorFormat: Selector `slider__span` should be written in lowercase with hyphens
+css\style.css:1362 [W] SelectorFormat: Selector `navi__wrapper` should be written in lowercase with hyphens
+css\style.css:1366 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1367 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1370 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1372 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `69px 0 0` instead of `69px 0 0 0`
+css\style.css:1374 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1375 [W] SelectorFormat: Selector `blurbs__wrapper` should be written in lowercase with hyphens
+css\style.css:1375 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1380 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1381 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0 0 57px` instead of `0 0 57px 0`
+css\style.css:1383 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1384 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1384 [W] SelectorFormat: Selector `blurb__logo` should be written in lowercase with hyphens
+css\style.css:1387 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1388 [W] SelectorFormat: Selector `blurb__logo` should be written in lowercase with hyphens
+css\style.css:1388 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1393 [W] SelectorFormat: Selector `blurb__logo` should be written in lowercase with hyphens
+css\style.css:1393 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1396 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1397 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1397 [W] SelectorFormat: Selector `blurb__info` should be written in lowercase with hyphens
+css\style.css:1402 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1403 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1403 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:1406 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1407 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:1407 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1410 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1411 [W] SelectorFormat: Selector `blurb__more` should be written in lowercase with hyphens
+css\style.css:1411 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1414 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1415 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1420 [W] Indentation: Line should be indented 8 spaces, but was indented 7 spaces
+css\style.css:1420 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `666px 0 0` instead of `666px 0 0 0`
+css\style.css:1422 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1425 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `669px 0 0` instead of `669px 0 0 0`
+css\style.css:1427 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1428 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1428 [W] SelectorFormat: Selector `main__wrapper` should be written in lowercase with hyphens
+css\style.css:1431 [W] Shorthand: Shorthand form for property `padding` should be written more concisely as `56px 0 0` instead of `56px 0 0 0`
+css\style.css:1433 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1434 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1437 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1438 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1438 [W] SelectorFormat: Selector `testimonials__info` should be written in lowercase with hyphens
+css\style.css:1441 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1442 [W] SelectorFormat: Selector `testimonials__header` should be written in lowercase with hyphens
+css\style.css:1442 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1446 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1447 [W] SelectorFormat: Selector `testimonials__span` should be written in lowercase with hyphens
+css\style.css:1447 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1450 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1451 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1451 [W] SelectorFormat: Selector `testimonials__triangle` should be written in lowercase with hyphens
+css\style.css:1454 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1455 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1455 [W] SelectorFormat: Selector `testimonials__description` should be written in lowercase with hyphens
+css\style.css:1456 [W] PropertySortOrder: Properties should be ordered width, height, margin
+css\style.css:1460 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1461 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1464 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1465 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1468 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1469 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1469 [W] SelectorFormat: Selector `updates__post` should be written in lowercase with hyphens
+css\style.css:1470 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `0 0 19px` instead of `0 0 19px 0`
+css\style.css:1472 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1473 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1473 [W] SelectorFormat: Selector `post__info` should be written in lowercase with hyphens
+css\style.css:1477 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1478 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1478 [W] SelectorFormat: Selector `post__header` should be written in lowercase with hyphens
+css\style.css:1479 [W] PropertySortOrder: Properties should be ordered width, height, overflow
+css\style.css:1483 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1484 [W] SelectorFormat: Selector `updates__more` should be written in lowercase with hyphens
+css\style.css:1484 [W] Indentation: Line should be indented 4 spaces, but was indented 16 spaces
+css\style.css:1487 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1490 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `1456px 0 0` instead of `1456px 0 0 0`
+css\style.css:1493 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1493 [W] SelectorFormat: Selector `logos__wrapper` should be written in lowercase with hyphens
+css\style.css:1498 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1499 [W] PropertySortOrder: Properties should be ordered width, height, margin, float, background
+css\style.css:1505 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1506 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1508 [W] ZeroUnit: `0px` should be written without units as `0`
+css\style.css:1511 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1512 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1518 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1524 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1525 [W] PropertySortOrder: Properties should be ordered width, margin, background-position-x
+css\style.css:1530 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1535 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1539 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1541 [W] Shorthand: Shorthand form for property `margin` should be written more concisely as `1877px 0 0` instead of `1877px 0 0 0`
+css\style.css:1545 [W] SelectorFormat: Selector `footer__wrapper` should be written in lowercase with hyphens
+css\style.css:1545 [W] Indentation: Line should be indented 4 spaces, but was indented 8 spaces
+css\style.css:1549 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1550 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1552 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1553 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1554 [W] Indentation: Line should be indented 4 spaces, but was indented 12 spaces
+css\style.css:1556 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1557 [W] TrailingWhitespace: Line contains trailing whitespace
+css\style.css:1564 [W] TrailingWhitespace: Line contains trailing whitespace
+
