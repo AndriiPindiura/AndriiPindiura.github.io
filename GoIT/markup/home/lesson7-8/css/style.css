@@ -784,11 +784,15 @@ body {
         margin: 81px auto 0;
     }
     
-        .navigation {
+        .navi {
+            margin: 0 196px 0 0;
+        }
+
+        /*.navigation {
             float: unset;
             width: 88px;
             margin: 0 auto;
-        }
+        }*/
 
 
     .blurbs {
@@ -979,6 +983,10 @@ body {
         width: 320px;
         margin: 254px auto 0;
     }
+        
+        .navi {
+            margin: 0 116px 0 0;
+        }
     
     .blurbs {
         margin: 69px 0 0 0;
