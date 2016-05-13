@@ -342,6 +342,7 @@ body {
     
         .testimonials {
             margin: 0 0 0 -12px;
+            float: left;
         }
 
             .testimonials__logo {
@@ -392,7 +393,64 @@ body {
                 /*box-shadow: 0 1px 2px 2px rgba(0, 0, 0, .05);*/
             }
 
+        .updates {
+            margin: 32px 0 0 60px;
+            float: left;
+        }
 
+            .updates__header {
+                margin: -6px 0 0 -1px;
+                color: #454545;
+                font-family: 'League Gothic', Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                font-weight: 300;
+                text-transform: uppercase;
+                text-shadow: 0 1px #fff;
+            }
+            
+            .updates__posts {
+                margin: 13px 0 0 0;
+            }
+            
+                .updates__post {
+                    margin: 0 0 17px 0;
+                }
+                    
+                    .post__image {
+                        margin: 0 0 0 0px;
+                        float: left;
+                    }
+                    
+                    .post__info {
+                        margin: 0 0 0 16px;
+                        float: left;
+                        font-family: 'Open Sans', sans-serif;
+                    }
+                    
+                        .post__header {
+                            margin: 0 0 3px 0;
+                            font-size: 16px;
+                            font-weight: 900;
+                            text-shadow: 0 1px #fff;
+                        }
+                        
+                        .post__description {
+                            margin: 0 0 0 0;
+                            font-size: 16px;
+                            font-weight: 300;
+                            text-shadow: 0 1px #fff;
+                        }
+                        
+                .updates__more {
+                    display: block;
+                    margin: 19px 0 0 345px;
+                    color: #454545;
+                    font-family: 'League Gothic', Arial, Helvetica, sans-serif;
+                    font-size: 18px;
+                    font-weight: 300;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
 
 /*          960PX           */
 /*      1368 = -525px       */
@@ -544,15 +602,72 @@ body {
                     margin: 7px 7px 0 0;
                 }
 
+    .blurbs-line {
+        margin: 441px 0 0 0;
+    }
+
     .main {
         height: 486px;
-        margin: 402px 0 0 0;
+        margin: 442px 0 0 0;
     }
         .main__wrapper {
             width: 768px;
+            padding: 59px 0 0;
         }
 
+            .testimonials {
+                
+                margin: 44px 0 0 8px;
+            }
 
+                .testimonials__info {
+                    max-width: 310px;
+                }
+                
+                    .testimonials__header {
+                        font-size: 24px;
+                    }
+                    
+                    .testimonials__span {
+                        display: block;
+                        margin: -4px 0 0 1px;
+                    }
+                    
+                    .testimonials__description {
+                        overflow: hidden;
+                        height: 150px;
+                        width: 255px;
+                    }
+                    
+                .navi--testimonials.navi {
+                    margin: 4px 0 0 144px;
+                }
+                
+            .updates {
+                margin: 75px 0 0 -15px;
+                max-width: 354px;
+            }
+            
+                .updates__post {
+                    margin: 0 0 18px 0;
+                }
+                    
+                    .post__image {
+                        margin: 0 0 0 0;
+                    }
+                    
+                    .post__info {
+                        width: 260px;
+                    }
+                    
+                    .post__description {
+                        overflow: hidden;
+                        height: 20px;
+                    }
+                
+                .updates__more {
+                    margin: -2px 0 0 239px;
+                }
 }
 
 /*          480PX           */
@@ -726,20 +841,64 @@ body {
                 margin: 59px 0 0 20px;
             }
                 
-    /*.blurbs-line {
-        margin: 402px 0 0 0;
-    }*/
+    .blurbs-line {
+        margin: 658px 0 0 0;
+    }
     
     .main {
         height: 786px;
-        margin: 402px 0 0 0;
+        margin: 658px 0 0 0;
     }
 
         .main__wrapper {
             width: 480px;
-            margin: 70px auto 0;
+            margin: 0 auto;
         }
         
+        
+            .testimonials {
+                margin: 13px 0 0 10px;
+                float: initial;
+            }
+            
+                .testimonials__header {
+                    margin: 23px 0 0 38px;
+                    font-size: 30px;
+                }
+            
+                .testimonials__info {
+                    max-width: initial;
+                    width: 415px;
+                }
+            
+                .testimonials__span {
+                    display: initial;
+                }
+                
+                .testimonials__description {
+                    margin: 11px 0 0 38px;
+                    height: 250px;
+                    width: 350px;
+                }
+                
+                .testimonials__triangle {
+                    display: none;
+                }
+                
+                .navi--testimonials.navi {
+                    margin: 4px 0 0 189px;
+                }
+                
+            .updates {
+                float: initial;
+                clear: both;
+                margin: 71px 0 0 83px;
+            }   
+            
+                .updates__more {
+                    margin: -1px 0 0 249px;
+                } 
+            
 }
 
 /*          320PX           */
@@ -869,20 +1028,63 @@ body {
                 margin: 73px 0 0;
             }
 
-    /*.blurbs-line {
+    .blurbs-line {
        margin: 666px 0 0 0;
-    }*/
+    }
     
     .main {
         height: 786px;
-        margin: 402px 0 0 0;
+        margin: 666px 0 0 0;
     }
     
         .main__wrapper {
             width: 320px;
-            margin: 70px auto 0;
+            margin: 0 auto;
         }
-
+            
+            .testimonials {
+                margin: 13px 0 0 9px;
+            }
+            
+                .testimonials__info {
+                    width: 257px;
+                }
+                
+                .testimonials__triangle {
+                    display: none;
+                }
+                
+                .testimonials__description {
+                    margin: 17px 0 0 38px;
+                    height: 170px;
+                    width: 178px;
+                }
+                
+                .navi--testimonials.navi {
+                    margin: 24px 0 0 126px;
+                }
+    
+            .updates {
+                margin: 91px 0 0 19px;
+            }
+            
+                .updates__post {
+                    margin: 0 0 19px 0;
+                }
+            
+                .post__info {
+                    width: 215px;
+                    overflow: hidden;
+                }
+                
+                .post__header {
+                    overflow: hidden;
+                    height: 21px;
+                }
+                
+                .updates__more {
+                    margin: -4px 0 0 187px;
+                }
     
 }
 
