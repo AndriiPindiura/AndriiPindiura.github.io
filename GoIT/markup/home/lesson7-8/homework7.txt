@@ -1,0 +1,4 @@
+css\style.css:184 [W] DuplicateProperty: Property `background` already defined on line 183
+css\style.css:190 [W] DuplicateProperty: Property `background` already defined on line 189
+css\style.css:226 [W] DuplicateProperty: Property `background` already defined on line 225
+
