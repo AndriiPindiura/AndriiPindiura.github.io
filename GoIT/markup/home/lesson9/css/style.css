@@ -852,6 +852,7 @@ body {
 
     .updates {
         width: 354px;
+        /*margin: 75px 0 0 25px;*/
         margin: 75px 0 0 -15px;
     }
 
@@ -1135,6 +1136,7 @@ body {
 
     .blurb__info {
         width: 370px;
+        height: 100px;
         height: unset;
     }
 
@@ -1151,11 +1153,17 @@ body {
     }
 
     .blurb--media.blurb {
-        margin: 59px 0 0 20px;
+        margin: 0 0 0 20px;
     }
 
     .blurbs-line {
         margin: 658px 0 0;
+    }
+
+    @-moz-document url-prefix() {
+        .blurb--media.blurb {
+            margin: 0 0 0 20px;
+        }
     }
 
     .main {
@@ -1296,7 +1304,7 @@ body {
     }
 
     .menu.menu--footer {
-        width: initial;
+        width: 480px;
         margin: 0 0 0 15px;
         border: 0;
         box-shadow: none;
@@ -1305,7 +1313,7 @@ body {
     .menu--footer .menu__item {
         margin: 0 8px 0 0;
         float: left;
-        clear: initial;
+        clear: none;
         border-bottom: 2px solid rgba(0, 0, 0, 0);
         border-radius: 0;
         box-shadow: none;
@@ -1454,7 +1462,7 @@ body {
     }
 
     .blurb--media.blurb {
-        margin: 73px 0 0;
+        margin: 0;
     }
 
     .blurbs-line {
