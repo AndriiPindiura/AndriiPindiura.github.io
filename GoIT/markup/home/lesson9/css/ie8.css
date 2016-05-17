@@ -681,10 +681,6 @@ body {
     }
 
 
-    .blurbs {
-        /*top: 703px;*/
-    }
-
     .blurbs__wrapper {
         width: 768px;
     }
@@ -743,10 +739,6 @@ body {
 
     .blurb--media .blurb__more {
         margin: 7px 7px 0 0;
-    }
-
-    .blurbs-line {
-        /*top: 703px;*/
     }
 
     .main {
@@ -813,10 +805,6 @@ body {
         margin: -2px 0 0 239px;
     }
 
-    .logos {
-        /*top: 703px;*/
-    }
-
     .logos__wrapper {
         width: 768px;
         margin: 25px auto 0;
@@ -858,10 +846,6 @@ body {
         width: 78px;
         margin: 1px 0 0 56px;
         background-position-x: -369px;
-    }
-
-    .footer-posts {
-        /*top: 703px;*/
     }
 
     .footer-posts__wrapper {
