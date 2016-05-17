@@ -29,7 +29,7 @@
     body {
         border-top: 1px solid rgba(0, 0, 0, 0);
     }
-    
+
     .container {
         border-top: 1px solid rgba(0, 0, 0, 0);
     }
@@ -61,8 +61,8 @@ body {
 }
 
 .logo span {
-    color: #322539;
     background: -webkit-repeating-linear-gradient(#745083, #322539);
+    color: #322539;
     text-shadow: 0 0 rgba(0, 0, 0, .3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -231,7 +231,7 @@ body {
         height: 13px;
         border: 3px solid rgba(0, 0, 0, .1);
     }
-    
+
     .navi__button--selected {
         border: 3px solid rgba(0, 0, 0, .5);
         background: #fff;
@@ -243,12 +243,13 @@ body {
         background: #fff;
         background: linear-gradient(#d4d4d4 0%, #fff 100%);
     }
+
     .navi--testimonials .navi__button {
         width: 14px;
         height: 14px;
         border: 2px solid #e6e6e6;
     }
-    
+
     .navi--testimonials .navi__button:hover {
         border-width: 2px;
         background: rgba(0, 0, 0, .5);
@@ -987,13 +988,6 @@ body {
         height: 548px;
     }*/
 
-    @-moz-document url-prefix() {
-        body {
-            margin: 0 auto 0;
-        }
-    }
-
-
     .container {
         width: 480px;
     }
@@ -1137,7 +1131,6 @@ body {
     .blurb__info {
         width: 370px;
         height: 100px;
-        height: unset;
     }
 
     .blurb__more {
