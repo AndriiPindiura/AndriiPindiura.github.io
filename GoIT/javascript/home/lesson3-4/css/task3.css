@@ -1,0 +1,25 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    font-size: 12px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type='submit'] {
+    display: block;
+    margin: 50px auto;
+}
