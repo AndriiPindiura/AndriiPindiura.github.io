@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 7-8</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+    <script src="js/task7.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="tabs">
+            <header class="tabs__header">
+                <ul class="tabs__links">
+                    <li class="tabs__li tabs__item--selected"><a class="tabs__link" href="#" data-tab="nunc">Nunc tincidunt</a>
+                    </li>
+                    <li class="tabs__li tabs__item"><a class="tabs__link" href="#" data-tab="proin">Proin dolor</a>
+                    </li>
+                    <li class="tabs__li tabs__item"><a class="tabs__link" href="#" data-tab="aenean">Aenean lacinia</a>
+                    </li>
+                </ul>
+            </header>
+            <article class="tabs__tab tabs__tab--selected" data-tab="nunc">
+                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin
+                    mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus
+                    lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing.
+                    Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris
+                    vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique
+                    tempus lectus.</p>
+            </article>
+            <article class="tabs__tab" data-tab="proin">
+                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc.
+                    Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus,
+                    ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit
+                    aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat
+                    nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas
+                    feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis.
+                    Mauris consectetur tortor et purus.</p>
+            </article>
+
+            <article class="tabs__tab" data-tab="aenean">
+                <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan,
+                    mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu
+                    ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim
+                    commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium
+                    nec, feugiat nec, luctus a, lacus.</p>
+                <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi.
+                    Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis,
+                    pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque.
+                    Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor
+                    ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque
+                    nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+            </article>
+
+        </section>
+
+        <section class="form">
+            <div class="row">
+                <label for="f-name">Firstname</label>
+                <input type="text" name="" id="f-name">
+                <div class="tooltip" data-tooltip="f-name">
+                    <p>Please provide your firstname.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="row">
+                <label for="l-name">Lastname</label>
+                <input type="text" name="" id="l-name">
+                <div class="tooltip" data-tooltip="l-name">
+                    <p>Please provide also your lastname.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="row">
+                <label for="address">Address</label>
+                <input type="text" name="" id="address">
+                <div class="tooltip" data-tooltip="address">
+                    <p>Your home or work address.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <button class="help">Show help</button>
+    </div>
+    </div>
+</body>
+
+</html>
