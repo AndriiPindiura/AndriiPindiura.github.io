@@ -41,12 +41,7 @@ $(function () {
         var id = $(this).attr('id');
         $.each($('.tooltip'), function () {
             if ($(this).attr('data-tooltip') == id) {
-                $(this).fadeIn(500);
-                // var $tooltip = $(this);
-                // console.log($tooltip.is(':hover'));
-                // window.setTimeout(function () {
-                //     showTooltip($tooltip);
-                // }, 200);
+                $(this).fadeIn();
             }
         });
     });
