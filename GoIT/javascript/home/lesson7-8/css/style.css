@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 600px;
+    height: 500px;
+    margin: 50px auto;
+    border: 1px solid #bfbfbf;
+}
+
+.tabs {
+    margin: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.tabs__header {
+    height: 27px;
+    margin: 3px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background: linear-gradient(#e2e2e2 0%, #ccc 100%);
+}
+
+.tabs__links {
+    display: inline-block;
+}
+
+.tabs__item {
+    margin: 2px 2px 0;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px 3px 0 0;
+    background: linear-gradient(#ededed 0%, #eee 100%);
+    list-style: none;
+    float: left;
+}
+
+.tabs__item--selected {
+    margin: 2px 2px 0;
+    border-radius: 3px 3px 0 0;
+    list-style: none;
+    float: left;
+    background: #fff;
+    border: 1px solid #d3d3d3;
+    border-bottom: 1px solid #fafafa;
+}
+
+.tabs__link {
+    display: block;
+    color: #5a5a5a;
+    padding: 5px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 14px;
+    text-decoration: none;
+}
+
+.tabs__item:hover {
+    border: 1px solid #999;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    background: linear-gradient(#eee 0%, #e7e7e7 100%);
+}
+
+.tabs__tab p {
+    display: none;
+    margin: 10px 15px;
+    font-size: 11px;
+    
+}
+
+.tabs__tab--selected p {
+    display: block;
+}
+
+.form {
+    margin: 10px 10px 0;
+    border: 1px solid #aaa;
+    /*border-radius: 5px;*/
+}
+
+.row {
+    margin: 0 0 0 0;
+}
+
+label {
+    width: 50px;
+    margin: 10px;
+    float: left;
+    font-size: 11px;
+}
+
+input {
+    /*display: block;*/
+    border: 1px solid #DDDDDD;
+
+    margin: 7px 10px 10px 10px;
+    float: left;
+}
+
+input:hover {
+    box-shadow: 0 0 5px rgba(123, 157, 212, 1);
+    border: 1px solid rgba(123, 157, 212, 1);
+
+}
+
+.clear {
+    clear: both;
+}
+
+.help {
+    margin: 5px 10px;
+    font-size: 11px;
+    padding: 3px 10px;
+    background: #e5e5e5;
+    border: 1px solid #999;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.tooltip {
+    display: none;
+    float: left;
+    margin: 2px 0 0;
+    width: 45%;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 1px 1px rgba(221, 221, 221, .5);
+}
+
+.tooltip p {
+    margin: 0 10px;
+    display: inline;
+    font-size: 11px;
+    line-height: 23px;
+}
+
