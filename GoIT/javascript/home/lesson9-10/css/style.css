@@ -121,10 +121,110 @@ a.active {
 
 
 .select-wrapper {
-    margin: 10px auto;
+    float: right;
 }
 
-.pop-select {
+.custom-select {
     width: 200px;
     height: 55px;
 }
+
+.check-box {
+    float: left;
+}
+
+.nice-check {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+    background: url('../img/checkbox-sprite.png');
+}
+
+.nice-check input {
+    display: none;
+}
+
+.nice-check__title {
+    display: block;
+    float: right;
+    /*margin: 0 0 0 0;
+    line-height: 30px;*/
+}
+	
+/*.css-nice-check input[type=checkbox] {
+    display: block;
+    float: left;
+    clip: rect(0, 0, 0, 0);
+}
+
+.css-nice-check input:not(checked) {
+    position: absolute;
+    opacity: 0;
+}
+
+.css-nice-check input:not(checked) + label {
+    position: relative; 
+}
+
+.css-nice-check input:not(checked) + label:before {
+    content: '';
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url('../img/checkbox-sprite.png');
+    position: relative;
+}
+
+.css-nice-check input:checked + label:before {
+    background-position: 0 -17px;
+}
+
+.css-nice-check label {
+    text-transform: none;
+    color: #445870;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: -0.25px;
+    line-height: 10px;
+}*/
+
+.css-check__wrapper {
+    margin: 10px auto;
+}
+
+.css-nice-check input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.css-nice-check label {
+	cursor: pointer;
+    text-transform: none;
+    color: #445870;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: -0.25px
+}
+.css-nice-check label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url('../img/checkbox-sprite.png');
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+.css-nice-check input[type=checkbox]:checked + label:after {
+    background-position: 0 -17px;
+}
+.css-nice-check label:hover:after {
+    background-position: 0 -34px;
+}
+.css-nice-check input[type=checkbox]:checked + label:hover:after {
+    background-position: 0 -51px;
+}
+
+	
