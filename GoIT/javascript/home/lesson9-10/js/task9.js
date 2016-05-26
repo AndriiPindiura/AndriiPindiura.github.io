@@ -123,4 +123,51 @@ $(function() {
             return true;
         }
 
+
+
+        $('.submenu').hide();
+        
+        $('.submenu').parent().addClass('arrow');
+        
+        $('.menu li').on('mouseover', function (e) {
+            e.stopPropagation();
+            console.log($(this).width());
+            $submenu = $('div:first', this);
+            if ($(this).parent().parent().hasClass('submenu'))
+            {
+                $submenu.css({top: $(this).position().top - 5, left: $(this).position().left + $(this).width()});
+                $submenu.fadeIn(600);
+            }
+            else
+            {
+                $submenu.css({top: $(this).height() - 5, left: $(this).position().left});
+                $submenu.slideDown();
+            }
+            // $(this).fadeIn
+            // $(this).slideDown
+            
+        });
+        
+        $('.menu li').on('mouseleave', function (e) {
+            //$('div:first', this).hide();
+            if ($(this).parent().parent().hasClass('submenu'))
+            {
+                $('div:first', this).fadeOut(600);
+            }
+            else
+            {
+                $('div:first', this).slideUp();
+            }
+
+        });
+        
+        // $('.menu li').hover(function () {
+        //     $('div:first', this).show();
+        // },
+        // function () {
+        //     $('ul:first', this).hide();
+        // });
+
+
+
 });
