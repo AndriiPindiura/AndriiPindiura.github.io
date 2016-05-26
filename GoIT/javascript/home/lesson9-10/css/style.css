@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.wrapper {
+    width: 75%;
+    /*height: 600px;*/
+    margin: 50px auto;
+}
+
+.inactive {
+    opacity: .5;
+    cursor: default;
+}
+
+.carousel {
+    width: 562px;
+    margin: 10px auto;
+}
+
+.jcarousel-prev {
+    padding: 0 10px;
+    float: left;
+    color: #999;
+    line-height: 500px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.jcarousel-prev:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+.jcarousel-prev.inactive:hover {
+    background: rgba(0, 0, 0, 0);
+}
+
+.carousel__wrapper {
+    width: 500px;
+    height: 500px;
+    float: left;
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 480px;
+    margin: 10px auto;
+}
+
+
+
+.jcarousel img {
+    max-height: 480px;
+}
+ 
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+    /*list-style: none;*/
+}
+
+.jcarousel-next {
+    padding: 0 10px;
+    float: left;
+    color: #999;
+    line-height: 500px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.jcarousel-next:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+.jcarousel-next.inactive:hover {
+    background: rgba(0, 0, 0, 0);
+}
+
+
+.jcarousel-pagination {
+    /*width: 150px;*/
+    display: block;
+    margin: 5px 50px;
+}
+
+.jcarousel-pagination a {
+    margin: 0 2px;
+    padding: 0 5px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, .2);
+    color: #eee;
+    text-decoration: none;
+}
+
+a.active {
+    color: #999;
+    background: rgba(255, 255, 255, .3);
+}
+
+
+.select-wrapper {
+    float: right;
+}
+
+.custom-select {
+    width: 200px;
+    height: 55px;
+}
+
+.check-box {
+    float: left;
+}
+
+.nice-check {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+    background: url('../img/checkbox-sprite.png');
+}
+
+.nice-check input {
+    display: none;
+}
+
+.nice-check__title {
+    display: block;
+    float: right;
+    /*margin: 0 0 0 0;
+    line-height: 30px;*/
+}
+	
+/*.css-nice-check input[type=checkbox] {
+    display: block;
+    float: left;
+    clip: rect(0, 0, 0, 0);
+}
+
+.css-nice-check input:not(checked) {
+    position: absolute;
+    opacity: 0;
+}
+
+.css-nice-check input:not(checked) + label {
+    position: relative; 
+}
+
+.css-nice-check input:not(checked) + label:before {
+    content: '';
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url('../img/checkbox-sprite.png');
+    position: relative;
+}
+
+.css-nice-check input:checked + label:before {
+    background-position: 0 -17px;
+}
+
+.css-nice-check label {
+    text-transform: none;
+    color: #445870;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: -0.25px;
+    line-height: 10px;
+}*/
+
+.css-check__wrapper {
+    margin: 10px auto;
+}
+
+.css-nice-check input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.css-nice-check label {
+	cursor: pointer;
+    text-transform: none;
+    color: #445870;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: -0.25px
+}
+.css-nice-check label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url('../img/checkbox-sprite.png');
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+.css-nice-check input[type=checkbox]:checked + label:after {
+    background-position: 0 -17px;
+}
+.css-nice-check label:hover:after {
+    background-position: 0 -34px;
+}
+.css-nice-check input[type=checkbox]:checked + label:hover:after {
+    background-position: 0 -51px;
+}
+
+	
