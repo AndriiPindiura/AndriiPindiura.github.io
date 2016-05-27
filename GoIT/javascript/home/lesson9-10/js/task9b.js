@@ -10,37 +10,37 @@ window.addEventListener('DOMContentLoaded', function () {
 		li[i].addEventListener('mouseover', function (e) {
 			e.preventDefault();
 			e.stopPropagation();
-            var elem;
-            if (e.target.tagName == 'LI') {
-                elem = e.target;
-            }
-            else {
-                elem = e.target.parentElement;
-            }
-            var submenu = false;
-            var parrentClasses = elem.parentElement.parentElement.classList;
-            for (var c = 0; c < parrentClasses.length; c++) {
-                if (parrentClasses[c] == 'submenu') {
-                    submenu = true;
-                }
-            }
-            var coords = elem.getBoundingClientRect();
-            var childs = elem.childNodes;
-            for (var j = 0; j < childs.length; j++) {
-                if (childs[j].tagName == 'DIV') {
-                    if (submenu) {
-                        childs[j].style.left = '200px';
-                        childs[j].style.top = elem.offsetTop + 'px';
-                    }
-                    else
-                    {
-                        childs[j].style.left = coords.left + 'px';
-                        childs[j].style.top = coords.bottom - 5 + 'px';
-                    }
-                    childs[j].style.display = 'block';
-                    break;
-                }
-            }
+			var elem;
+			if (e.target.tagName == 'LI') {
+				elem = e.target;
+			}
+			else {
+				elem = e.target.parentElement;
+			}
+			var submenu = false;
+			var parrentClasses = elem.parentElement.parentElement.classList;
+			for (var c = 0; c < parrentClasses.length; c++) {
+				if (parrentClasses[c] == 'submenu') {
+					submenu = true;
+				}
+			}
+			var coords = elem.getBoundingClientRect();
+			var childs = elem.childNodes;
+			for (var j = 0; j < childs.length; j++) {
+				if (childs[j].tagName == 'DIV') {
+					if (submenu) {
+						childs[j].style.left = '200px';
+						childs[j].style.top = elem.offsetTop + 'px';
+					}
+					else
+{
+						childs[j].style.left = coords.left + 'px';
+						childs[j].style.top = coords.bottom - 5 + 'px';
+					}
+					childs[j].style.display = 'block';
+					break;
+				}
+			}
 
 		}, true);
 		li[i].addEventListener('mouseleave', function (e) {
