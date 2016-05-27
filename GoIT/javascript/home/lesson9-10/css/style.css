@@ -12,6 +12,7 @@
 
 
 .menu {
+    /*position: relative;*/
     height: 60px;
     background: #ff6464;
     list-style: none;
