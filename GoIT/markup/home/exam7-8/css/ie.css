@@ -898,44 +898,57 @@ body {
         position: relative;
         width: 252px;
         margin: 0 auto;
-        /*border: 1px solid #051116;
-        border-radius: 10px;*/
-        background: url('../img/menubg.png');
         text-align: center;
-        box-shadow: 0 3px 5px 5px rgba(0, 0, 0, .2);
+        overflow: hidden;
+        z-index: 10;
     }
 
-
     .menu__item {
-        display: block;
-        margin: 0 5px;
+        display: none;
+        width: 252px;
+        height: 42px;
         float: none;
         clear: both;
-        border-bottom: 2px solid #051116;
-        box-shadow: inset 0 2px rgba(105, 82, 114, .59);
+        border: 0;
         cursor: pointer;
     }
 
-    .menu__link {
-        margin: 0 7px 0 0;
-        letter-spacing: -.3px;
-        line-height: 41px;
-    }
-
     .menu__item:first-child {
+        display: block;
+        height: 49px;
         border-radius: 10px 10px 0 0;
     }
 
-    .menu__item:last-child {
-        border-radius: 0 0 10px 10px;
+    .menu ul:hover li {
+        display: block;
+        background: url('../img/menu-itembg.png');
+    }
+    
+    .menu ul:hover li:first-child {
+        display: block;
+        background: url('../img/menubg-first.png');
+    }
+    
+    .menu__item--selected {
+        border: 0;
     }
 
-    .menu__item:hover {
-        background: url('../img/menu--hover.png');
+    .menu ul:hover li:first-child:hover {
+        background: url('../img/menubg-hover-first.png');
+        /*background: #000;*/
+        border: 0;
     }
+    
+    .menu .menu__item:hover {
+        background: url('../img/menubg-hover.png');
+        border: 0;
+    }
+    
+    
+
 
     .menu__item:hover a {
-        border-bottom: 2px solid transparent;
+        border-bottom: 0;
     }
 
     .menu__item--selected a {
@@ -943,6 +956,13 @@ body {
         border-bottom: 2px solid #edbfff;
         box-sizing: border-box;
     }
+    
+    .menu__link {
+        margin: 0 7px 0 0;
+        letter-spacing: -.3px;
+        line-height: 41px;
+    }
+
 
     .slider {
         height: 246px;
@@ -1201,37 +1221,6 @@ body {
 
     .container {
         width: 320px;
-    }
-
-    .menu-wrapper {
-        height: 41px;
-        padding-top: 17px;
-        overflow: hidden;
-    }
-
-    .menu {
-        border: 0;
-        border-radius: 0;
-        background: none;
-        box-shadow: 0 0 rgba(0, 0, 0, 0);
-    }
-
-
-    .menu__item {
-        margin: 0;
-        border-bottom: 0;
-        background: none;
-        box-shadow: 0 0 rgba(105, 82, 114, 0);
-        cursor: auto;
-    }
-
-    .menu__item:hover {
-        background: 0;
-    }
-
-    .menu__item--selected a {
-        padding: 0 6px;
-        border-bottom: 2px solid #edbfff;
     }
 
     .slider {
