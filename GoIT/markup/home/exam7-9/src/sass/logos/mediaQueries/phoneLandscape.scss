@@ -1,0 +1,7 @@
+@import '../../mq';
+
+@media #{$phoneLandscape} {
+    @import '../desktop';
+    @import '../tablet';
+    @import '../phoneLandscape';
+}

@@ -1,0 +1,59 @@
+& {
+    margin: 32px 0 0 60px;
+    float: left;
+
+    .updates__header {
+        margin: -6px 0 0 -1px;
+        color: #454545;
+        font-family: 'League Gothic', Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        text-shadow: 0 1px #fff;
+        text-transform: uppercase;
+    }
+
+    .updates__posts {
+        margin: 13px 0 0;
+    }
+
+    .updates__post {
+        margin: 0 0 17px;
+    }
+
+    .post__image {
+        margin: 0;
+        float: left;
+    }
+
+    .post__info {
+        margin: 0 0 0 16px;
+        float: left;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .post__header {
+        margin: 0 0 3px;
+        font-size: 16px;
+        font-weight: 900;
+        text-shadow: 0 1px #fff;
+    }
+
+    .post__description {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 300;
+        text-shadow: 0 1px #fff;
+    }
+
+    .updates__more {
+        display: block;
+        margin: 19px 0 0 345px;
+        color: #454545;
+        font-family: 'League Gothic', Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+}

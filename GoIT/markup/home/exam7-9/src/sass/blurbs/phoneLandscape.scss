@@ -1,0 +1,49 @@
+& {
+    height: 596px;
+    margin: 61px 0 0;
+    
+    .blurbs__wrapper {
+        margin: 74px auto 0;
+    }
+
+    .blurb {
+        margin: 0 0 55px;
+        float: unset;
+    }
+
+    .blurb__logo {
+        margin: 7px 19px 0 33px;
+    }
+
+    .blurb--chat .blurb__logo {
+        margin: 7px 23px 0 30px;
+    }
+
+
+    .blurb--media .blurb__logo {
+        margin: 7px 23px 0 10px;
+    }
+
+
+    .blurb__info {
+        width: 370px;
+        height: 100px;
+    }
+
+    .blurb__more {
+        margin: 14px 27px 0 0;
+    }
+
+    .blurb--chat .blurb__more {
+        margin: 13px 27px 0 0;
+    }
+
+    .blurb--media .blurb__more {
+        margin: 13px 27px 0 0;
+    }
+
+    .blurb--media.blurb {
+        margin: 0 0 0 20px;
+    }
+
+}

@@ -1,0 +1,47 @@
+& {
+    height: 231px;
+    
+        .logos__wrapper {
+        margin: 0 auto;
+    }
+
+    .brand-logo {
+        width: 69px;
+        height: 65px;
+        margin: 36px 0 0 82px;
+        float: left;
+        background: url('../img/brands.png') 0 0 no-repeat;
+    }
+
+    .brand-logo.brand-logo--dg {
+        width: 72px;
+        margin: 36px 0 0 55px;
+        background-position-x: -71px;
+    }
+
+    .brand-logo.brand-logo--tr {
+        width: 65px;
+        margin: 36px 0 0 54px;
+        background-position-x: -145px;
+    }
+
+    .brand-logo.brand-logo--awsm {
+        width: 50px;
+        margin: 26px 0 0 67px;
+        background-position-x: -212px;
+    }
+
+    .brand-logo.brand-logo--rvca {
+        width: 103px;
+        margin: 26px 0 0 58px;
+        background-position-x: -264px;
+    }
+
+    .brand-logo.brand-logo--vz {
+        width: 78px;
+        margin: 26px 0 0 56px;
+        background-position-x: -369px;
+    }
+
+
+}

@@ -1,0 +1,12 @@
+@import '../mq';
+
+@media #{$phonePortrait} {
+    .container {
+        width: 320px;
+    }
+    
+    .main-header {
+        height: 50px;
+    }
+
+}

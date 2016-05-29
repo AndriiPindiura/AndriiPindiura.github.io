@@ -1,0 +1,57 @@
+& {
+    margin: 95px auto 0;
+    
+    .navi {
+        margin: 0 169px 0 0;
+        float: right;
+    }
+    
+    .navi__button {
+        width: 15px;
+        height: 15px;
+        margin: 0 0 0 7px;
+        float: right;
+        border-radius: 17px;
+        background: rgba(0, 0, 0, .3);
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+
+    .navi__button--selected {
+        border: 3px solid rgba(0, 0, 0, .5);
+        background: #fff;
+        background: linear-gradient(#d4d4d4 0%, #fff 100%);
+    }
+
+    .navi__button:hover {
+        border: 3px solid rgba(0, 0, 0, .5);
+        background: #fff;
+        background: linear-gradient(#d4d4d4 0%, #fff 100%);
+    }
+
+    .navi--testimonials.navi {
+        margin: 4px 0 0 201px;
+        float: left;
+    }
+
+    .navi--testimonials .navi__button {
+        width: 17px;
+        height: 17px;
+        margin: 0 0 0 5px;
+        border: 1px solid #e6e6e6;
+        background: #fff;
+        box-shadow: 0 1px #fff;
+    }
+
+    .navi--testimonials .navi__button:hover {
+        border-width: 2px;
+        background: linear-gradient(#6a6a6a 0%, #454545 100%);
+    }
+
+    .navi--testimonials .navi__button--selected {
+        border-width: 2px;
+        background: linear-gradient(#6a6a6a 0%, #454545 100%);
+    }
+
+
+}

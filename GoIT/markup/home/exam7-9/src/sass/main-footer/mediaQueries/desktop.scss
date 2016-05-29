@@ -1,0 +1,6 @@
+@import '../../mq';
+
+@media #{$desktop} {
+    @import '../../menu-wrapper/desktop';
+    @import '../desktop';
+}
