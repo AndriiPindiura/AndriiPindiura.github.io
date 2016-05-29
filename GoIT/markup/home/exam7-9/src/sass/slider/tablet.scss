@@ -1,0 +1,41 @@
+& {
+    margin: 73px 0 0;
+    .slider__wrapper {
+        margin: 0 auto;
+    }
+
+
+    .slider__iphone {
+        margin: -23px 48px 0 0;
+    }
+
+    .slider__lorem {
+        width: 275px;
+        margin: 92px 0 0 42px;
+    }
+
+    .slider__header {
+        font-size: 48px;
+    }
+
+    .slider__slogan {
+        height: 24px;
+        margin: 0;
+        font-size: 24px;
+        overflow: hidden;
+    }
+
+    .slider__info {
+        display: none;
+        /*word-wrap: break-word;*/
+    }
+
+    .slider__span {
+        display: block;
+        margin: 10px 0;
+        font-size: 16px;
+        line-height: 26px;
+        word-wrap: break-word;
+    }
+    
+}

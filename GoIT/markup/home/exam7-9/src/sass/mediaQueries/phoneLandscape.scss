@@ -1,0 +1,11 @@
+@import '../mq';
+
+@media #{$phoneLandscape} {
+    .container {
+        width: 480px;
+    }
+
+    .main-header {
+        height: 50px;
+    }
+}

@@ -1,0 +1,7 @@
+@import '../mq';
+
+@media #{$tablet} {
+    .container {
+        width: 768px;
+    }
+}

@@ -1,0 +1,48 @@
+& {
+    margin: 69px 0 0;
+    
+    .blurbs__wrapper {
+        width: 320px;
+        margin: 67px auto 0;
+    }
+
+    .blurb {
+        margin: 0 0 57px;
+    }
+
+    .blurb__logo {
+        margin: 7px 19px 0 32px;
+    }
+
+    .blurb--chat .blurb__logo {
+        margin: 8px 24px 0 28px;
+    }
+
+
+    .blurb--media .blurb__logo {
+        margin: 7px 22px 0 30px;
+    }
+
+    .blurb__info {
+        width: 199px;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .blurb__more {
+        margin: 15px 27px 0 0;
+    }
+
+    .blurb--chat .blurb__more {
+        margin: 15px 27px 0 0;
+    }
+
+    .blurb--media .blurb__more {
+        margin: 15px 27px 0 0;
+    }
+
+    .blurb--media.blurb {
+        margin: 0;
+    }
+
+}

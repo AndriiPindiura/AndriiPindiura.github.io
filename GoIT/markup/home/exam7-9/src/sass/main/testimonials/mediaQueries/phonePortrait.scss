@@ -1,0 +1,9 @@
+@import '../../../mq';
+
+@media #{$phonePortrait} {
+    @import '../../../navi-wrapper/desktop';
+    @import '../desktop';
+    @import '../tablet';
+    @import '../phoneLandscape';
+    @import '../phonePortrait';
+}

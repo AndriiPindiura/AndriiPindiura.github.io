@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,800&subset=latin,cyrillic');
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+        url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+        url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+        url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@-moz-document url-prefix() {
+    body {
+        border-top: 1px solid rgba(0, 0, 0, 0);
+    }
+
+    .container {
+        border-top: 1px solid rgba(0, 0, 0, 0);
+    }
+}
+
+body {
+    background: url('../img/background.jpg') repeat-x center 0;
+    background-position-x: center;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: '';
+}  
+
+.blurbs-line {
+    height: 1px;
+    border-bottom: 1px solid #0d151b;
+    background: #1d2f37;
+    z-index: 9;
+}

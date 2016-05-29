@@ -1,0 +1,54 @@
+& {
+    height: 396px;
+    background: #ececec;
+    
+    .footer-posts__wrapper {
+        margin: 0 auto;
+    }
+
+    .footer-post {
+        width: 282px;
+        height: 215px;
+        margin: 91px 1px 0 57px;
+        float: left;
+        overflow: hidden;
+    }
+
+    .footer-post--pigbuller.footer-post {
+        margin: 87px 0 0 -3px;
+    }
+
+    .footer-post__header {
+        margin: 0 0 5px;
+        color: #454545;
+        font-family: 'League Gothic', Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    .footer-post--pigbuller .footer-post__header {
+        font-size: 48px;
+    }
+
+    .footer-post--pigbuller .footer-post__span {
+        color: #b9b9b9;
+    }
+
+    .footer-post--pigbuller .footer-post__slogan {
+        display: block;
+        margin: 7px 0 9px 1px;
+        color: #c5c5c5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .footer-post__text {
+        margin: 0;
+        color: #787878;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+}

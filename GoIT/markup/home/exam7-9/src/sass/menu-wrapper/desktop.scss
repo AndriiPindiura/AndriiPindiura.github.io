@@ -1,0 +1,30 @@
+& {
+    margin: 70px 0 0;
+    float: right;
+
+    .menu__item {
+        display: block;
+        margin: 0 0 0 44px;
+        padding: 0 4px 0 7px;
+        float: left;
+        list-style: none;
+    }
+
+    .menu__link {
+        color: #fff;
+        font-family: 'League Gothic', Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        letter-spacing: -.35px;
+        text-decoration: none;
+        text-shadow: -2px 2px rgba(0, 0, 0, .3);
+        text-transform: uppercase;
+    }
+
+    .menu__item:hover {
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .menu__item--selected {
+        border-bottom: 2px solid #edbfff;
+    }
+}
