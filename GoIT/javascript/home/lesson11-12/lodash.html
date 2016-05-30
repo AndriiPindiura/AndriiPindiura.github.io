@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/homework1.css">
+    <title>Homework1</title>
+    <script src="js/lodash.min.js"></script>
+    <script src="js/lodash.js"></script>
+    <script type="text/html" id="template">
+        <div class="container">
+            <div class="border">
+                <h2><%= name %></h2>
+                <img src="img/avatar.jpg" title="Прошу любить и жаловать" alt="Вот тут должно было быть мое лицо">
+                <p>
+                    <%= jobtitle %>
+                </p>
+            </div>
+            <div class="border">
+                <p>Хочу учить фронтэнд, потому что:</p>
+                <ul>
+                    <% for (var i = 0; i < reasons.length; i++) { %>
+                        <li>
+                            <%= reasons[i] %>
+                        </li>
+                        <% } %>
+                </ul>
+            </div>
+            <div class="border">
+                <p>Мой контактный телефон<span><%= phone %></span></p>
+                <p>Мой профиль в ФБ<a href="<%= fb %>" title="<%= fb %>">facebook</a></p>
+            </div>
+            <p>Мой фидбэк:<span><%= feedback %></span></p>
+        </div>
+    </script>
+</head>
+
+<body>
+
+
+</body>
+
+</html>
