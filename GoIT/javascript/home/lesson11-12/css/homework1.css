@@ -1,0 +1,52 @@
+
+body {
+    background: #efefef;
+    font-size: 14pt;
+    line-height: 30px;
+}
+
+.container {
+   width: 511px;
+   margin: 4px auto;
+   background: #fff;
+   border: 1px solid #cfcfcf;
+   -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.border {
+    border-bottom: 1px solid #cfcfcf;
+    margin: 0 50px;
+}
+
+.border p {
+    margin: 17px 13px;
+}
+
+.border ul {
+    margin: 17px 0;
+}
+
+p span,a {
+    display: block;
+    /*float: left;*/
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 17px 63px;
+}
+
+ul {
+    margin: 27px 50px;
+}
+
+img {
+    width: 33%;
+    margin-left: 33%;
+    border-radius: 5px;  
+}
