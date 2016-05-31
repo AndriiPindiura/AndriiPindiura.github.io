@@ -919,6 +919,9 @@ body {
         border-radius: 10px 10px 0 0;
     }
 
+    /*.menu__item.menu__item--last {
+    }*/
+
     .menu ul:hover li {
         display: block;
         background: url('../img/menu-itembg.png');
@@ -929,6 +932,13 @@ body {
         background: url('../img/menubg-first.png');
     }
     
+    .menu ul:hover li.menu__item--last {
+        display: block;
+        background: url('../img/menubg-last.png');
+        /*background: url('../img/menubg-first.png');*/
+    }
+
+    
     .menu__item--selected {
         border: 0;
     }
@@ -937,6 +947,13 @@ body {
         background: url('../img/menubg-hover-first.png');
         /*background: #000;*/
         border: 0;
+    }
+    
+    .menu ul:hover li.menu__item--last:hover {
+        /*display: block;*/
+        background: url('../img/menubg-hover-last.png');
+        border: 0;
+        /*background: url('../img/menubg-first.png');*/
     }
     
     .menu .menu__item:hover {
