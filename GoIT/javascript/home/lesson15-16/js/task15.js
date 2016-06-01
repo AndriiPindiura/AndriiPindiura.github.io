@@ -32,7 +32,7 @@ $(function() {
     var jhon = worker;
     jhon.name = 'Jhon';
     jhon.age = 30;
-    jhon.work();
+    //jhon.work();
     console.log(jhon);
 
     function search() {
