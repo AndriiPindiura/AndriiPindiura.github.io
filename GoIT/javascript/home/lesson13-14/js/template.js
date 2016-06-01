@@ -32,6 +32,7 @@ $(function() {
         }, ]
     }
 
+
     try {
         localStorage.setItem('ITtest', JSON.stringify(test));
     } catch (e) {
