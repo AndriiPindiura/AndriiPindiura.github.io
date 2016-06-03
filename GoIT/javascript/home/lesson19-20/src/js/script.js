@@ -1,6 +1,24 @@
 /// <reference path="jquery.d.ts" />
 
+
 $(function() {
+    // var data = {};
+
+    var data = $.ajax({
+        async: false,
+        url: 'js/data.json',
+        dataType: 'json',
+    }).responseJSON;
+
+    console.log(data);
+    var skills = _.sortBy(_.uniq(_.flatten(_.map(data, 'skills'))));
+    console.log(skills);
+    var names = _.map(_.sortBy(data, ['friends']), 'name');
+    console.log(names);
+    var friends = _.uniq(_.map(_.flattenDeep(_.map(data, 'friends')), 'name'));
+    console.log(friends);
+
+
     $('.jcarousel').jcarousel({
         animation: {
             duration: 400,
@@ -47,33 +65,4 @@ $(function() {
         $(this).addClass('active');
     });
 
-    // $('.jcarousel-prev').jcarouselControl({
-    //     target: '-=1'
-    // });
-
-    // $('.jcarousel-prev')
-    //     .on('jcarouselcontrol:active', function() {
-    //         $(this).removeClass('inactive');
-    //     })
-    //     .on('jcarouselcontrol:inactive', function() {
-    //         $(this).addClass('inactive');
-    //     })
-    //     .jcarouselControl({
-    //         target: '-=1'
-    //     });
-
-    // $('.jcarousel-next').jcarouselControl({
-    //     target: '+=1'
-    // });
-
-    // $('.jcarousel-next')
-    //     .on('jcarouselcontrol:active', function() {
-    //         $(this).removeClass('inactive');
-    //     })
-    //     .on('jcarouselcontrol:inactive', function() {
-    //         $(this).addClass('inactive');
-    //     })
-    //     .jcarouselControl({
-    //         target: '+=1'
-    //     });
 });

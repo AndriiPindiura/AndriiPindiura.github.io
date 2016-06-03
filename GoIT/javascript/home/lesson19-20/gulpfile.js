@@ -22,7 +22,7 @@ gulp.task('sass', function() {
         .pipe(rename('app.css'))
         .pipe(cleanCSS())
         .pipe(sourceMaps.write())
-        .pipe(gulp.dest('dist/css'));
+        .pipe(gulp.dest('dist/css'))
 });
 
 gulp.task('js', function() {
@@ -30,7 +30,12 @@ gulp.task('js', function() {
             'src/js/*.js'
         ])
         .pipe(concat('app.js'))
-        .pipe(gulp.dest('dist/js'));
+        .pipe(gulp.dest('dist/js'))
+});
+
+gulp.task('json', function() {
+    return gulp.src('src/js/data.json')
+        .pipe(gulp.dest('dist/js'))
 });
 
 gulp.task('pages', function() {
@@ -65,10 +70,10 @@ gulp.task('webserver', function() {
 });
 
 gulp.task('default', function() {
-    gulp.start('pages', 'sass', 'js', 'images', 'fonts', 'webserver');
+    gulp.start('pages', 'sass', 'js', 'json', 'images', 'fonts', 'webserver');
     gulp.watch('src/*.html', ['pages']);
     gulp.watch('src/js/*.js', ['js']);
     gulp.watch('src/components/**/*.scss', ['sass']);
     gulp.watch('src/theme/images/**/*.*', ['images']);
-    gulp.watch('src/theme/fonts/**/*.*', ['fonts']);
+    //gulp.watch('src/theme/fonts/**/*.*', ['fonts']);
 });
