@@ -1,0 +1,38 @@
+& {
+    background: $backgroundColor;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        max-width: 1160px;
+        height: 60px;
+        margin: 0 auto;
+    }
+
+    a {
+        @include font(Arial, 12px, 400, 20px);
+        margin: 0 34px 0 0;
+        padding: 0 0 0 19px;
+        color: $linkColor;
+        text-decoration: none;
+        opacity: .2;
+    }
+
+    .address {
+        background: url('../images/footer/address.png') no-repeat 0 center;
+    }
+
+    .phone {
+        background: url('../images/footer/phone.png') no-repeat 0 center;
+    }
+
+    .mail {
+        background: url('../images/footer/mail.png') no-repeat 0 center;
+    }
+
+    .copy {
+        flex-grow: 6;
+        text-align: right;
+    }
+}

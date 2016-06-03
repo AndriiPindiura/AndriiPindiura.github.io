@@ -1,0 +1,6 @@
+.banners {
+    @import '../../../theme/functions';
+    @import '../../../theme/mq';
+    @import 'variables';
+    @import 'mediaQueries/main';
+}
