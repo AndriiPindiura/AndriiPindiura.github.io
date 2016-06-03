@@ -1,0 +1,41 @@
+& {
+    position: relative;
+    max-width: 1160px;
+    height: 470px;
+    margin: 40px auto 0;
+    overflow: hidden;
+
+    ul {
+        display: flex;
+        position: relative;
+        width: 20000em;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    p {
+        display: flex;
+        position: absolute;
+        bottom: 32px;
+        left: 50%;
+        margin: 0 0 0 -45px;
+    }
+
+    a {
+        display: block;
+        width: 15px;
+        height: 15px;
+        margin: 0 0 0 15px;
+        border: 3px solid $linkBorderColor;
+        background: $linkBorderColor;
+    }
+
+    a:hover {
+        background: $linkHoverBackgroundColor;
+    }
+
+    p .active {
+        background: $linkHoverBackgroundColor;
+    }
+}

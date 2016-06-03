@@ -1,0 +1,12 @@
+& {
+    height: 545px;
+    background-color: $backgroundColor;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 64px 0 0;
+    }
+}

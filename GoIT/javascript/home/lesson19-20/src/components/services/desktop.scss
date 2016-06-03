@@ -1,0 +1,90 @@
+& {
+    height: 500px;
+    margin: 87px 0 0;
+    padding: 48px 0 0;
+    background-color: $backgroundColor;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1160px;
+        margin: 57px auto 0;
+    }
+
+    h1 {
+        @include font(Ubuntu, 24px, 500, 20px);
+        max-width: 1160px;
+        margin: 0 auto;
+        color: $headerColor;
+        text-transform: capitalize;
+    }
+
+    figure {
+        position: relative;
+        width: 260px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    figure div {
+        height: 260px;
+        overflow: hidden;
+
+        .glass {
+            display: none;
+            background-color: $glassColor;
+            opacity: .9;
+        }
+    }
+
+    figure div:hover .glass {
+        display: block;
+    }
+
+    .glass.hover {
+        display: block;
+    }
+
+    figure div:hover+figcaption a {
+        color: $linkHoverColor;
+    }
+
+    figure .service1 {
+        background: url('../images/services/service1.jpg') no-repeat center 0;
+    }
+
+    figure .service2 {
+        background: url('../images/services/service2.jpg') no-repeat center 0;
+    }
+
+    figure .service3 {
+        background: url('../images/services/service3.jpg') no-repeat center 0;
+    }
+
+    figure .service4 {
+        background: url('../images/services/service4.jpg') no-repeat center 0;
+    }
+
+    figure:hove div {
+        position: absolute;
+        background-color: glassColor;
+        opacity: .9;
+        z-index: 2;
+    }
+
+    figcaption {
+        margin: 34px 0 0;
+        text-align: center;
+    }
+
+    a {
+        @include font(Ubuntu, 16px, 500, 20px);
+        color: $headerColor;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+    a:hover {
+        color: $linkHoverColor;
+    }
+}

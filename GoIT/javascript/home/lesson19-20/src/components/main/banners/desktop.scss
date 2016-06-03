@@ -1,0 +1,72 @@
+& {
+    h1 {
+        @include font(Ubuntu, 24px, 500, 20px);
+        margin: 0 0 47px;
+        color: $font-color;
+        text-transform: capitalize;
+    }
+
+    .panel {
+        width: 559px;
+        margin: 0 0 5px;
+    }
+
+    .title {
+        display: flex;
+        height: 39px;
+        border: 1px solid $panelTitleBorderColor;
+        background: $panelTitleBackgroundColor;
+        cursor: pointer;
+
+        span {
+            @include font(Ubuntu, 13px, 500, 39px);
+            width: 37px;
+            border-right: 1px solid $panelTitleBorderColor;
+            text-align: center;
+        }
+
+        span::after {
+            content: '+';
+        }
+
+        h2 {
+            @include font(Ubuntu, 13px, 500, 39px);
+            padding: 0 0 0 12px;
+            border-left: 1px solid $panelTitleBorderColor;
+            color: $panelHeaderColor;
+            text-transform: uppercase;
+        }
+    }
+
+    .title+p {
+        @include font(Arial, 13px, 400, 20px);
+        max-height: 0;
+        transition: max-height 1s cubic-bezier(0, 1, .5, 1);
+        color: $pColor;
+        overflow: hidden;
+    }
+
+    .title.active {
+        border: 1px solid $panelActiveBorderColor;
+        background: $panelActiveBackgroundColor;
+
+        span {
+            border-right: 1px solid $panelTitleBorderColor;
+        }
+
+        span::after {
+            content: '-';
+        }
+
+        h2 {
+            border-left: 1px solid $panelActiveBorderColor;
+            color: $panelTitleBackgroundColor;
+            text-transform: uppercase;
+        }
+    }
+
+    .title.active+p {
+        max-height: 100px;
+        margin: 30px 0 39px 37px;
+    }
+}
