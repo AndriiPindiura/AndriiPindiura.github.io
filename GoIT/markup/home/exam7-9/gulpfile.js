@@ -8,13 +8,37 @@ var sourcemaps = require('gulp-sourcemaps');
 var server = require('gulp-server-livereload');
 var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
+var shorthand = require('gulp-shorthand');
 
 gulp.task('sass', function() {
-    return sass('src/sass/main.scss', { sourcemap: true, style: 'compact' })
+    return sass('src/sass/main.scss', {
+            sourcemap: true,
+            style: 'compact'
+        })
         .on('error', sass.logError)
-        .pipe(sourcemaps.init({loadMaps: true}))
+        .pipe(sourcemaps.init({
+            loadMaps: true
+        }))
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
         .pipe(rename('app.css'))
+        .pipe(shorthand())
+        .pipe(cleanCSS())
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest('dist/css'));
+});
+
+gulp.task('sassIE', function() {
+    return sass('src/sassIE/main.scss', {
+            sourcemap: true,
+            style: 'compact'
+        })
+        .on('error', sass.logError)
+        .pipe(sourcemaps.init({
+            loadMaps: true
+        }))
+        .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
+        .pipe(rename('ie.css'))
+        .pipe(shorthand())
         .pipe(cleanCSS())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/css'));
@@ -29,18 +53,18 @@ gulp.task('js', function() {
         .pipe(gulp.dest('dist/js'));
 });
 
-gulp.task('images', function(){
+gulp.task('images', function() {
     return gulp.src('src/img/**/*.*')
         .pipe(cache(imagemin()))
         .pipe(gulp.dest('dist/img'));
 });
 
-gulp.task('fonts', function(){
+gulp.task('fonts', function() {
     return gulp.src('src/fonts/*.*')
         .pipe(gulp.dest('dist/fonts'));
 });
 
-gulp.task('pages', function(){
+gulp.task('pages', function() {
     return gulp.src('src/*.html')
         .pipe(gulp.dest('dist'));
 });
@@ -51,7 +75,7 @@ gulp.task('webserver', function() {
             livereload: {
                 enable: true,
                 filter: function(filePath, cb) {
-                    cb( !(/.DS_Store/.test(filePath)) );
+                    cb(!(/.DS_Store/.test(filePath)));
                 }
             },
             directoryListing: false,
@@ -62,10 +86,11 @@ gulp.task('webserver', function() {
 });
 
 gulp.task('default', function() {
-    gulp.start('pages', 'fonts', 'js', 'sass', 'images', 'webserver');
+    gulp.start('pages', 'fonts', 'js', 'sass', 'sassIE', 'images', 'webserver');
     gulp.watch('src/*.html', ['pages']);
     gulp.watch('src/js/*.js', ['js']);
     gulp.watch('src/sass/**/*.scss', ['sass']);
+    gulp.watch('src/sassIE/**/*.scss', ['sassIE']);
     gulp.watch('src/img/**/*.*', ['images']);
     gulp.watch('src/fonts/**/*.*', ['fonts']);
 });
