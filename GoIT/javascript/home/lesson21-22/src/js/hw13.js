@@ -25,7 +25,7 @@ var hw13 = {
             title: 'Вопрос №5',
             answers: ['Вариант ответа №1', 'Вариант ответа №2', 'Вариант ответа №3', 'Вариант ответа №4', 'Вариант ответа №5'],
             correct: ['q4a4', 'q4a1']
-        }, ]
+        }]
     },
     checkAnswers: function(answers, rigthAnswers) {
         answers = answers.sort();
@@ -46,10 +46,10 @@ var hw13 = {
         });
         return result;
     }
-}
+};
 
 try {
     module.exports = hw13;
 } catch (ex) {
-
+    //
 }

@@ -1,0 +1,40 @@
+@media #{$tabletPortrait} {
+    $m: tabletPortrait;
+
+    @import '../mobile';
+
+    & {
+        div {
+            display: flex;
+            flex-direction: column;
+            height: 1024px;
+            background: url('../images/login/bgtablet.png') no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            a {
+                margin: 227px auto 0;
+            }
+
+            form {
+                width: 325px;
+                margin: 120px auto 0;
+
+                div {
+                    justify-content: flex-start;
+                    height: 54px;
+                    margin: 0 auto 15px;
+                }
+
+                .submit {
+                    height: 54px;
+                    margin: 40px auto 0;
+                }
+            }
+
+            footer {
+                width: 325px;
+            }
+        }
+    }
+}

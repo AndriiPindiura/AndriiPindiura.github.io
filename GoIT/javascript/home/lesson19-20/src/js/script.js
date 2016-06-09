@@ -7,7 +7,7 @@ $(function() {
     var data = $.ajax({
         async: false,
         url: 'js/data.json',
-        dataType: 'json',
+        dataType: 'json'
     }).responseJSON;
 
     console.log(data);
