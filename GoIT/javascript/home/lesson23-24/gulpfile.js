@@ -26,7 +26,7 @@ gulp.task('pages', function(){
 });
 
 gulp.task('requirejs', function(){
-    return gulp.src('src/js/*.js')
+    return gulp.src('src/js/**/*.js')
         .pipe(gulp.dest('dist/js'))
 });
 
@@ -59,6 +59,6 @@ gulp.task('webserver', function() {
 gulp.task('default', function() {
     gulp.start('pages', 'sass', 'requirejs', 'images', 'fonts', 'webserver');
     gulp.watch('src/*.html', ['pages']);
-    gulp.watch('src/js/*.js', ['requirejs']);
+    gulp.watch('src/js/**/*.js', ['requirejs']);
     gulp.watch('src/components/**/*.scss', ['sass']);
 });
