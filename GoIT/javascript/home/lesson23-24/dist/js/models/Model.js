@@ -1,4 +1,4 @@
-define(
+define(    
     ['../guid'],
     function (guid) {
         return {

@@ -1,21 +1,21 @@
-define(['jquery', 'models/Model', 'views/View', 'controllers/Controller'], function($, Model, View, Controller) {
+define(['jquery', 'models/model', 'views/view', 'controllers/controller'], function($, model, view, controller) {
     $(function() {
-        Model.addTask('task 1');
-        Model.addTask('task 2');
-        Model.addTask('task 3');
-        Model.showTasks();
-        View.init();
-        View.render({ tasks: Model.tasks});
+        model.addTask('task 1');
+        model.addTask('task 2');
+        model.addTask('task 3');
+        model.showTasks();
+        view.init();
+        view.render({ tasks: model.tasks});
 
         $('.todo-list').on('click', '.destroy', function () {
-            Controller.removeTask($(this).parent().parent().attr('data-id'), Model, View);
+            controller.removeTask($(this).parent().parent().attr('data-id'), model, view);
             console.log($(this));
         });
 
         $('.add').on('keypress', function (e) {
             console.log(e.keyCode);
             if (e.keyCode == 13 && $(this).val().length > 0) {
-                Controller.addTask($(this).val(), Model, View);
+                controller.addTask($(this).val(), model, view);
                 $(this).val(' ');
             }
         });

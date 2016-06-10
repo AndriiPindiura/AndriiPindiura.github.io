@@ -1,10 +1,10 @@
 /// <reference path="../jquery.d.ts" />
 
 define([
-    '../models/Model',
+    '../models/model',
     '../libs/resig',
     'jquery'
-], function(Model, resig, $) {
+], function(model, resig, $) {
     'use strict';
     return {
         ul: null,

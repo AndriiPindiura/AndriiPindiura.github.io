@@ -1,10 +1,10 @@
 /// <reference path="../jquery.d.ts" />
 
 define([
-    '../models/Model',
-    '../views/View',
+    '../models/model',
+    '../views/view',
     'jquery'
-], function(Model, View, $) {
+], function(model, view, $) {
     'use strict';
     return {
 
