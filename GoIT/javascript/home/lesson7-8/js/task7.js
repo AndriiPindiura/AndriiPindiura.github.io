@@ -1,6 +1,8 @@
 /// <reference path="../../../../../typings/jquery/jquery.d.ts" />
 
 $(function () {
+    let tooltipHtml = '<div class="tooltip"><p>$hint</p></div>'
+
     $('.tabs__link').on('click', function (e) {
         e.preventDefault();
         if ($(this).attr('href') != undefined) {
@@ -32,41 +34,36 @@ $(function () {
     });
 
     $('.help').on('click', function () {
-        // $('.tooltip').show();
+        $.each($('input'), function () {
+            showTooltip($(this));
+        });
         $('.tooltip').fadeIn();
     });
 
     $('input').on('mouseover', function (e) {
-        // console.log($(this).attr('id'));
-        var id = $(this).attr('id');
-        $.each($('.tooltip'), function () {
-            if ($(this).attr('data-tooltip') == id) {
-                $(this).fadeIn();
-            }
-        });
+        showTooltip($(this));
     });
 
 
     $('input').on('mouseleave', function (e) {
-        // console.log($(this).attr('id'));
-        var id = $(this).attr('id');
-        $.each($('.tooltip'), function () {
-            if ($(this).attr('data-tooltip') == id) {
-                var $tooltip = $(this);
-                window.setTimeout(function () {
-                    hideTooltip($tooltip);
-                }, 200);
-                //$(this).hide();
-            }
-        });
+        let $tooltip = $('div:first', $(this).parent());
+        window.setTimeout(function () {
+            hideTooltip($tooltip);
+        }, 200);
     });
 
     function hideTooltip($tooltip) {
         $tooltip.hide();
+        $tooltip.remove();
     }
 
     function showTooltip($tooltip) {
-            $tooltip.fadeIn(500);
+        if ($('.tooltip:first', $tooltip.parent())[0] === undefined)
+        {
+            console.log($tooltip);
+            $tooltip.after(tooltipHtml.replace('$hint', $tooltip.attr('title')));
+            $('.tooltip:first', $tooltip.parent()).fadeIn(500);
+        }
     }
 
     $.each($('.tabs__tab'), function (i, val) {
