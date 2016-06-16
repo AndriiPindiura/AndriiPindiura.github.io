@@ -10,9 +10,14 @@ var imageMin = require('gulp-imagemin');
 var cache = require('gulp-cache');
 
 gulp.task('sass', function() {
-    return sass('src/components/main.scss', { sourcemap: true, style: 'compact' })
+    return sass('src/components/main.scss', {
+            sourcemap: true,
+            style: 'compact'
+        })
         .on('error', sass.logError)
-        .pipe(sourceMaps.init({loadMaps: true}))
+        .pipe(sourceMaps.init({
+            loadMaps: true
+        }))
         .pipe(autoPrefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
         .pipe(rename('app.css'))
         .pipe(cleanCSS())
@@ -20,17 +25,17 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('dist/css'));
 });
 
-gulp.task('pages', function(){
+gulp.task('pages', function() {
     return gulp.src('src/*.html')
         .pipe(gulp.dest('dist'))
 });
 
-gulp.task('fonts', function(){
+gulp.task('fonts', function() {
     return gulp.src('src/theme/fonts/*')
         .pipe(gulp.dest('dist/css/fonts'))
 });
 
-gulp.task('images', function(){
+gulp.task('images', function() {
     return gulp.src('src/theme/images/*/*')
         .pipe(gulp.dest('dist/images/'))
 });
@@ -41,7 +46,7 @@ gulp.task('webserver', function() {
             livereload: {
                 enable: true,
                 filter: function(filePath, cb) {
-                    cb( !(/.DS_Store/.test(filePath)) );
+                    cb(!(/.DS_Store/.test(filePath)));
                 }
             },
             directoryListing: false,
@@ -54,5 +59,6 @@ gulp.task('webserver', function() {
 gulp.task('default', function() {
     gulp.start('pages', 'sass', 'images', 'fonts', 'webserver');
     gulp.watch('src/*.html', ['pages']);
+    gulp.watch('src/theme/images/*/*', ['images']);
     gulp.watch('src/components/**/*.scss', ['sass']);
 });

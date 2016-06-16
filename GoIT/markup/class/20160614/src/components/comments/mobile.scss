@@ -1,23 +1,87 @@
 & {
 
-    header {
+    nav {
+        display: flex;
+        align-items: center;
+        height: px(109);
+        background-color: $naviBackgroundColor;
+
+        .menu {
+            width: 100%;
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .back {
+                    img {
+                        height: px(35);
+                    }
+                }
+
+                .comments {
+                    img {
+                        height: px(39);
+                    }
+                }
+
+                .text {
+                    img {
+                        height: px(31);
+                    }
+                }
+
+                .bookmarks {
+                    img {
+                        height: px(36);
+                    }
+                }
+
+                .share {
+                    img {
+                        height: px(32);
+                    }
+                }
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    margin: 0 px(25);
+                    line-height: px(109);
+                }
+
+            }
+
+        }
+
+        span {
+            display: none;
+        }
+
+        .logo {
+            display: none;
+        }
+
+        .quick-links {
+            display: none;
+        }
+    }
+
+
+    &>header {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        // width: px(640);
-        height: px(256);
-        background-color: #ec5d2f;
+        min-height: px(256);
+        background-color: $headerBackgroundColor;
 
         h1 {
+            color: $headerTextColor;
             font-family: Montserrat;
-            // font-size: px(17);;
-            // font-weight: 700;
-            // line-height: 1.65;
-            // letter-spacing: 0.9px;
             text-align: center;
             text-transform: uppercase;
-            color: #ffffff;
         }
 
         .buttons {
@@ -27,55 +91,148 @@
 
             a {
                 display: inline-block;
-                color: #fff;
+                width: 100%;
+                max-width: px(179);
+                border: 1px solid $transparent;
+                border-radius: px(30);
+                color: $headerTextColor;
                 font-family: Montserrat;
                 font-size: px(22);
-                max-width: px(179);
+                line-height: px(61);
                 text-align: center;
                 text-decoration: none;
-                border: 1px solid rgba(0, 0, 0, 0);
                 opacity: .5;
-                width: 100%;
-                // height: px(61);
-                line-height: px(61);
-                border-radius: px(30);
 
                 &.active {
-                    border: 1px solid #fff;
-
+                    border: 1px solid $headerLinkActiveBorderColor;
                 }
 
                 &:hover {
-                border: 1px solid #fff;
-
+                    border: 1px solid $headerLinkActiveBorderColor;
                 }
 
             }
-
-            // a:hover {
-            //     border: 1px solid #fff;
-            // }
-            
         }
 
     }
 
     main {
         display: flex;
-        
+        flex-direction: column;
 
         section {
             display: flex;
-            justify-content: center;
+            min-height: px(229);
+            border-bottom: px(2) solid $commentBorderColor;
 
             .ava {
+                margin: px(43) px(26) 0 px(35);
 
+                img {
+                    width: px(52);
+                    border-radius: px(52);
+                    box-shadow: 0 0 px(10) px(10) $avatarShadowColor;
+                }
             }
 
             .comment {
                 display: flex;
                 flex-direction: column;
+                flex-grow: 6;
+                margin: px(43) px(34) 0 0;
+                font-family: Montserrat;
+
+                header {
+                    display: flex;
+                    justify-content: space-between;
+
+                    h2 {
+                        align-self: flex-start;
+                        font-size: px(22);
+                        line-height: px(26);
+                    }
+
+                    div {
+                        display: flex;
+
+                        p {
+                            height: px(26);
+                            padding: 0 0 0 px(35);
+                            background: url('../images/comments/time.png') no-repeat;
+                            background-size: px(26);
+                            font-size: px(18);
+                            line-height: px(26);
+
+                            time {
+                                color: $timeColor;
+                            }
+                        }
+
+                        span {
+                            height: px(26);
+                            margin: 0 0 0 px(36);
+                            padding: 0 0 0 px(38);
+                            background: url('../images/comments/like.png') no-repeat;
+                            background-size: px(26);
+                            font-size: px(18);
+                            line-height: px(26);
+                        }
+                    }
+                }
+
+                &>p {
+                    margin: px(44) 0 0;
+                    font-size: px(20);
+                }
             }
         }
+    }
+
+    .submit {
+        display: flex;
+        justify-content: space-between;
+        margin: px(27) 0 0;
+
+        h2 {
+            display: none;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            margin: 0 0 0 px(33);
+
+            img {
+                display: none;
+                height: px(36);
+            }
+
+            input {
+                height: px(36);
+                padding: 0 0 0 px(65);
+                border: 0;
+                background: url('../images/comments/write.png') no-repeat px(36) center;
+                background-size: px(20);
+                font-family: Montserrat;
+                font-size: px(20);
+
+                &:focus {
+                    outline: 0;
+                }
+            }
+        }
+
+        a {
+            display: block;
+            width: px(38);
+            height: px(37);
+            margin: 0 px(23) 0 0;
+            background: url('../images/comments/submit.png');
+            background-size: cover;
+        }
+    }
+
+    footer {
+        display: none;
     }
 }
