@@ -1,0 +1,400 @@
+& {
+
+    nav {
+        display: flex;
+        align-items: center;
+        height: px(88);
+        background-color: $naviBackgroundColor;
+
+        .menu {
+            // position: relative;
+            width: px(31);
+            min-height: 100%;
+            margin: 0 px(47);
+            background: url('../images/comments/menu.png') no-repeat center;
+            background-size: px(31);
+            cursor: pointer;
+
+            ul {
+                display: flex;
+                position: absolute;
+                top: px(88);
+                left: px(-125);
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                width: px(125);
+                height: 96%;
+                padding: 0 px(47);
+                transition: left .5s;
+                background-color: $naviBackgroundColor;
+                z-index: 9;
+
+                li {
+                    margin: px(47) 0;
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        margin: 0 px(25);
+                        line-height: px(109);
+                    }
+                }
+
+                .back {
+                    img {
+                        height: px(35);
+                    }
+                }
+
+                .comments {
+                    img {
+                        height: px(39);
+                    }
+                }
+
+                .text {
+                    img {
+                        height: px(31);
+                    }
+                }
+
+                .bookmarks {
+                    img {
+                        height: px(36);
+                    }
+                }
+
+                .share {
+                    img {
+                        height: px(32);
+                    }
+                }
+
+            }
+
+            &:hover ul {
+                left: 0;
+                // transition: 1s;
+            }
+
+            &:focus ul {
+                display: flex;
+            }
+
+        }
+
+        span {
+            color: $headerTextColor;
+            font-family: Montserrat;
+            font-size: px(15);
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .logo {
+            align-self: center;
+            margin: 0 auto;
+            cursor: pointer;
+
+            img {
+                height: px(31);
+            }
+        }
+
+        .quick-links {
+            ul {
+                display: flex;
+                align-items: center;
+                height: 100%;
+
+                li {
+                    margin: 0 px(23);
+                }
+
+                .text {
+                    img {
+                        height: px(26);
+                    }
+                }
+
+                .search {
+                    img {
+                        height: px(33);
+                    }
+                }
+
+                .user {
+                    img {
+                        height: px(44);
+                    }
+                }
+
+                .bookmarks {
+                    img {
+                        height: px(31);
+                    }
+                }
+
+            }
+        }
+
+    }
+
+
+    &>header {
+        display: flex;
+        // flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        min-height: px(290);
+        background-color: $headerBackgroundColor;
+
+        h1 {
+            width: px(475);
+            color: $headerTextColor;
+            font-family: Montserrat;
+            font-size: px(59);
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            width: px(500);
+
+            a {
+                display: inline-block;
+                width: 100%;
+                max-width: px(179);
+                margin: 0 px(10) 0 0;
+                border: 1px solid $transparent;
+                border-radius: px(30);
+                color: $headerTextColor;
+                font-family: Montserrat;
+                font-size: px(22);
+                line-height: px(61);
+                text-align: center;
+                text-decoration: none;
+                opacity: .5;
+
+                &.active {
+                    border: 1px solid $headerLinkActiveBorderColor;
+                }
+
+                &:hover {
+                    border: 1px solid $headerLinkActiveBorderColor;
+                }
+
+            }
+        }
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+
+        section {
+            display: flex;
+            width: 75%;
+            min-height: px(229);
+            margin: 0 auto;
+            border-bottom: px(2) solid $commentBorderColor;
+
+            .ava {
+                margin: px(43) px(26) 0 px(35);
+
+                img {
+                    width: px(95);
+                    border-radius: px(95);
+                    box-shadow: 0 0 px(10) px(10) $avatarShadowColor;
+                }
+            }
+
+            .comment {
+                display: flex;
+                flex-direction: column;
+                flex-grow: 6;
+                margin: px(43) px(34) 0 0;
+                font-family: Montserrat;
+
+                header {
+                    display: flex;
+                    justify-content: space-between;
+
+                    h2 {
+                        align-self: flex-start;
+                        font-size: px(20);
+                        line-height: px(26);
+                    }
+
+                    div {
+                        display: flex;
+
+                        p {
+                            height: px(26);
+                            padding: 0 0 0 px(35);
+                            background: url('../images/comments/time.png') no-repeat;
+                            background-size: px(26);
+                            color: $timeColor;
+                            font-size: px(15);
+                            line-height: px(26);
+
+                            time {
+                                color: $timeColor;
+                            }
+                        }
+
+                        span {
+                            height: px(26);
+                            margin: 0 0 0 px(36);
+                            padding: 0 0 0 px(38);
+                            background: url('../images/comments/like.png') no-repeat;
+                            background-size: px(26);
+                            color: $timeColor;
+                            font-size: px(15);
+                            line-height: px(26);
+                        }
+                    }
+                }
+
+                &>p {
+                    margin: px(44) 0 0;
+                    font-size: px(20);
+                }
+            }
+        }
+    }
+
+    .submit {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 75%;
+        margin: px(27) auto 0;
+
+        h2 {
+            width: 100%;
+            color: $commentsColor;
+            font-family: Montserrat;
+            font-size: px(18);
+            font-weight: 700;
+            line-height: px(215);
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            margin: 0 0 0 px(33);
+
+            img {
+                height: px(80);
+            }
+
+            input {
+                width: px(936);
+                height: px(81);
+                margin: 0 0 0 px(52);
+                padding: 0 0 0 px(100);
+                border: 1px solid $submitInputBorderColor;
+                border-radius: 40px;
+                background: url('../images/comments/write.png') no-repeat px(36) center;
+                background-size: px(31);
+                font-family: Montserrat;
+                font-size: px(20);
+
+                &:focus {
+                    outline: 0;
+                }
+            }
+        }
+
+        a {
+            display: block;
+            width: px(264);
+            height: px(81);
+            margin: 0 px(23) 0 0;
+            padding: 0 0 0 px(100);
+            border-radius: px(40);
+            background-color: $submitBackgroundColor;
+            background-image: url('../images/comments/submitwhite.png');
+            background-repeat: no-repeat;
+            background-position: px(60) center;
+            background-size: px(35) px(32);
+            color: $submitColor;
+            font-family: Montserrat;
+            font-size: px(19);
+            line-height: px(81);
+            text-decoration: none;
+            box-shadow: 0 px(15) px(37) $submitShadowColor;
+
+            &::after {
+                content: 'Submit';
+            }
+        }
+    }
+
+    footer {
+        height: px(146);
+        margin: px(93) 0 0;
+        background: $footerBackgroundColor;
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 75%;
+            height: 100%;
+            margin: 0 auto;
+
+            a {
+                margin: 0 0 0 px(60);
+                color: $footerMenuColor;
+                font-family: Montserrat;
+                font-size: px(15);
+                font-weight: 700;
+                line-height: px(47);
+                text-decoration: none;
+            }
+
+            .menu {
+                display: flex;
+                flex-grow: 6;
+
+                a {
+                    margin: 0 px(29);
+                }
+            }
+
+            .social {
+                display: flex;
+
+                li {
+                    a {
+                        display: block;
+                        width: px(23);
+                        height: px(23);
+                        margin: 0 px(18);
+                        background: url('../images/comments/social.png');
+                        background-size: auto px(23);
+                    }
+                }
+
+                .twit a {
+                    background-position: px(-24) 0;
+                }
+
+                .inst a {
+                    background-position: px(-48) 0;
+                }
+            }
+
+
+        }
+    }
+
+}

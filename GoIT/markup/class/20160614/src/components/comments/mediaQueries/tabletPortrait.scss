@@ -1,0 +1,136 @@
+@import '../desktop';
+
+& {
+    nav {
+
+        .menu {
+            position: static;
+            width: auto;
+            min-height: 0;
+            margin: 0;
+            background: 0;
+            cursor: auto;
+
+            ul {
+                position: static;
+                top: 0;
+                left: 0;
+                flex-direction: row;
+                width: auto;
+                height: 100%;
+                padding: 0;
+
+                li {
+                    margin: 0;
+                }
+
+                .text {
+                    display: none;
+                }
+            }
+        }
+
+        span {
+            display: none;
+        }
+
+        .quick-links {
+            .bookmarks {
+                display: none;
+            }
+        }
+    }
+
+    &>header {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        h1 {
+            width: 100%;
+        }
+
+        .buttons {
+            justify-content: center;
+            width: 100%;
+
+        }
+    }
+
+    main {
+        section {
+            width: 90%;
+            height: px(276);
+
+            .ava {
+                margin: px(43) px(73) 0 px(35);
+
+                img {
+                    width: px(110);
+                }
+            }
+
+            .comment {
+
+                header {
+                    h2 {
+                        font-size: px(28);
+                    }
+
+                    div {
+                        p {
+                            width: auto;
+                            font-size: px(20);
+                        }
+
+                        span {
+                            font-size: px(20);
+                        }
+                    }
+                }
+
+                p {
+                    width: px(750);
+                    font-size: px(28);
+                }
+            }
+        }
+    }
+
+    .submit {
+        width: 90%;
+
+        h2 {
+            line-height: px(190);
+        }
+
+        div {
+            img {
+                height: px(110);
+            }
+
+            input {
+                width: px(798);
+                height: px(110);
+            }
+        }
+
+        a {
+            width: px(360);
+            height: px(110);
+            margin: 0;
+            padding: 0 0 0 px(150);
+            border-radius: px(55);
+            background-position: px(90) center;
+            background-size: px(46) px(43);
+            font-size: px(26);
+            line-height: px(110);
+            box-shadow: 0 px(20) px(50) $submitShadowColor;
+        }
+    }
+
+    footer {
+        height: px(200);
+        margin: px(107) 0 0;
+    }
+
+}

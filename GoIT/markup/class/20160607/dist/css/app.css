@@ -1,2 +1,1013 @@
-*,::after,::before{font-family:inherit;box-sizing:inherit}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:inherit;vertical-align:baseline}html{box-sizing:border-box}body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;line-height:1}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}ol,ul{list-style:none}blockquote,q{quotes:none}table{border-collapse:collapse;border-spacing:0}@font-face{font-family:'Montserrat Bold';font-style:normal;font-weight:400;src:local("Montserrat Bold"),local("Montserrat Bold"),url(fonts/Montserrat-Bold.woff2) format("woff2"),url(fonts/Montserrat-Bold.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-weight:400;src:local("Montserrat"),local("Montserrat"),url(fonts/Montserrat-Regular.woff2) format("woff2"),url(fonts/Montserrat-Regular.woff) format("woff")}@media (max-width:414px){.login,.login div{-ms-flex-direction:column}.login{display:-ms-flexbox;display:flex;flex-direction:column;background-image:linear-gradient(to top,#000 0,#ff6a3a 100%)}.login div{display:-ms-flexbox;display:flex;flex-direction:column;background:url(../images/Login/background.png) no-repeat;background-size:100%}.login div a{display:block;margin:109px auto 0}.login div a img{max-height:103px}.login div form{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;width:277px;margin:133px auto 0}.login div form .submit,.login div form div{width:100%;height:47px;font-size:11px;font-weight:400;color:#fff;font-family:Montserrat}.login div form div{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;margin:0 0 13px;border:0;border-radius:23px;background:rgba(255,255,255,.1)}.login div form div img{max-width:19px;max-height:19px;margin:0 18px}.login div form div .password{max-height:22px;margin:0 19px}.login div form div input{display:block;border:0;outline:0;background:0;color:#fff}.login div form div input:-ms-input-placeholder{color:#fff}.login div form div input::-webkit-input-placeholder{color:#fff}.login div form .submit{border:0;border-radius:23px;background-color:#f96332}.login div footer{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;width:277px;margin:0 auto}.login div footer a{margin:0;color:#fff;font-family:Montserrat;font-size:9px;line-height:50px;text-decoration:none;opacity:.5}}@media (min-width:415px) and (max-width:667px){.login,.login div{-ms-flex-direction:column}.login{display:-ms-flexbox;display:flex;flex-direction:column;background-image:linear-gradient(to top,#000 0,#ff6a3a 100%)}.login div{display:-ms-flexbox;display:flex;flex-direction:column;background:url(../images/Login/background.png) no-repeat}.login div a{display:block}.login div a img{max-height:103px}.login div form{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;width:277px}.login div form .submit,.login div form div{width:100%;height:47px;font-size:11px;font-weight:400;color:#fff;font-family:Montserrat}.login div form div{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;margin:0 0 13px;border:0;border-radius:23px;background:rgba(255,255,255,.1)}.login div form div img{max-width:19px;max-height:19px;margin:0 18px}.login div form div .password{max-height:22px;margin:0 19px}.login div form div input{display:block;border:0;outline:0;background:0;color:#fff}.login div form div input:-ms-input-placeholder{color:#fff}.login div form div input::-webkit-input-placeholder{color:#fff}.login div form .submit{border:0;border-radius:23px;background-color:#f96332}.login div footer{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;width:277px;margin:0 auto}.login div footer a{margin:0;color:#fff;font-family:Montserrat;font-size:9px;line-height:50px;text-decoration:none;opacity:.5}.login div{background-position:center;background-size:100%}.login div a{margin:5px auto}.login div form{margin:0 auto}}@media (min-width:668px) and (max-width:768px){.login div form .submit,.login div form div{font-weight:400;height:54px}.login div footer a,.login div form .submit,.login div form div{color:#fff;font-family:Montserrat}.login{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;background-image:linear-gradient(to top,#000 0,#ff6a3a 100%)}.login div a{display:block}.login div a img{max-height:103px}.login div form{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}.login div form div{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;width:100%;border:0;border-radius:23px;background:rgba(255,255,255,.1);font-size:11px;font-weight:400}.login div form div img{max-width:19px;max-height:19px;margin:0 18px}.login div form div .password{max-height:22px;margin:0 19px}.login div form div input{display:block;border:0;outline:0;background:0;color:#fff}.login div form div input:-ms-input-placeholder{color:#fff}.login div form div input::-webkit-input-placeholder{color:#fff}.login div form .submit{width:100%;border:0;border-radius:23px;background-color:#f96332;font-size:11px;font-weight:400}.login div footer{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;margin:0 auto;width:325px}.login div footer a{margin:0;font-size:9px;line-height:50px;text-decoration:none;opacity:.5}.login div{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;height:1024px;background:url(../images/login/bgtablet.png) center no-repeat;background-size:cover}.login div a{margin:227px auto 0}.login div form{width:325px;margin:120px auto 0}.login div form div{-ms-flex-pack:start;justify-content:flex-start;margin:0 auto 15px}.login div form .submit{margin:40px auto 0}}@media (min-width:769px) and (max-width:1024px){.login{background-image:linear-gradient(10deg,#000 0,#eb5322 100%)}.login div{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;min-height:768px;background:url(../images/Login/bgdesktop.png) no-repeat;background-size:100%}.login div a{display:block;margin:109px auto 0}.login div a img{max-height:103px}.login div form{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;width:238px;margin:133px auto 0}.login div form .submit,.login div form div{width:100%;height:40px;font-size:11px;font-weight:400;color:#fff;font-family:Montserrat}.login div form div{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:start;justify-content:flex-start;min-height:40px;margin:0 0 13px;border:0;border-radius:23px;background:rgba(255,255,255,.1)}.login div form div img{max-width:19px;max-height:19px;margin:0 18px}.login div form div .password{max-height:22px;margin:0 19px}.login div form div input{display:block;border:0;outline:0;background:0;color:#fff}.login div form div input:-ms-input-placeholder{color:#fff}.login div form div input::-webkit-input-placeholder{color:#fff}.login div form .submit{border:0;border-radius:23px;background-color:#f96332}.login div footer{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;width:238px;margin:0 auto}.login div footer a{margin:0;color:#fff;font-family:Montserrat;font-size:9px;line-height:50px;text-decoration:none;opacity:.5}}@media (min-width:1025px) and (max-width:1366px){.login{background-image:linear-gradient(10deg,#000 0,#eb5322 100%)}.login div{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;min-height:768px;background:url(../images/Login/bgdesktop.png) no-repeat;background-size:100%}.login div a{display:block;margin:109px auto 0}.login div a img{max-height:103px}.login div form{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;width:238px;margin:133px auto 0}.login div form .submit,.login div form div{width:100%;height:40px;font-size:11px;font-weight:400;color:#fff;font-family:Montserrat}.login div form div{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:start;justify-content:flex-start;min-height:40px;margin:0 0 13px;border:0;border-radius:23px;background:rgba(255,255,255,.1)}.login div form div img{max-width:19px;max-height:19px;margin:0 18px}.login div form div .password{max-height:22px;margin:0 19px}.login div form div input{display:block;border:0;outline:0;background:0;color:#fff}.login div form div input:-ms-input-placeholder{color:#fff}.login div form div input::-webkit-input-placeholder{color:#fff}.login div form .submit{border:0;border-radius:23px;background-color:#f96332}.login div footer{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;width:238px;margin:0 auto}.login div footer a{margin:0;color:#fff;font-family:Montserrat;font-size:9px;line-height:50px;text-decoration:none;opacity:.5}}@media (min-width:1367px) and (max-width:1680px){.login{background-image:linear-gradient(10deg,#000 0,#eb5322 100%)}.login div{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;min-height:768px;background:url(../images/Login/bgdesktop.png) no-repeat;background-size:100%}.login div a{display:block;margin:109px auto 0}.login div a img{max-height:103px}.login div form{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;width:238px;margin:133px auto 0}.login div form .submit,.login div form div{width:100%;height:40px;font-size:11px;font-weight:400;color:#fff;font-family:Montserrat}.login div form div{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:start;justify-content:flex-start;min-height:40px;margin:0 0 13px;border:0;border-radius:23px;background:rgba(255,255,255,.1)}.login div form div img{max-width:19px;max-height:19px;margin:0 18px}.login div form div .password{max-height:22px;margin:0 19px}.login div form div input{display:block;border:0;outline:0;background:0;color:#fff}.login div form div input:-ms-input-placeholder{color:#fff}.login div form div input::-webkit-input-placeholder{color:#fff}.login div form .submit{border:0;border-radius:23px;background-color:#f96332}.login div footer{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;width:238px;margin:0 auto}.login div footer a{margin:0;color:#fff;font-family:Montserrat;font-size:9px;line-height:50px;text-decoration:none;opacity:.5}}@media (min-width:1681px) and (max-width:1920px){.login{background-image:linear-gradient(10deg,#000 0,#eb5322 100%)}.login div{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;min-height:768px;background:url(../images/Login/bgdesktop.png) no-repeat;background-size:100%}.login div a{display:block;margin:109px auto 0}.login div a img{max-height:103px}.login div form{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;width:238px;margin:133px auto 0}.login div form .submit,.login div form div{width:100%;height:40px;font-size:11px;font-weight:400;color:#fff;font-family:Montserrat}.login div form div{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:start;justify-content:flex-start;min-height:40px;margin:0 0 13px;border:0;border-radius:23px;background:rgba(255,255,255,.1)}.login div form div img{max-width:19px;max-height:19px;margin:0 18px}.login div form div .password{max-height:22px;margin:0 19px}.login div form div input{display:block;border:0;outline:0;background:0;color:#fff}.login div form div input:-ms-input-placeholder{color:#fff}.login div form div input::-webkit-input-placeholder{color:#fff}.login div form .submit{border:0;border-radius:23px;background-color:#f96332}.login div footer{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;width:238px;margin:0 auto}.login div footer a{margin:0;color:#fff;font-family:Montserrat;font-size:9px;line-height:50px;text-decoration:none;opacity:.5}}@media (min-width:1921px){.login{background-image:linear-gradient(10deg,#000 0,#eb5322 100%)}.login div{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;min-height:768px;background:url(../images/Login/bgdesktop.png) no-repeat;background-size:100%}.login div a{display:block;margin:109px auto 0}.login div a img{max-height:103px}.login div form{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;width:238px;margin:133px auto 0}.login div form .submit,.login div form div{width:100%;height:40px;font-size:11px;font-weight:400;color:#fff;font-family:Montserrat}.login div form div{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:start;justify-content:flex-start;min-height:40px;margin:0 0 13px;border:0;border-radius:23px;background:rgba(255,255,255,.1)}.login div form div img{max-width:19px;max-height:19px;margin:0 18px}.login div form div .password{max-height:22px;margin:0 19px}.login div form div input{display:block;border:0;outline:0;background:0;color:#fff}.login div form div input:-ms-input-placeholder{color:#fff}.login div form div input::-webkit-input-placeholder{color:#fff}.login div form .submit{border:0;border-radius:23px;background-color:#f96332}.login div footer{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;width:238px;margin:0 auto}.login div footer a{margin:0;color:#fff;font-family:Montserrat;font-size:9px;line-height:50px;text-decoration:none;opacity:.5}}
+*,
+::after,
+::before {
+    font-family: inherit;
+    box-sizing: inherit
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: inherit;
+    vertical-align: baseline
+}
+
+html {
+    box-sizing: border-box
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat Bold"), local("Montserrat Bold"), url(fonts/Montserrat-Bold.woff2) format("woff2"), url(fonts/Montserrat-Bold.woff) format("woff")
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat"), local("Montserrat"), url(fonts/Montserrat-Regular.woff2) format("woff2"), url(fonts/Montserrat-Regular.woff) format("woff")
+}
+
+@media (max-width:414px) {
+    .login,
+    .login div {
+        -ms-flex-direction: column
+    }
+    .login {
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to top, #000 0, #ff6a3a 100%)
+    }
+    .login div {
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        background: url(../images/Login/background.png) no-repeat;
+        background-size: 100%
+    }
+    .login div a {
+        display: block;
+        margin: 109px auto 0
+    }
+    .login div a img {
+        max-height: 103px
+    }
+    .login div form {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 277px;
+        margin: 133px auto 0
+    }
+    .login div form .submit,
+    .login div form div {
+        width: 100%;
+        height: 47px;
+        font-size: 11px;
+        font-weight: 400;
+        color: #fff;
+        font-family: Montserrat
+    }
+    .login div form div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 0 0 13px;
+        border: 0;
+        border-radius: 23px;
+        background: rgba(255, 255, 255, .1)
+    }
+    .login div form div img {
+        max-width: 19px;
+        max-height: 19px;
+        margin: 0 18px
+    }
+    .login div form div .password {
+        max-height: 22px;
+        margin: 0 19px
+    }
+    .login div form div input {
+        display: block;
+        border: 0;
+        outline: 0;
+        background: 0;
+        color: #fff
+    }
+    .login div form div input:-ms-input-placeholder {
+        color: #fff
+    }
+    .login div form div input::-webkit-input-placeholder {
+        color: #fff
+    }
+    .login div form .submit {
+        border: 0;
+        border-radius: 23px;
+        background-color: #f96332
+    }
+    .login div footer {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 277px;
+        margin: 0 auto
+    }
+    .login div footer a {
+        margin: 0;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 9px;
+        line-height: 50px;
+        text-decoration: none;
+        opacity: .5
+    }
+}
+
+@media (min-width:415px) and (max-width:667px) {
+    .login,
+    .login div {
+        -ms-flex-direction: column
+    }
+    .login {
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to top, #000 0, #ff6a3a 100%)
+    }
+    .login div {
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        background: url(../images/Login/background.png) no-repeat
+    }
+    .login div a {
+        display: block
+    }
+    .login div a img {
+        max-height: 103px
+    }
+    .login div form {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 277px
+    }
+    .login div form .submit,
+    .login div form div {
+        width: 100%;
+        height: 47px;
+        font-size: 11px;
+        font-weight: 400;
+        color: #fff;
+        font-family: Montserrat
+    }
+    .login div form div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 0 0 13px;
+        border: 0;
+        border-radius: 23px;
+        background: rgba(255, 255, 255, .1)
+    }
+    .login div form div img {
+        max-width: 19px;
+        max-height: 19px;
+        margin: 0 18px
+    }
+    .login div form div .password {
+        max-height: 22px;
+        margin: 0 19px
+    }
+    .login div form div input {
+        display: block;
+        border: 0;
+        outline: 0;
+        background: 0;
+        color: #fff
+    }
+    .login div form div input:-ms-input-placeholder {
+        color: #fff
+    }
+    .login div form div input::-webkit-input-placeholder {
+        color: #fff
+    }
+    .login div form .submit {
+        border: 0;
+        border-radius: 23px;
+        background-color: #f96332
+    }
+    .login div footer {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 277px;
+        margin: 0 auto
+    }
+    .login div footer a {
+        margin: 0;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 9px;
+        line-height: 50px;
+        text-decoration: none;
+        opacity: .5
+    }
+    .login div {
+        background-position: center;
+        background-size: 100%
+    }
+    .login div a {
+        margin: 5px auto
+    }
+    .login div form {
+        margin: 0 auto
+    }
+}
+
+@media (min-width:668px) and (max-width:768px) {
+    .login div form .submit,
+    .login div form div {
+        font-weight: 400;
+        height: 54px
+    }
+    .login div footer a,
+    .login div form .submit,
+    .login div form div {
+        color: #fff;
+        font-family: Montserrat
+    }
+    .login {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-image: linear-gradient(to top, #000 0, #ff6a3a 100%)
+    }
+    .login div a {
+        display: block
+    }
+    .login div a img {
+        max-height: 103px
+    }
+    .login div form {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+    .login div form div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+        border: 0;
+        border-radius: 23px;
+        background: rgba(255, 255, 255, .1);
+        font-size: 11px;
+        font-weight: 400
+    }
+    .login div form div img {
+        max-width: 19px;
+        max-height: 19px;
+        margin: 0 18px
+    }
+    .login div form div .password {
+        max-height: 22px;
+        margin: 0 19px
+    }
+    .login div form div input {
+        display: block;
+        border: 0;
+        outline: 0;
+        background: 0;
+        color: #fff
+    }
+    .login div form div input:-ms-input-placeholder {
+        color: #fff
+    }
+    .login div form div input::-webkit-input-placeholder {
+        color: #fff
+    }
+    .login div form .submit {
+        width: 100%;
+        border: 0;
+        border-radius: 23px;
+        background-color: #f96332;
+        font-size: 11px;
+        font-weight: 400
+    }
+    .login div footer {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 325px
+    }
+    .login div footer a {
+        margin: 0;
+        font-size: 9px;
+        line-height: 50px;
+        text-decoration: none;
+        opacity: .5
+    }
+    .login div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 1024px;
+        background: url(../images/login/bgtablet.png) center no-repeat;
+        background-size: cover
+    }
+    .login div a {
+        margin: 227px auto 0
+    }
+    .login div form {
+        width: 325px;
+        margin: 120px auto 0
+    }
+    .login div form div {
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        margin: 0 auto 15px
+    }
+    .login div form .submit {
+        margin: 40px auto 0
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .login {
+        background-image: linear-gradient(10deg, #000 0, #eb5322 100%)
+    }
+    .login div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        min-height: 768px;
+        background: url(../images/Login/bgdesktop.png) no-repeat;
+        background-size: 100%
+    }
+    .login div a {
+        display: block;
+        margin: 109px auto 0
+    }
+    .login div a img {
+        max-height: 103px
+    }
+    .login div form {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 238px;
+        margin: 133px auto 0
+    }
+    .login div form .submit,
+    .login div form div {
+        width: 100%;
+        height: 40px;
+        font-size: 11px;
+        font-weight: 400;
+        color: #fff;
+        font-family: Montserrat
+    }
+    .login div form div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        min-height: 40px;
+        margin: 0 0 13px;
+        border: 0;
+        border-radius: 23px;
+        background: rgba(255, 255, 255, .1)
+    }
+    .login div form div img {
+        max-width: 19px;
+        max-height: 19px;
+        margin: 0 18px
+    }
+    .login div form div .password {
+        max-height: 22px;
+        margin: 0 19px
+    }
+    .login div form div input {
+        display: block;
+        border: 0;
+        outline: 0;
+        background: 0;
+        color: #fff
+    }
+    .login div form div input:-ms-input-placeholder {
+        color: #fff
+    }
+    .login div form div input::-webkit-input-placeholder {
+        color: #fff
+    }
+    .login div form .submit {
+        border: 0;
+        border-radius: 23px;
+        background-color: #f96332
+    }
+    .login div footer {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 238px;
+        margin: 0 auto
+    }
+    .login div footer a {
+        margin: 0;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 9px;
+        line-height: 50px;
+        text-decoration: none;
+        opacity: .5
+    }
+}
+
+@media (min-width:1025px) and (max-width:1366px) {
+    .login {
+        background-image: linear-gradient(10deg, #000 0, #eb5322 100%)
+    }
+    .login div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        min-height: 768px;
+        background: url(../images/Login/bgdesktop.png) no-repeat;
+        background-size: 100%
+    }
+    .login div a {
+        display: block;
+        margin: 109px auto 0
+    }
+    .login div a img {
+        max-height: 103px
+    }
+    .login div form {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 238px;
+        margin: 133px auto 0
+    }
+    .login div form .submit,
+    .login div form div {
+        width: 100%;
+        height: 40px;
+        font-size: 11px;
+        font-weight: 400;
+        color: #fff;
+        font-family: Montserrat
+    }
+    .login div form div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        min-height: 40px;
+        margin: 0 0 13px;
+        border: 0;
+        border-radius: 23px;
+        background: rgba(255, 255, 255, .1)
+    }
+    .login div form div img {
+        max-width: 19px;
+        max-height: 19px;
+        margin: 0 18px
+    }
+    .login div form div .password {
+        max-height: 22px;
+        margin: 0 19px
+    }
+    .login div form div input {
+        display: block;
+        border: 0;
+        outline: 0;
+        background: 0;
+        color: #fff
+    }
+    .login div form div input:-ms-input-placeholder {
+        color: #fff
+    }
+    .login div form div input::-webkit-input-placeholder {
+        color: #fff
+    }
+    .login div form .submit {
+        border: 0;
+        border-radius: 23px;
+        background-color: #f96332
+    }
+    .login div footer {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 238px;
+        margin: 0 auto
+    }
+    .login div footer a {
+        margin: 0;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 9px;
+        line-height: 50px;
+        text-decoration: none;
+        opacity: .5
+    }
+}
+
+@media (min-width:1367px) and (max-width:1680px) {
+    .login {
+        background-image: linear-gradient(10deg, #000 0, #eb5322 100%)
+    }
+    .login div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        min-height: 768px;
+        background: url(../images/Login/bgdesktop.png) no-repeat;
+        background-size: 100%
+    }
+    .login div a {
+        display: block;
+        margin: 109px auto 0
+    }
+    .login div a img {
+        max-height: 103px
+    }
+    .login div form {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 238px;
+        margin: 133px auto 0
+    }
+    .login div form .submit,
+    .login div form div {
+        width: 100%;
+        height: 40px;
+        font-size: 11px;
+        font-weight: 400;
+        color: #fff;
+        font-family: Montserrat
+    }
+    .login div form div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        min-height: 40px;
+        margin: 0 0 13px;
+        border: 0;
+        border-radius: 23px;
+        background: rgba(255, 255, 255, .1)
+    }
+    .login div form div img {
+        max-width: 19px;
+        max-height: 19px;
+        margin: 0 18px
+    }
+    .login div form div .password {
+        max-height: 22px;
+        margin: 0 19px
+    }
+    .login div form div input {
+        display: block;
+        border: 0;
+        outline: 0;
+        background: 0;
+        color: #fff
+    }
+    .login div form div input:-ms-input-placeholder {
+        color: #fff
+    }
+    .login div form div input::-webkit-input-placeholder {
+        color: #fff
+    }
+    .login div form .submit {
+        border: 0;
+        border-radius: 23px;
+        background-color: #f96332
+    }
+    .login div footer {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 238px;
+        margin: 0 auto
+    }
+    .login div footer a {
+        margin: 0;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 9px;
+        line-height: 50px;
+        text-decoration: none;
+        opacity: .5
+    }
+}
+
+@media (min-width:1681px) and (max-width:1920px) {
+    .login {
+        background-image: linear-gradient(10deg, #000 0, #eb5322 100%)
+    }
+    .login div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        min-height: 768px;
+        background: url(../images/Login/bgdesktop.png) no-repeat;
+        background-size: 100%
+    }
+    .login div a {
+        display: block;
+        margin: 109px auto 0
+    }
+    .login div a img {
+        max-height: 103px
+    }
+    .login div form {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 238px;
+        margin: 133px auto 0
+    }
+    .login div form .submit,
+    .login div form div {
+        width: 100%;
+        height: 40px;
+        font-size: 11px;
+        font-weight: 400;
+        color: #fff;
+        font-family: Montserrat
+    }
+    .login div form div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        min-height: 40px;
+        margin: 0 0 13px;
+        border: 0;
+        border-radius: 23px;
+        background: rgba(255, 255, 255, .1)
+    }
+    .login div form div img {
+        max-width: 19px;
+        max-height: 19px;
+        margin: 0 18px
+    }
+    .login div form div .password {
+        max-height: 22px;
+        margin: 0 19px
+    }
+    .login div form div input {
+        display: block;
+        border: 0;
+        outline: 0;
+        background: 0;
+        color: #fff
+    }
+    .login div form div input:-ms-input-placeholder {
+        color: #fff
+    }
+    .login div form div input::-webkit-input-placeholder {
+        color: #fff
+    }
+    .login div form .submit {
+        border: 0;
+        border-radius: 23px;
+        background-color: #f96332
+    }
+    .login div footer {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 238px;
+        margin: 0 auto
+    }
+    .login div footer a {
+        margin: 0;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 9px;
+        line-height: 50px;
+        text-decoration: none;
+        opacity: .5
+    }
+}
+
+@media (min-width:1921px) {
+    .login {
+        background-image: linear-gradient(10deg, #000 0, #eb5322 100%)
+    }
+    .login div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        min-height: 768px;
+        background: url(../images/Login/bgdesktop.png) no-repeat;
+        background-size: 100%
+    }
+    .login div a {
+        display: block;
+        margin: 109px auto 0
+    }
+    .login div a img {
+        max-height: 103px
+    }
+    .login div form {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 238px;
+        margin: 133px auto 0
+    }
+    .login div form .submit,
+    .login div form div {
+        width: 100%;
+        height: 40px;
+        font-size: 11px;
+        font-weight: 400;
+        color: #fff;
+        font-family: Montserrat
+    }
+    .login div form div {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        min-height: 40px;
+        margin: 0 0 13px;
+        border: 0;
+        border-radius: 23px;
+        background: rgba(255, 255, 255, .1)
+    }
+    .login div form div img {
+        max-width: 19px;
+        max-height: 19px;
+        margin: 0 18px
+    }
+    .login div form div .password {
+        max-height: 22px;
+        margin: 0 19px
+    }
+    .login div form div input {
+        display: block;
+        border: 0;
+        outline: 0;
+        background: 0;
+        color: #fff
+    }
+    .login div form div input:-ms-input-placeholder {
+        color: #fff
+    }
+    .login div form div input::-webkit-input-placeholder {
+        color: #fff
+    }
+    .login div form .submit {
+        border: 0;
+        border-radius: 23px;
+        background-color: #f96332
+    }
+    .login div footer {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 238px;
+        margin: 0 auto
+    }
+    .login div footer a {
+        margin: 0;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 9px;
+        line-height: 50px;
+        text-decoration: none;
+        opacity: .5
+    }
+}
+
+
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3RoZW1lL3Jlc2V0LnNjc3MiLCIuLi90aGVtZS9mb250cy5zY3NzIiwibG9naW4vTWVkaWFRdWVyaWVzL3Bob25lUG9ydHJhaXQuc2NzcyIsImxvZ2luL21vYmlsZS5zY3NzIiwibG9naW4vTWVkaWFRdWVyaWVzL3Bob25lTGFuZHNjYXBlLnNjc3MiLCJsb2dpbi9NZWRpYVF1ZXJpZXMvdGFibGV0UG9ydHJhaXQuc2NzcyIsImxvZ2luL01lZGlhUXVlcmllcy90YWJsZXRMYW5kc2NhcGUuc2NzcyIsImxvZ2luL2Rlc2t0b3Auc2NzcyIsImxvZ2luL01lZGlhUXVlcmllcy9kZXNrdG9wLnNjc3MiLCJsb2dpbi9NZWRpYVF1ZXJpZXMvZGVza3RvcFdpZGUuc2NzcyIsImxvZ2luL01lZGlhUXVlcmllcy9kZXNrdG9wSEQuc2NzcyIsImxvZ2luL01lZGlhUXVlcmllcy9kZXNrdG9wTWVnYS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLEVBQUEsUUFBQSxTQUdJLFlBQUEsUUFDQSxXQUFBLFFBR0osRUFBQSxLQUFBLFFBQUEsUUFBQSxPQUFBLFFBQUEsTUFBQSxNQUFBLEVBQUEsSUFBQSxXQUFBLEtBQUEsT0FBQSxRQUFBLE9BQUEsS0FBQSxLQUFBLEdBQUEsSUFBQSxRQUFBLElBQUEsSUFBQSxHQUFBLEdBQUEsR0FBQSxNQUFBLFNBQUEsV0FBQSxPQUFBLE9BQUEsS0FBQSxHQUFBLEdBQUEsR0FBQSxHQUFBLEdBQUEsR0FBQSxPQUFBLEtBQUEsRUFBQSxPQUFBLElBQUEsSUFBQSxJQUFBLE1BQUEsT0FBQSxHQUFBLEtBQUEsS0FBQSxJQUFBLE9BQUEsR0FBQSxPQUFBLEVBQUEsSUFBQSxFQUFBLEtBQUEsRUFBQSxLQUFBLFFBQUEsTUFBQSxLQUFBLE9BQUEsT0FBQSxJQUFBLFFBQUEsSUFBQSxNQUFBLE1BQUEsR0FBQSxNQUFBLEdBQUEsTUFBQSxLQUFBLEdBQUEsR0FBQSxFQUFBLEdBQUEsSUFBQSxNQWdGSSxPQUFBLEVBQ0EsUUFBQSxF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QSxRQUFBLEVBQ0EsV0FBQSxFQUNBLE1BQUEsS0FJSixnREFDSSxNQUFBLEtBR0oscURBQ0ksTUFBQSxLQUtSLHdCQUdJLE9BQUEsRUFDQSxjQUFBLEtBQ0EsaUJBQUEsUUFTUixrQkFDSSxRQUFBLFlBQUEsUUFBQSxLQUNBLG1CQUFBLElBQUEsZUFBQSxJQUNBLGVBQUEsT0FBQSxZQUFBLE9BQ0EsY0FBQSxRQUFBLGdCQUFBLGNBQ0EsTUFBQSxNQUNBLE9BQUEsRUFBQSxLQUVBLG9CQUNJLE9BQUEsRUFDQSxNQUFBLEtBQ0EsWUFBQSxXQUNBLFVBQUEsSUFDQSxZQUFBLEtBQ0EsZ0JBQUEsS0FDQSxRQUFBIiwiZmlsZSI6ImFwcC5jc3MiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8iLCJzb3VyY2VzQ29udGVudCI6WyIqLFxyXG4qOjpiZWZvcmUsXHJcbio6OmFmdGVyIHtcclxuICAgIGZvbnQtZmFtaWx5OiBpbmhlcml0O1xyXG4gICAgYm94LXNpemluZzogaW5oZXJpdDtcclxufVxyXG5cclxuaHRtbCxcclxuYm9keSxcclxuZGl2LFxyXG5zcGFuLFxyXG5hcHBsZXQsXHJcbm9iamVjdCxcclxuaWZyYW1lLFxyXG5oMSxcclxuaDIsXHJcbmgzLFxyXG5oNCxcclxuaDUsXHJcbmg2LFxyXG5wLFxyXG5ibG9ja3F1b3RlLFxyXG5wcmUsXHJcbmEsXHJcbmFiYnIsXHJcbmFjcm9ueW0sXHJcbmFkZHJlc3MsXHJcbmJpZyxcclxuY2l0ZSxcclxuY29kZSxcclxuZGVsLFxyXG5kZm4sXHJcbmVtLFxyXG5pbWcsXHJcbmlucyxcclxua2JkLFxyXG5xLFxyXG5zLFxyXG5zYW1wLFxyXG5zbWFsbCxcclxuc3RyaWtlLFxyXG5zdHJvbmcsXHJcbnN1Yixcclxuc3VwLFxyXG50dCxcclxudmFyLFxyXG5iLFxyXG51LFxyXG5pLFxyXG5jZW50ZXIsXHJcbmRsLFxyXG5kdCxcclxuZGQsXHJcbm9sLFxyXG51bCxcclxubGksXHJcbmZpZWxkc2V0LFxyXG5mb3JtLFxyXG5sYWJlbCxcclxubGVnZW5kLFxyXG50YWJsZSxcclxuY2FwdGlvbixcclxudGJvZHksXHJcbnRmb290LFxyXG50aGVhZCxcclxudHIsXHJcbnRoLFxyXG50ZCxcclxuYXJ0aWNsZSxcclxuYXNpZGUsXHJcbmNhbnZhcyxcclxuZGV0YWlscyxcclxuZW1iZWQsXHJcbmZpZ3VyZSxcclxuZmlnY2FwdGlvbixcclxuZm9vdGVyLFxyXG5oZWFkZXIsXHJcbm1lbnUsXHJcbm5hdixcclxub3V0cHV0LFxyXG5ydWJ5LFxyXG5zZWN0aW9uLFxyXG5zdW1tYXJ5LFxyXG50aW1lLFxyXG5tYXJrLFxyXG5hdWRpbyxcclxudmlkZW8ge1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgcGFkZGluZzogMDtcclxuICAgIGJvcmRlcjogMDtcclxuICAgIGZvbnQtc2l6ZTogaW5oZXJpdDtcclxuICAgIHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTtcclxufVxyXG5cclxuaHRtbCB7XHJcbiAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG59XHJcblxyXG5ib2R5IHtcclxuICAgIC1tb3otb3N4LWZvbnQtc21vb3RoaW5nOiBncmF5c2NhbGU7XHJcbiAgICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcclxuICAgIGxpbmUtaGVpZ2h0OiAxO1xyXG59XHJcblxyXG4vLyBIVE1MNSBkaXNwbGF5LXJvbGUgcmVzZXQgZm9yIG9sZGVyIGJyb3dzZXJzXHJcbmFydGljbGUsXHJcbmFzaWRlLFxyXG5kZXRhaWxzLFxyXG5maWdjYXB0aW9uLFxyXG5maWd1cmUsXHJcbmZvb3RlcixcclxuaGVhZGVyLFxyXG5tZW51LFxyXG5uYXYsXHJcbnNlY3Rpb24ge1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbn1cclxuXHJcbm9sLFxyXG51bCB7XHJcbiAgICBsaXN0LXN0eWxlOiBub25lO1xyXG59XHJcblxyXG5ibG9ja3F1b3RlLFxyXG5xIHtcclxuICAgIHF1b3Rlczogbm9uZTtcclxufVxyXG5cclxudGFibGUge1xyXG4gICAgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcclxuICAgIGJvcmRlci1zcGFjaW5nOiAwO1xyXG59IiwiLy8gY3lyaWxsaWNcclxuQGZvbnQtZmFjZSB7XHJcbiAgICBmb250LWZhbWlseTogJ01vbnRzZXJyYXQgQm9sZCc7XHJcbiAgICBmb250LXN0eWxlOiBub3JtYWw7XHJcbiAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgc3JjOiBsb2NhbCgnTW9udHNlcnJhdCBCb2xkJyksIGxvY2FsKCdNb250c2VycmF0IEJvbGQnKSxcclxuICAgIHVybChmb250cy9Nb250c2VycmF0LUJvbGQud29mZjIpIGZvcm1hdCgnd29mZjInKSwgLyogUFRTYW5zLU5vcm1hbC1jeXJpbGxpYy53b2ZmMiAqL1xyXG4gICAgdXJsKGZvbnRzL01vbnRzZXJyYXQtQm9sZC53b2ZmKSBmb3JtYXQoJ3dvZmYnKTtcclxuICAgIC8vdW5pY29kZS1yYW5nZTogVSswNDAwLTA0NUYsIFUrMDQ5MC0wNDkxLCBVKzA0QjAtMDRCMSwgVSsyMTE2O1xyXG59XHJcblxyXG5AZm9udC1mYWNlIHtcclxuICAgIGZvbnQtZmFtaWx5OiAnTW9udHNlcnJhdCc7XHJcbiAgICBmb250LXN0eWxlOiBub3JtYWw7XHJcbiAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgc3JjOiBsb2NhbCgnTW9udHNlcnJhdCcpLCBsb2NhbCgnTW9udHNlcnJhdCcpLFxyXG4gICAgdXJsKGZvbnRzL01vbnRzZXJyYXQtUmVndWxhci53b2ZmMikgZm9ybWF0KCd3b2ZmMicpLCAvKiBQVFNhbnMtTm9ybWFsLWN5cmlsbGljLndvZmYyICovXHJcbiAgICB1cmwoZm9udHMvTW9udHNlcnJhdC1SZWd1bGFyLndvZmYpIGZvcm1hdCgnd29mZicpO1xyXG4gICAgLy91bmljb2RlLXJhbmdlOiBVKzA0MDAtMDQ1RiwgVSswNDkwLTA0OTEsIFUrMDRCMC0wNEIxLCBVKzIxMTY7XHJcbn1cclxuIiwiQG1lZGlhICN7JHBob25lUG9ydHJhaXR9IHtcclxuICAgICRtOiBwaG9uZVBvcnRyYWl0O1xyXG5cclxuICAgIEBpbXBvcnQgJy4uL21vYmlsZSc7XHJcbn1cclxuIiwiJiB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCh0byB0b3AsICRncmFkaWVudFN0YXJ0IDAlLCAkbUdyYWRpZW50U3RvcCAxMDAlKTtcclxuXHJcbiAgICBkaXYge1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgICAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uL2ltYWdlcy9Mb2dpbi9iYWNrZ3JvdW5kLnBuZycpIG5vLXJlcGVhdDtcclxuICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IDEwMCU7XHJcblxyXG4gICAgICAgIGEge1xyXG4gICAgICAgICAgICBkaXNwbGF5OiBibG9jaztcclxuICAgICAgICAgICAgbWFyZ2luOiAxMDlweCBhdXRvIDA7XHJcblxyXG4gICAgICAgICAgICBpbWcge1xyXG4gICAgICAgICAgICAgICAgbWF4LWhlaWdodDogMTAzcHg7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGZvcm0ge1xyXG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgICAgICAgICB3aWR0aDogMjc3cHg7XHJcbiAgICAgICAgICAgIG1hcmdpbjogMTMzcHggYXV0byAwO1xyXG5cclxuICAgICAgICAgICAgZGl2IHtcclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xyXG4gICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgICAgaGVpZ2h0OiA0N3B4O1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luOiAwIDAgMTNweDtcclxuICAgICAgICAgICAgICAgIC8vIHBhZGRpbmc6IDAgMCAwIDUwcHg7XHJcbiAgICAgICAgICAgICAgICBib3JkZXI6IDA7XHJcbiAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAyM3B4O1xyXG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJGlucHV0QmFja2dyb3VuZENvbG9yO1xyXG4gICAgICAgICAgICAgICAgY29sb3I6ICR0ZXh0Q29sb3I7XHJcbiAgICAgICAgICAgICAgICBmb250LWZhbWlseTogTW9udHNlcnJhdDtcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMTFweDtcclxuICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcblxyXG4gICAgICAgICAgICAgICAgaW1nIHtcclxuICAgICAgICAgICAgICAgICAgICBtYXgtd2lkdGg6IDE5cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgbWF4LWhlaWdodDogMTlweDtcclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDAgMThweDtcclxuICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAucGFzc3dvcmQge1xyXG4gICAgICAgICAgICAgICAgICAgIG1heC1oZWlnaHQ6IDIycHg7XHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwIDE5cHg7XHJcbiAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgaW5wdXQge1xyXG4gICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgICAgICAgICAgICAgICAgIGJvcmRlcjogMDtcclxuICAgICAgICAgICAgICAgICAgICBvdXRsaW5lOiAwO1xyXG4gICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IDA7XHJcbiAgICAgICAgICAgICAgICAgICAgY29sb3I6ICR0ZXh0Q29sb3I7XHJcbiAgICAgICAgICAgICAgICAgICAgLy8gbGluZS1oZWlnaHQ6IDQ3cHg7XHJcbiAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgaW5wdXQ6LW1zLWlucHV0LXBsYWNlaG9sZGVyIHtcclxuICAgICAgICAgICAgICAgICAgICBjb2xvcjogJHRleHRDb2xvcjtcclxuICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICBpbnB1dDo6LXdlYmtpdC1pbnB1dC1wbGFjZWhvbGRlciB7XHJcbiAgICAgICAgICAgICAgICAgICAgY29sb3I6ICR0ZXh0Q29sb3I7XHJcbiAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAuc3VibWl0IHtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgICAgaGVpZ2h0OiA0N3B4O1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyOiAwO1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMjNweDtcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICRzdWJtaXRCYWNrZ3JvdW5kQ29sb3I7XHJcbiAgICAgICAgICAgICAgICBjb2xvcjogJHRleHRDb2xvcjtcclxuICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBNb250c2VycmF0O1xyXG4gICAgICAgICAgICAgICAgZm9udC1zaXplOiAxMXB4O1xyXG4gICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGZvb3RlciB7XHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XHJcbiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgICAgICAgICAgd2lkdGg6IDI3N3B4O1xyXG4gICAgICAgICAgICBtYXJnaW46IDAgYXV0bztcclxuXHJcbiAgICAgICAgICAgIGEge1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luOiAwO1xyXG4gICAgICAgICAgICAgICAgY29sb3I6ICR0ZXh0Q29sb3I7XHJcbiAgICAgICAgICAgICAgICBmb250LWZhbWlseTogTW9udHNlcnJhdDtcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogOXB4O1xyXG4gICAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDUwcHg7XHJcbiAgICAgICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICAgICAgICAgICAgICBvcGFjaXR5OiAuNTtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuICAgIH1cclxuXHJcbn1cclxuIiwiQG1lZGlhICN7JHBob25lTGFuZHNjYXBlfSB7XHJcbiAgICAkbTogcGhvbmVMYW5kc2NhcGU7XHJcblxyXG4gICAgQGltcG9ydCAnLi4vbW9iaWxlJztcclxuXHJcbiAgICBkaXYge1xyXG4gICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IDEwMCU7XHJcblxyXG4gICAgICAgIGEge1xyXG4gICAgICAgICAgICBtYXJnaW46IDVweCBhdXRvO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgZm9ybSB7XHJcbiAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxufVxyXG4iLCJAbWVkaWEgI3skdGFibGV0UG9ydHJhaXR9IHtcclxuICAgICRtOiB0YWJsZXRQb3J0cmFpdDtcclxuXHJcbiAgICBAaW1wb3J0ICcuLi9tb2JpbGUnO1xyXG5cclxuICAgICYge1xyXG4gICAgICAgIGRpdiB7XHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICAgICAgICAgIGhlaWdodDogMTAyNHB4O1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uL2ltYWdlcy9sb2dpbi9iZ3RhYmxldC5wbmcnKSBuby1yZXBlYXQ7XHJcbiAgICAgICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuXHJcbiAgICAgICAgICAgIGEge1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luOiAyMjdweCBhdXRvIDA7XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgIGZvcm0ge1xyXG4gICAgICAgICAgICAgICAgd2lkdGg6IDMyNXB4O1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luOiAxMjBweCBhdXRvIDA7XHJcblxyXG4gICAgICAgICAgICAgICAgZGl2IHtcclxuICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtc3RhcnQ7XHJcbiAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiA1NHB4O1xyXG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvIDE1cHg7XHJcbiAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgLnN1Ym1pdCB7XHJcbiAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiA1NHB4O1xyXG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbjogNDBweCBhdXRvIDA7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgIGZvb3RlciB7XHJcbiAgICAgICAgICAgICAgICB3aWR0aDogMzI1cHg7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICB9XHJcbiAgICB9XHJcbn1cclxuIiwiQG1lZGlhICN7JHRhYmxldExhbmRzY2FwZX0ge1xyXG4gICAgJG06IHRhYmxldExhbmRzY2FwZTtcclxuXHJcbiAgICBAaW1wb3J0ICcuLi9kZXNrdG9wJztcclxufVxyXG4iLCImIHtcclxuICAgIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCgxMGRlZywgJGdyYWRpZW50U3RhcnQgMCUsICRkR3JhZGllbnRTdG9wIDEwMCUpO1xyXG5cclxuICAgIGRpdiB7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICAgICAgbWluLWhlaWdodDogNzY4cHg7XHJcbiAgICAgICAgYmFja2dyb3VuZDogdXJsKCcuLi9pbWFnZXMvTG9naW4vYmdkZXNrdG9wLnBuZycpIG5vLXJlcGVhdDtcclxuICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IDEwMCU7XHJcblxyXG4gICAgICAgIGEge1xyXG4gICAgICAgICAgICBkaXNwbGF5OiBibG9jaztcclxuICAgICAgICAgICAgbWFyZ2luOiAxMDlweCBhdXRvIDA7XHJcblxyXG4gICAgICAgICAgICBpbWcge1xyXG4gICAgICAgICAgICAgICAgbWF4LWhlaWdodDogMTAzcHg7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGZvcm0ge1xyXG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgICAgICAgICB3aWR0aDogMjM4cHg7XHJcbiAgICAgICAgICAgIG1hcmdpbjogMTMzcHggYXV0byAwO1xyXG5cclxuICAgICAgICAgICAgZGl2IHtcclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xyXG4gICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogZmxleC1zdGFydDtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgICAgaGVpZ2h0OiA0MHB4O1xyXG4gICAgICAgICAgICAgICAgbWluLWhlaWdodDogNDBweDtcclxuICAgICAgICAgICAgICAgIG1hcmdpbjogMCAwIDEzcHg7XHJcbiAgICAgICAgICAgICAgICBib3JkZXI6IDA7XHJcbiAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAyM3B4O1xyXG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJGlucHV0QmFja2dyb3VuZENvbG9yO1xyXG4gICAgICAgICAgICAgICAgY29sb3I6ICR0ZXh0Q29sb3I7XHJcbiAgICAgICAgICAgICAgICBmb250LWZhbWlseTogTW9udHNlcnJhdDtcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMTFweDtcclxuICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcblxyXG4gICAgICAgICAgICAgICAgaW1nIHtcclxuICAgICAgICAgICAgICAgICAgICBtYXgtd2lkdGg6IDE5cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgbWF4LWhlaWdodDogMTlweDtcclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDAgMThweDtcclxuICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAucGFzc3dvcmQge1xyXG4gICAgICAgICAgICAgICAgICAgIG1heC1oZWlnaHQ6IDIycHg7XHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwIDE5cHg7XHJcbiAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgaW5wdXQge1xyXG4gICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgICAgICAgICAgICAgICAgIGJvcmRlcjogMDtcclxuICAgICAgICAgICAgICAgICAgICBvdXRsaW5lOiAwO1xyXG4gICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IDA7XHJcbiAgICAgICAgICAgICAgICAgICAgY29sb3I6ICR0ZXh0Q29sb3I7XHJcbiAgICAgICAgICAgICAgICAgICAgLy8gbGluZS1oZWlnaHQ6IDQ3cHg7XHJcbiAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgaW5wdXQ6LW1zLWlucHV0LXBsYWNlaG9sZGVyIHtcclxuICAgICAgICAgICAgICAgICAgICBjb2xvcjogJHRleHRDb2xvcjtcclxuICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICBpbnB1dDo6LXdlYmtpdC1pbnB1dC1wbGFjZWhvbGRlciB7XHJcbiAgICAgICAgICAgICAgICAgICAgY29sb3I6ICR0ZXh0Q29sb3I7XHJcbiAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAuc3VibWl0IHtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgICAgaGVpZ2h0OiA0MHB4O1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyOiAwO1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMjNweDtcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICRzdWJtaXRCYWNrZ3JvdW5kQ29sb3I7XHJcbiAgICAgICAgICAgICAgICBjb2xvcjogJHRleHRDb2xvcjtcclxuICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBNb250c2VycmF0O1xyXG4gICAgICAgICAgICAgICAgZm9udC1zaXplOiAxMXB4O1xyXG4gICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGZvb3RlciB7XHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XHJcbiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgICAgICAgICAgd2lkdGg6IDIzOHB4O1xyXG4gICAgICAgICAgICBtYXJnaW46IDAgYXV0bztcclxuXHJcbiAgICAgICAgICAgIGEge1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luOiAwO1xyXG4gICAgICAgICAgICAgICAgY29sb3I6ICR0ZXh0Q29sb3I7XHJcbiAgICAgICAgICAgICAgICBmb250LWZhbWlseTogTW9udHNlcnJhdDtcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogOXB4O1xyXG4gICAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDUwcHg7XHJcbiAgICAgICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICAgICAgICAgICAgICBvcGFjaXR5OiAuNTtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuXHJcblxyXG4gICAgfVxyXG59XHJcbiIsIkBtZWRpYSAjeyRkZXNrdG9wfSB7XHJcbiAgICAkbTogZGVza3RvcDtcclxuXHJcbiAgICBAaW1wb3J0ICcuLi9kZXNrdG9wJztcclxufVxyXG4iLCJAbWVkaWEgI3skZGVza3RvcFdpZGV9IHtcclxuICAgICRtOiBkZXNrdG9wV2lkZTtcclxuXHJcbiAgICBAaW1wb3J0ICcuLi9kZXNrdG9wJztcclxufVxyXG4iLCJAbWVkaWEgI3skZGVza3RvcEhEfSB7XHJcbiAgICAkbTogZGVza3RvcEhEO1xyXG5cclxuICAgIEBpbXBvcnQgJy4uL2Rlc2t0b3AnO1xyXG59XHJcbiIsIkBtZWRpYSAjeyRkZXNrdG9wTWVnYX0ge1xyXG4gICAgJG06IGRlc2t0b3BNZWdhO1xyXG5cclxuICAgIEBpbXBvcnQgJy4uL2Rlc2t0b3AnO1xyXG59XHJcbiJdfQ== */

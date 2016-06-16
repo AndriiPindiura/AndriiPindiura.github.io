@@ -1,0 +1,24 @@
+@import '../mobile';
+
+& {
+    nav {
+        height: px(80);
+    }
+
+    &>header {
+        min-height: px(130);
+    }
+
+    main {
+        section {
+            min-height: px(120);
+
+            .comment {
+
+                &>p {
+                    margin: px(22) 0 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@import '../desktop';
+
+& {
+    .submit {
+        h2 {
+            line-height: px(120);
+        }
+    }
+
+    footer {
+        margin: px(96) 0 0;
+    }
+}
