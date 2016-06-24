@@ -29,8 +29,8 @@ $(function() {
             title: 'Вопрос №5',
             answers: ['Вариант ответа №1', 'Вариант ответа №2', 'Вариант ответа №3', 'Вариант ответа №4', 'Вариант ответа №5'],
             correct: ['q4a4', 'q4a1']
-        }, ]
-    }
+        } ]
+    };
 
 
     try {
@@ -67,11 +67,21 @@ $(function() {
         console.log(rigthAnswers);
         rigthAnswers.sort();
         answers.sort();
-        var result = (answers.length === rigthAnswers.length) && rigthAnswers.every(function(e, i) {
-            return e === answers[i];
+        var userResult = 0;
+        var result = rigthAnswers.every(function (e, i) {
+            if (e === answers[i])
+            {
+                userResult++;
+                return true;
+            }
+            else {
+                return false;
+            }
+            // return e === answers[i];
         });
         console.log(result);
-        $('body').append('<div class="modal__overlay"><div class="modal ' + (result ? 'right' : 'wrong') + '"><h2>Your answers are ' + (result ? 'correct' : 'wrong') + '!</h2></div></div>');
+        $('form').addClass(result ? 'right' : 'wrong');
+        $('form').append('<div class="modal__overlay"><div class="modal ' + (result ? 'right' : 'wrong') + '"><h2>Your answers are ' + (result ? 'correct' : 'wrong') + '!</h2><h3>Correct answers: ' + userResult + '</h3></div></div>');
         localStorage.clear();
 
         $('.modal').one('click', function() {
@@ -81,6 +91,7 @@ $(function() {
             } catch (e) {
                 alert(e);
             }
+            $('form').removeClass('right').removeClass('wrong');
         });
         document.querySelector('.form__test').reset();
         // alert('form');
