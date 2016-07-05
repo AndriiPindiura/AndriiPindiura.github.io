@@ -47,8 +47,16 @@
 
     p {
         @include font(Arial, 13px, 400, 20px);
+        display: block;
+        height: 58px;
         margin: 27px 0 0;
         color: $pColor;
+        overflow: hidden;
+    }
+
+    p.readmore {
+        height: initial;
+        overflow: auto;
     }
 
     a {

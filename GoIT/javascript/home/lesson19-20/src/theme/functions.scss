@@ -1,6 +1,5 @@
-@function px($px, $media) {
+@function pxMedia($px, $media) {
     $k: 0;
-
     @if $media == phonePortrait {
         $k: .1562500;
     } @else if $media == phoneLandscape {

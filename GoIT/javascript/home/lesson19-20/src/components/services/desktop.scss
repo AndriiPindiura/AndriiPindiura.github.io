@@ -28,12 +28,20 @@
 
     figure div {
         height: 260px;
-        overflow: hidden;
+        // overflow: hidden;
 
         .glass {
             display: none;
             background-color: $glassColor;
+            background-image: url('../images/services/plus.png');
+            background-position: center;
+            background-repeat: no-repeat;
             opacity: .9;
+            cursor: pointer;
+
+            >div {
+                height: 100%;
+            }
         }
     }
 
@@ -63,6 +71,11 @@
 
     figure .service4 {
         background: url('../images/services/service4.jpg') no-repeat center 0;
+    }
+
+    figure.active {
+        width: 100%;
+        height: 500px;
     }
 
     figure:hove div {
