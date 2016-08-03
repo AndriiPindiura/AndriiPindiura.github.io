@@ -13,8 +13,6 @@ import {
   desktopMega
 }  from '../../external/breakpoints';
 
-require('styles//Promo.scss');
-
 class PromoComponent extends React.Component {
   render() {
     return (

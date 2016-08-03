@@ -2,6 +2,7 @@ require('../components/main.scss');
 import React from 'react';
 import * as breakpoints from '../external/breakpoints';
 import Promo from './promo';
+import HowItWork from './howitwork';
 
 class AppComponent extends React.Component {
 	constructor() {
@@ -20,6 +21,7 @@ class AppComponent extends React.Component {
 		return (
 			<div className="urlaubsgluck">
 				<Promo breakpoint={this.state.breakPoint}/>
+				<HowItWork breakpoint={this.state.breakPoint}/>
 			</div>
 		);
 	}
