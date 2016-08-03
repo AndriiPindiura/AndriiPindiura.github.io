@@ -14,6 +14,15 @@ define(
                 return this.tasks;
             },
 
+            toggleTask: function (id, state) {
+                for (var i = 0, l = this.tasks.length; i < l; i++) {
+                    if (this.tasks[i].id == id) {
+                        this.tasks[i].complete = state;
+                    }
+                }
+                console.log(this.tasks);
+            },
+
             showTasks: function () {
             },
 

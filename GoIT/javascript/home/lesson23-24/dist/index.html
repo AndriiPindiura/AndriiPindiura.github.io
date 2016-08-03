@@ -44,11 +44,19 @@
     <% for (var i = 0; i < tasks.length; i++) { %>
         <li data-id="<%= tasks[i].id %>">
             <div class="view">
-                <div class="checkbox">
-                    <input id="<%= tasks[i].id %>" class="toggle" type="checkbox">
-                    <label for="<%= tasks[i].id %>"></label>
-                </div>
-                <input class="edit" value="<%= tasks[i].description %>">
+                <% if (tasks[i].complete === true) { %>
+                    <div class="checkbox">
+                        <input id="<%= tasks[i].id %>" class="toggle" type="checkbox" checked>
+                        <label for="<%= tasks[i].id %>"></label>
+                    </div>
+                    <input class="edit complete" value="<%= tasks[i].description %>">
+                <% } else { %>
+                    <div class="checkbox">
+                        <input id="<%= tasks[i].id %>" class="toggle" type="checkbox">
+                        <label for="<%= tasks[i].id %>"></label>
+                    </div>
+                    <input class="edit" value="<%= tasks[i].description %>">
+                <% } %>
                 <button class="destroy"></button>
             </div>
         </li>
