@@ -16,6 +16,11 @@ define([
         removeTask: function (taskid, model, view) {
             model.removeTask(taskid);
             view.render(model);
+        },
+
+        toggleTask: function (id, state, model, view) {
+            model.toggleTask(id, state);
+            view.render(model);
         }
     }
 });
