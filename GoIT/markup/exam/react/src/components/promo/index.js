@@ -1,15 +1,36 @@
 'use strict';
 
 import React from 'react';
+import styles from './main.scss';
+import {
+  phonePortrait,
+  phoneLandscape,
+  tabletPortrait,
+  tabletLandscape,
+  desktop,
+  desktopWide,
+  desktopHD,
+  desktopMega
+}  from '../../external/breakpoints';
 
 require('styles//Promo.scss');
 
 class PromoComponent extends React.Component {
   render() {
     return (
-      <div className="promo-component">
-        Please edit src/components///PromoComponent.js to update this component!
-      </div>
+      <section className={styles.promo}>
+        <nav>
+          {(this.props.breakpoint.name === phonePortrait) ? null : (<h2>URLAUBSGLÜCK</h2>) }
+          <div>
+            <a href='#'>Log in</a>
+            <a href='#'>Sign up</a>
+          </div>
+        </nav>
+        {(this.props.breakpoint.name === phonePortrait) ? (<h2>URLAUBSGLÜCK</h2>) : null}
+        <h1>Share your holiday dreams</h1>
+        <h3>And find the perfect partner to fullfill it</h3>
+        <button>Find your holiday partner</button>
+      </section>
     );
   }
 }
