@@ -4,6 +4,7 @@ import * as breakpoints from '../external/breakpoints';
 import Promo from './promo';
 import HowItWork from './howitwork';
 import Partners from './partners';
+import Ideas from './ideas';
 
 class AppComponent extends React.Component {
 	constructor() {
@@ -23,6 +24,7 @@ class AppComponent extends React.Component {
 				<Promo breakpoint={this.state.breakPoint}/>
 				<HowItWork breakpoint={this.state.breakPoint}/>
 				<Partners />
+				<Ideas />
 			</div>
 		);
 	}

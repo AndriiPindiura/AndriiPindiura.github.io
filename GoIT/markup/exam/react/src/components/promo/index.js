@@ -14,8 +14,8 @@ import {
 }  from '../../external/breakpoints';
 
 class PromoComponent extends React.Component {
-  render() {
-    return (
+	render() {
+		return (
       <section className={styles.promo}>
         <nav>
           {(this.props.breakpoint.name === phonePortrait) ? null : (<h2>URLAUBSGLÜCK</h2>) }
@@ -30,7 +30,7 @@ class PromoComponent extends React.Component {
         <button>Find your holiday partner</button>
       </section>
     );
-  }
+	}
 }
 
 PromoComponent.displayName = 'PromoComponent';
