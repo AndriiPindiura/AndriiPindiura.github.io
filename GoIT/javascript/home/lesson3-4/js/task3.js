@@ -67,7 +67,7 @@ var dom = {
         this.addClass('btn');
         this.append(0);
     }
-}
+};
 
 
 dom.createBase();
