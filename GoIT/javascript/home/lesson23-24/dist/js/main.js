@@ -7,7 +7,7 @@ define(['jquery', 'models/model', 'views/view', 'controllers/controller'], funct
             model.addTask('task 3');
         }
         else {
-            console.log(window.localStorage.js2324tasks);
+            // console.log(window.localStorage.js2324tasks);
             model.tasks = JSON.parse(window.localStorage.js2324tasks);
         }
         model.showTasks();
@@ -16,7 +16,7 @@ define(['jquery', 'models/model', 'views/view', 'controllers/controller'], funct
 
         $('.todo-list').on('click', '.destroy', function () {
             controller.removeTask($(this).parent().parent().attr('data-id'), model, view);
-            window.localStorage.js2324tasks = JSON.stringify(model.tasks);
+            // window.localStorage.js2324tasks = JSON.stringify(model.tasks);
             // console.log($(this));
         });
 
@@ -24,10 +24,36 @@ define(['jquery', 'models/model', 'views/view', 'controllers/controller'], funct
             // console.log(e.keyCode);
             if (e.keyCode == 13 && $(this).val().length > 0) {
                 controller.addTask($(this).val(), model, view);
-                window.localStorage.js2324tasks = JSON.stringify(model.tasks);
+                // window.localStorage.js2324tasks = JSON.stringify(model.tasks);
                 $(this).val(' ');
             }
         });
+
+        $('.todoapp').bind('DOMSubtreeModified', function () {
+            console.log('DOM');
+            $('.edit').off('keypress').on('input', function (e) {
+                if (e.keyCode == 13 && $(this).val().length > 0) {
+                    editTask($(this).parent().parent().attr('data-id'), $(this).val());
+                }
+            });
+            $('.edit').off('focusout').on('focusout', function () {
+                editTask($(this).parent().parent().attr('data-id'), $(this).val());
+            });
+        });
+
+        $('.edit').off('input').on('keypress', function (e) {
+            if (e.keyCode == 13 && $(this).val().length > 0) {
+                editTask($(this).parent().parent().attr('data-id'), $(this).val());
+            }
+        });
+
+        $('.edit').off('focusout').on('focusout', function () {
+            editTask($(this).parent().parent().attr('data-id'), $(this).val());
+        });
+
+        function editTask(id, task) {
+            controller.editTask(id, task, model, view);
+        }
 
         $('.todo-list').on('click', '.toggle', function () {
             //console.log($(this).attr('id'));
@@ -41,7 +67,7 @@ define(['jquery', 'models/model', 'views/view', 'controllers/controller'], funct
                $('.edit:first', $(this).parent().parent()).removeClass('complete');
                controller.toggleTask($(this).attr('id'), false, model, view);
             }
-            window.localStorage.js2324tasks = JSON.stringify(model.tasks);
+            // window.localStorage.js2324tasks = JSON.stringify(model.tasks);
         });
     });
 });
