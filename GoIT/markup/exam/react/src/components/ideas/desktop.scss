@@ -1,3 +1,16 @@
 & {
+    >div {
+        max-width: px(1880);
+        margin: 0 auto;
 
+        main {
+            >div {
+                div {
+                    margin: px(20);
+                    border: 1px solid #000;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
 }
