@@ -59,8 +59,7 @@ class IdeasComponent extends React.Component {
 	// console.log(response.status);
 	if (response.status === 200) {
 		response.json().then(data => {
-			console.log(data);
-      // console.log(this);
+			// console.log(data);
 			// this.setState({ result: data.items });
 			// this.setState({ result: data.images });
 			this.setState({ result: data.d.results, searchRequest: '' });

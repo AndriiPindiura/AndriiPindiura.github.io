@@ -3,20 +3,20 @@
 import React from 'react';
 import styles from './main.scss';
 import {
-  phonePortrait,
-  phoneLandscape,
-  tabletPortrait,
-  tabletLandscape,
-  desktop,
-  desktopWide,
-  desktopHD,
-  desktopMega
+  phonePortrait
+  // phoneLandscape,
+  // tabletPortrait,
+  // tabletLandscape,
+  // desktop,
+  // desktopWide,
+  // desktopHD,
+  // desktopMega
 }  from '../../external/breakpoints';
 
 class PromoComponent extends React.Component {
 	render() {
 		return (
-      <section className={styles.promo}>
+      <header className={styles.promo}>
         <nav>
           {(this.props.breakpoint.name === phonePortrait) ? null : (<h2>URLAUBSGLÜCK</h2>) }
           <div>
@@ -28,7 +28,7 @@ class PromoComponent extends React.Component {
         <h1>Share your holiday dreams</h1>
         <h3>And find the perfect partner to fullfill it</h3>
         <button>Find your holiday partner</button>
-      </section>
+      </header>
     );
 	}
 }

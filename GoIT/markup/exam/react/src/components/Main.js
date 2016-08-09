@@ -5,6 +5,7 @@ import Promo from './promo';
 import HowItWork from './howitwork';
 import Partners from './partners';
 import Ideas from './ideas';
+import Footer from './footer';
 
 class AppComponent extends React.Component {
 	constructor() {
@@ -25,6 +26,7 @@ class AppComponent extends React.Component {
 				<HowItWork breakpoint={this.state.breakPoint}/>
 				<Partners />
 				<Ideas />
+				<Footer />
 			</div>
 		);
 	}
