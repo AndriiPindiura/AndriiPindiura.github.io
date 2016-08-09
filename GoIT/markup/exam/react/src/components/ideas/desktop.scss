@@ -1,15 +1,128 @@
 & {
+    // background: #000;
+
     >div {
         max-width: px(1880);
         margin: 0 auto;
 
+        h2 {
+            margin: px(180) auto px(60);
+            color: $headerTextColor;
+            font-family: Montserrat;
+            font-size: px(36);
+            text-align: center;
+        }
+
         main {
-            >div {
-                div {
-                    margin: px(20);
-                    border: 1px solid #000;
-                    border-radius: 4px;
+            ul {
+                width: px(1880);
+                margin: 0 auto;
+
+                li {
+                    position: relative;
+                    margin-bottom: px(10);
+                    cursor: pointer;
+                    // overflow: hidden;
+
+                    div {
+                        position: absolute;
+                        width: 100%;
+                        height: calc(100% - 4px);
+                        border-radius: 4px;
+                        background: $glassColor;
+
+                        p {
+                            // height: 15%;
+                            position: relative;
+                            top: 50%;
+                            width: 80%;
+                            margin: px(-22) px(50) 0;
+                            color: $ideaTextColor;
+                            font-family: Montserrat;
+                            font-size: px(36);
+                            text-align: center;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            overflow: hidden;
+                        }
+                    }
+
+                    img {
+                        width: px(500);
+                        border-radius: 4px;
+                    }
                 }
+            }
+
+
+            // >div {
+            //     >div {
+            //         width: px(1880);
+
+            //         div {
+            //             margin: px(20);
+            //             border: 1px solid #000;
+            //             border-radius: 8px;
+            //             overflow: hidden;
+
+            //             img {
+            //                 height: px(300);
+            //             }
+            //         }
+            //     }
+            // }
+        }
+
+        footer {
+
+            h3 {
+                color: $headerTextColor;
+		        font-family: robotothin;
+                font-size: px(27);
+                text-align: center;
+            }
+
+            div {
+                display: flex;
+                justify-content: center;
+                padding: px(64) 0 0;
+
+                input {
+                    width: px(384);
+                    height: px(64);
+                    padding: 0 px(30);
+                    // background-color: white;
+                    border: 1px solid $searchBorderColor;
+                    border-radius: 4px;
+                    color: $inputFontColor;
+                    font-family: robotothin;
+                    font-size: px(23);
+                    box-shadow: 0 1px 0 $searchShadowColor;
+
+                    &:hover {
+                        outline: 0;
+                    }
+
+                    &:focus {
+                        outline: 0;
+                    }
+
+                }
+
+                button {
+                    width: px(264);
+                    height: px(64);
+                    margin: 0 px(20);
+                    border: 0;
+                    border-radius: px(32);
+                    outline: 0;
+                    background-color: $searchButtonBackgroundColor;
+                    color: $ideaTextColor;
+                    font-family: Montserrat;
+                    font-size: px(23);
+                    cursor: pointer;
+                }
+
             }
         }
     }

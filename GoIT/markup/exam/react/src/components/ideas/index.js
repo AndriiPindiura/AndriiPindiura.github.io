@@ -2,41 +2,77 @@
 
 import React from 'react';
 import styles from './main.scss';
-import Masonry from 'masonry-layout';
+// import {GridList, GridTile} from 'material-ui/GridList';
+// import IconButton from 'material-ui/IconButton';
+// import StarBorder from 'material-ui/svg-icons/toggle/star-border';
+// import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
+// import getMuiTheme from 'material-ui/styles/getMuiTheme';
+
+
+// import Masonry from 'masonry-layout';
+import Masonry from 'react-masonry-component';
 
 class IdeasComponent extends React.Component {
 	constructor() {
 		super();
-		this.state = { result: [] };
+		this.state = { result: [], searchRequest: '' };
 		// this.search();
-		const skip = Math.floor(Math.random() * 100);
-		console.log(skip);
-		this.search('sport health extreme games culture relaxation traveling', skip);
+		// const skip = Math.floor(Math.random() * 20);
+		// console.log(skip);
+		// this.search('sport health extreme games culture relaxation traveling', skip);
+		this.search('sport health extreme games culture relaxation traveling');
 		// this.search('dog cat horse');
 	}
 
+	// getChildContext() {
+	// 	return { muiTheme: getMuiTheme(baseTheme) };
+	// }
+
+	handleKeyPress(e) {
+		// console.log(this);
+		// console.log(e);
+		// console.log(e.charCode);
+		// console.log()
+		// console.log(e.target.key);
+		if (e.charCode === 13) {
+			this.search(this.state.searchRequest);
+		}
+	}
+
+	setSearchRequest(e) {
+		this.setState({ searchRequest: e.target.value });
+	}
+
 	search(data, skip) {
+		// console.log(data);
+		// console.log(skip);
+		// console.log(Number.isInteger(skip));
 		// `https://www.googleapis.com/customsearch/v1?q=dog&cx=006471260582658678081%3Akp9tiqcfqck&filter=1&num=7&searchType=image&key=AIzaSyCqwuYISMhnt1rH5D5SqzPZptyMz4y0sdM`
-		fetch(`https://api.datamarket.azure.com/Bing/Search/Image?Query='${data.split(' ').join('+')}'&$top=7&$skip=${skip ? skip: 0}&$format=JSON`, {
-		//fetch(`https://api.datamarket.azure.com/Bing/SearchWeb/Web?Query='Xbox'&$top=7&$skip=20&$format=JSON`, {
+		fetch(`https://api.datamarket.azure.com/Bing/Search/Image?Query='${data.split(' ').join('+')}'&$top=15${skip && Number.isInteger(skip)? `&$skip=${skip}`: ''}&$format=JSON`, {
 			headers: {
 				'Authorization': `Basic ${btoa('MbfQyJYgDJkVhKwyyV/dJqFoNrxhauqxCSa7+/udzmU=:MbfQyJYgDJkVhKwyyV/dJqFoNrxhauqxCSa7+/udzmU=')}`
 			}
 		})
-		// fetch(data ? `https://www.googleapis.com/customsearch/v1?q=${data.split(' ').join('+')}&amount=7&size=3&cx=006471260582658678081%3Akp9tiqcfqck&filter=1&num=7&searchType=image&siteSearch=google.com&key=AIzaSyCqwuYISMhnt1rH5D5SqzPZptyMz4y0sdM` : 'http://api.pixplorer.co.uk/image?amount=7&size=3')
-		// fetch(data ? `http://api.pixplorer.co.uk/image?word=${data.split(' ').join('+')}&amount=7&size=3` : 'http://api.pixplorer.co.uk/image?amount=7&size=3')
+		// fetch(data ? `https://www.googleapis.com/customsearch/v1?q=${data.split(' ').join('+')}&imgSize=large&cx=006471260582658678081%3Akp9tiqcfqck&filter=1&num=10&searchType=image&siteSearch=google.com&key=AIzaSyCqwuYISMhnt1rH5D5SqzPZptyMz4y0sdM` : 'http://api.pixplorer.co.uk/image?amount=7&size=3')
+		// fetch(data ? `http://api.pixplorer.co.uk/image?word=${data.split(' ').join('+')}&amount=10&size=3` : 'http://api.pixplorer.co.uk/image?amount=7&size=3')
   .then( response => {
 	// console.log(response.status);
 	if (response.status === 200) {
 		response.json().then(data => {
-			// console.log(data);
+			console.log(data);
       // console.log(this);
 			// this.setState({ result: data.items });
 			// this.setState({ result: data.images });
-			this.setState({ result: data.d.results });
+			this.setState({ result: data.d.results, searchRequest: '' });
+		// 	this.msnry = Masonry( this.refs.masonry, {
+		// 	// options
+		// 	itemSelector: '.grid-item',
+		// 	columnWidth: 200,
+		// 	percentPosition: true,
+		// 	// gutter: 5,
+		// 	isFitWidth: true
+		// });
 			// console.log(this.msnry);
-			console.log(this.msnry);
-			
 			//this.msnry.masonry('layout');
 
 		});
@@ -45,22 +81,51 @@ class IdeasComponent extends React.Component {
 .catch( alert );
 	}
 
-	componentDidMount() {
-		this.msnry = new Masonry( this.refs.masonry, {
-			// options
-			itemSelector: '.grid-item',
-			columnWidth: 200,
-			percentPosition: true,
-			// gutter: 5,
-			isFitWidth: true
-		});
-	}
+	// componentDidMount() {
+	// 	this.msnry = new Masonry( this.refs.masonry, {
+	// 		// options
+	// 		itemSelector: '.grid-item',
+	// 		columnWidth: 200,
+	// 		percentPosition: true,
+	// 		// gutter: 5,
+	// 		isFitWidth: true
+	// 	});
+	// }
 
-	componentDidUpdate() {
-		console.log('update');
-	}
+	// componentDidUpdate() {
+	// 	// console.log(gridElement);
+	// 	this.state.result.map(image => {
+	// 		this.msnry.appended( image );
+	// 	});
+	// 	this.msnry.layout();
+	// 	console.log(this.msnry);
+	// }
 
 	render() {
+		const masonryOptions = {
+			transitionDuration: 500,
+			// columnWidth: 160,
+			percentPosition: true,
+			fitWidth: true,
+
+			gutter: 10
+		};
+
+		// const gridStyles = {
+		// 	root: {
+		// 		display: 'flex',
+		// 		flexWrap: 'wrap',
+		// 		justifyContent: 'space-around'
+		// 	},
+		// 	gridList: {
+		// 		width: 940,
+		// 		//height: 450,
+		// 		overflowY: 'auto',
+		// 		marginBottom: 24
+		// 	}
+		// };
+
+
 		return (
       <section className={ styles.ideas }>
         <div>
@@ -68,6 +133,57 @@ class IdeasComponent extends React.Component {
             <h2>Discover holiday activity ideas</h2>
           </header>
           <main>
+					{/*
+					<div style={ gridStyles.root}>
+						<GridList
+							cols={3}
+							// cellHeight={200}
+							padding={10}
+							style={ gridStyles.gridList}
+						>
+							{ this.state.result.map(image => {
+								return (
+									<GridTile
+										key={image.MediaUrl}
+										title={image.Title}
+										// actionIcon={<IconButton><StarBorder color="white" /></IconButton>}
+										// actionPosition="left"
+										titlePosition="top"
+										//titleBackground="linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)"
+										cols={image.featured ? 2 : 1}
+										rows={image.featured ? 2 : 1}
+									>
+										<img src={image.MediaUrl} />
+									</GridTile>
+
+								);
+							})}
+						</GridList>
+					</div>
+						 */}
+
+					{/*
+						*/}
+					<Masonry
+                className={'my-gallery-class'} // default ''
+                elementType={'ul'} // default 'div'
+                options={masonryOptions} // default {}
+                disableImagesLoaded={false} // default false
+                updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
+            >
+							{ this.state.result.map((image, index) => {
+								return (
+									<li key={ index } className='grid-item'>
+										<div>
+											<p>{ image.Title}</p>
+										</div>
+										<img src={ image.MediaUrl } />
+									</li>
+								);
+							}) }
+            </Masonry>
+
+					{/*
 						<div ref='masonry'>
 							{ this.state.result.map((image, index) => {
 								return (
@@ -77,13 +193,14 @@ class IdeasComponent extends React.Component {
 								);
 							}) }
 						</div>
+						*/}
           </main>
           <footer>
             <h2>Discover holiday activity ideas</h2>
             <h3>Hi!What are your holiday interests?</h3>
             <div>
-              <input placeholder='Enter your interests'/>
-              <button onClick={ this.search }>Search partners</button>
+              <input placeholder='Enter your interests' onKeyPress={ this.handleKeyPress.bind(this) } onChange={ this.setSearchRequest.bind(this) } value={ this.state.searchRequest }/>
+              <button onClick={ this.search.bind(this, this.state.searchRequest) }>Search partners</button>
             </div>
           </footer>
         </div>
