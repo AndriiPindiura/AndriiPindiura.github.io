@@ -31,6 +31,10 @@ function getDefaultModules() {
 				loader: 'style-loader!css-loader!postcss-loader!stylus-loader'
 			},
 			{
+				test: /masonry|imagesloaded|fizzy\-ui\-utils|desandro\-|outlayer|get\-size|doc\-ready|eventie|eventemitter/,
+				loader: 'imports?define=>false&this=>window'
+			},
+			{
 				test: /\.(png|jpg|gif|woff|woff2)$/,
 				loader: 'url-loader?limit=8192'
 			},
