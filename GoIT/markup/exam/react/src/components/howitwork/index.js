@@ -5,13 +5,13 @@ import styles from './main.scss';
 import Carousel from 'nuka-carousel';
 import {
   phonePortrait,
-  phoneLandscape,
-  tabletPortrait,
-  tabletLandscape,
-  desktop,
-  desktopWide,
-  desktopHD,
-  desktopMega
+  phoneLandscape
+//   tabletPortrait,
+//   tabletLandscape,
+//   desktop,
+//   desktopWide,
+//   desktopHD,
+//   desktopMega
 }  from '../../external/breakpoints';
 
 const Slider = React.createClass({

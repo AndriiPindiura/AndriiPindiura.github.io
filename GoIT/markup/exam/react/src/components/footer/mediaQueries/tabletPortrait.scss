@@ -1,0 +1,24 @@
+@import '../mobile';
+
+& {
+    display: flex;
+    justify-content: space-around;
+    margin: px(165) 0 0;
+
+    div {
+        margin: 0 px(75) px(32);
+
+        h3 {
+            margin: px(32) auto;
+        }
+
+        ul {
+            display: initial;
+
+            li {
+                display: block;
+                margin: 0;
+            }
+        }
+    }
+}
