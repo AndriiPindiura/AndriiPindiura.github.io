@@ -34,6 +34,10 @@
                     font-weight: 300;
                     line-height: px(48);
                     text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }

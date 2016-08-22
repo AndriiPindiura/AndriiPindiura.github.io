@@ -12,6 +12,7 @@ import styles from './main.scss';
 // import Masonry from 'masonry-layout';
 import Masonry from 'react-masonry-component';
 
+
 class IdeasComponent extends React.Component {
 	constructor() {
 		super();
@@ -44,40 +45,43 @@ class IdeasComponent extends React.Component {
 	}
 
 	search(data, skip) {
-		// console.log(data);
-		// console.log(skip);
-		// console.log(Number.isInteger(skip));
-		// `https://www.googleapis.com/customsearch/v1?q=dog&cx=006471260582658678081%3Akp9tiqcfqck&filter=1&num=7&searchType=image&key=AIzaSyCqwuYISMhnt1rH5D5SqzPZptyMz4y0sdM`
-		fetch(`https://api.datamarket.azure.com/Bing/Search/Image?Query='${data.split(' ').join('+')}'&$top=15${skip && Number.isInteger(skip)? `&$skip=${skip}`: ''}&$format=JSON`, {
-			headers: {
-				'Authorization': `Basic ${btoa('MbfQyJYgDJkVhKwyyV/dJqFoNrxhauqxCSa7+/udzmU=:MbfQyJYgDJkVhKwyyV/dJqFoNrxhauqxCSa7+/udzmU=')}`
-			}
-		})
-		// fetch(data ? `https://www.googleapis.com/customsearch/v1?q=${data.split(' ').join('+')}&imgSize=large&cx=006471260582658678081%3Akp9tiqcfqck&filter=1&num=10&searchType=image&siteSearch=google.com&key=AIzaSyCqwuYISMhnt1rH5D5SqzPZptyMz4y0sdM` : 'http://api.pixplorer.co.uk/image?amount=7&size=3')
-		// fetch(data ? `http://api.pixplorer.co.uk/image?word=${data.split(' ').join('+')}&amount=10&size=3` : 'http://api.pixplorer.co.uk/image?amount=7&size=3')
-  .then( response => {
-	// console.log(response.status);
-	if (response.status === 200) {
-		response.json().then(data => {
+		if (data.trim().length > 0)
+		{
 			// console.log(data);
-			// this.setState({ result: data.items });
-			// this.setState({ result: data.images });
-			this.setState({ result: data.d.results, searchRequest: '' });
-		// 	this.msnry = Masonry( this.refs.masonry, {
-		// 	// options
-		// 	itemSelector: '.grid-item',
-		// 	columnWidth: 200,
-		// 	percentPosition: true,
-		// 	// gutter: 5,
-		// 	isFitWidth: true
-		// });
-			// console.log(this.msnry);
-			//this.msnry.masonry('layout');
+			// console.log(skip);
+			// console.log(Number.isInteger(skip));
+			// `https://www.googleapis.com/customsearch/v1?q=dog&cx=006471260582658678081%3Akp9tiqcfqck&filter=1&num=7&searchType=image&key=AIzaSyCqwuYISMhnt1rH5D5SqzPZptyMz4y0sdM`
+			fetch(`https://api.datamarket.azure.com/Bing/Search/Image?Query='${data.split(' ').join('+')}'&$top=15${skip && Number.isInteger(skip) ? `&$skip=${skip}` : ''}&$format=JSON`, {
+				headers: {
+					'Authorization': `Basic ${btoa('MbfQyJYgDJkVhKwyyV/dJqFoNrxhauqxCSa7+/udzmU=:MbfQyJYgDJkVhKwyyV/dJqFoNrxhauqxCSa7+/udzmU=')}`
+				}
+			})
+				// fetch(data ? `https://www.googleapis.com/customsearch/v1?q=${data.split(' ').join('+')}&imgSize=large&cx=006471260582658678081%3Akp9tiqcfqck&filter=1&num=10&searchType=image&siteSearch=google.com&key=AIzaSyCqwuYISMhnt1rH5D5SqzPZptyMz4y0sdM` : 'http://api.pixplorer.co.uk/image?amount=7&size=3')
+				// fetch(data ? `http://api.pixplorer.co.uk/image?word=${data.split(' ').join('+')}&amount=10&size=3` : 'http://api.pixplorer.co.uk/image?amount=7&size=3')
+				.then(response => {
+					// console.log(response.status);
+					if (response.status === 200) {
+						response.json().then(data => {
+							console.log(data);
+							// this.setState({ result: data.items });
+							// this.setState({ result: data.images });
+							this.setState({ result: data.d.results, searchRequest: '' });
+							// 	this.msnry = Masonry( this.refs.masonry, {
+							// 	// options
+							// 	itemSelector: '.grid-item',
+							// 	columnWidth: 200,
+							// 	percentPosition: true,
+							// 	// gutter: 5,
+							// 	isFitWidth: true
+							// });
+							// console.log(this.msnry);
+							//this.msnry.masonry('layout');
 
-		});
-	}
-      })
-.catch( alert );
+						});
+					}
+				})
+				.catch(alert);
+		}
 	}
 
 	// componentDidMount() {
@@ -126,85 +130,42 @@ class IdeasComponent extends React.Component {
 
 
 		return (
-      <section className={ styles.ideas }>
-        <div>
-          <header>
-            <h2>Discover holiday activity ideas</h2>
-          </header>
-          <main>
-					{/*
-					<div style={ gridStyles.root}>
-						<GridList
-							cols={3}
-							// cellHeight={200}
-							padding={10}
-							style={ gridStyles.gridList}
-						>
-							{ this.state.result.map(image => {
+			<section className={ styles.ideas }>
+				<div>
+					<header>
+						<h2>Discover holiday activity ideas</h2>
+					</header>
+					<main>
+						<Masonry
+							className={'my-gallery-class'} // default ''
+							elementType={'ul'} // default 'div'
+							options={masonryOptions} // default {}
+							disableImagesLoaded={false} // default false
+							updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
+							>
+							{this.state.result.map((image, index) => {
 								return (
-									<GridTile
-										key={image.MediaUrl}
-										title={image.Title}
-										// actionIcon={<IconButton><StarBorder color="white" /></IconButton>}
-										// actionPosition="left"
-										titlePosition="top"
-										//titleBackground="linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)"
-										cols={image.featured ? 2 : 1}
-										rows={image.featured ? 2 : 1}
-									>
-										<img src={image.MediaUrl} />
-									</GridTile>
-
-								);
-							})}
-						</GridList>
-					</div>
-						 */}
-
-					{/*
-						*/}
-					<Masonry
-                className={'my-gallery-class'} // default ''
-                elementType={'ul'} // default 'div'
-                options={masonryOptions} // default {}
-                disableImagesLoaded={false} // default false
-                updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
-            >
-							{ this.state.result.map((image, index) => {
-								return (
-									<li key={ index } className='grid-item'>
+									<li key={index} className='grid-item' onClick={() => this.props.callback({ source: image.SourceUrl, image: image.MediaUrl})}>
 										<div>
-											<p>{ image.Title}</p>
+											<p>{image.Title}</p>
 										</div>
-										<img src={ image.MediaUrl } />
+										<img src={image.MediaUrl} />
 									</li>
 								);
-							}) }
-            </Masonry>
-
-					{/*
-						<div ref='masonry'>
-							{ this.state.result.map((image, index) => {
-								return (
-									<div key={ index } className='grid-item'>
-										<img src={ image.Thumbnail.MediaUrl } />
-									</div>
-								);
-							}) }
+							})}
+						</Masonry>
+					</main>
+					<footer>
+						<h2>Discover holiday activity ideas</h2>
+						<h3>Hi!What are your holiday interests?</h3>
+						<div>
+							<input placeholder='Enter your interests' onKeyPress={ this.handleKeyPress.bind(this) } onChange={ this.setSearchRequest.bind(this) } value={ this.state.searchRequest }/>
+							<button onClick={() => this.search(this.state.searchRequest) }>Search partners</button>
 						</div>
-						*/}
-          </main>
-          <footer>
-            <h2>Discover holiday activity ideas</h2>
-            <h3>Hi!What are your holiday interests?</h3>
-            <div>
-              <input placeholder='Enter your interests' onKeyPress={ this.handleKeyPress.bind(this) } onChange={ this.setSearchRequest.bind(this) } value={ this.state.searchRequest }/>
-              <button onClick={ this.search.bind(this, this.state.searchRequest) }>Search partners</button>
-            </div>
-          </footer>
-        </div>
-      </section>
-    );
+					</footer>
+				</div>
+			</section>
+		);
 	}
 }
 
