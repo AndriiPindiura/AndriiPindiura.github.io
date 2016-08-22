@@ -11,13 +11,16 @@
 
     main {
         display: flex;
+        flex-wrap: wrap;
         max-width: px(1524);
         margin: 0 auto;
+        transition: 1s all ease-in;
 
         section {
-            width: px(440);
+            width: px(380);
             height: px(460);
             margin: px(38) auto px(20);
+            overflow: hidden;
 
             >div {
                 position: relative;
@@ -82,12 +85,20 @@
             font-size: px(28);
             font-weight: 700;
             line-height: px(72);
-
+            cursor: pointer;
+            
             &:hover {
                 outline: 0;
+                // color: $headerTextColor;
+                box-shadow: 0 0 1px 1px $buttonColor;
+
             }
 
             &:active {
+                outline: 0;
+            }
+
+            &:focus {
                 outline: 0;
             }
         }

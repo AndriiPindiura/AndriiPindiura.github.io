@@ -1,0 +1,45 @@
+& {
+    //background: rgba(0, 0, 0, 0);
+
+    >div {
+        display: flex;
+        justify-content: center;
+        // height: 10px;
+        // background: rgba(0, 0, 0, 0);
+        >div {
+            max-width: 100%;
+            // display: flex;
+            div {
+                img {
+                    width: 100%;
+                }
+            }
+
+            nav {
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto px(10);
+
+                button {
+                    background: $transparent;
+                    border: 0;
+                    outline: 0;
+                    cursor: pointer;
+                }
+
+                a {
+                    color: $headerTextColor;
+                    font-family: robotothin;
+                    font-size: px(27);
+                    text-transform: lowercase;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        
+    }
+}

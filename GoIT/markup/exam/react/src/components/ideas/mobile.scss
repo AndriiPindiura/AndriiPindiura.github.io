@@ -122,6 +122,11 @@
                     font-family: Montserrat;
                     font-size: px(28);
                     cursor: pointer;
+
+                    &:hover {
+                        color: $headerTextColor;
+                        //box-shadow: 0 0 5px 2px $searchButtonBackgroundColor;
+                    }
                 }
 
             }

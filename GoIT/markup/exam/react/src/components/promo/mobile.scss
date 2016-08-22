@@ -66,5 +66,11 @@
 		font-weight: 700;
 		line-height: px(80);
 		cursor: pointer;
+
+		&:hover {
+			color: $backgroundColor;
+			//box-shadow: 0 0 1px 1px $buttonBackgroundColor;
+		}
+
 	}
 }
