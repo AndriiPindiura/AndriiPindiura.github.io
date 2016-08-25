@@ -10,53 +10,55 @@
     }
 
     main {
-        section {
-            margin: px(38) auto px(20);
+        span {
+            section {
+                margin: px(38) auto px(20);
 
-            >div {
-                position: relative;
-                width: px(240);
-                height: px(240);
-                margin: 0 auto px(42);
-
-                .photo {
+                >div {
                     position: relative;
                     width: px(240);
                     height: px(240);
-                    border-radius: 50%;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;
+                    margin: 0 auto px(42);
+
+                    .photo {
+                        position: relative;
+                        width: px(240);
+                        height: px(240);
+                        border-radius: 50%;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+
+                    .icon {
+                        position: relative;
+                        left: 100%;
+                        width: px(66);
+                        height: px(66);
+                        margin: px(-66) 0 0 px(-66);
+                        border: 4px solid $strokeColor;
+                        border-radius: 50%;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
                 }
 
-                .icon {
-                    position: relative;
-                    left: 100%;
-                    width: px(66);
-                    height: px(66);
-                    margin: px(-66) 0 0 px(-66);
-                    border: 4px solid $strokeColor;
-                    border-radius: 50%;
-                    background-repeat: no-repeat;
-                    background-position: center;
+                h3 {
+                    margin: 0 px(100) px(28);
+                    color: $headerTextColor;
+                    font-family: Montserrat;
+                    font-size: px(28);
+                    text-align: center;
                 }
-            }
 
-            h3 {
-                margin: 0 px(100) px(28);
-                color: $headerTextColor;
-                font-family: Montserrat;
-                font-size: px(28);
-                text-align: center;
-            }
-
-            p {
-                margin: 0 px(90);
-                color: $infoTextColor;
-                font-family: robotothin;
-                font-size: px(28);
-                font-weight: 300;
-                text-align: center;
+                p {
+                    margin: 0 px(90);
+                    color: $infoTextColor;
+                    font-family: robotothin;
+                    font-size: px(28);
+                    font-weight: 300;
+                    text-align: center;
+                }
             }
         }
     }

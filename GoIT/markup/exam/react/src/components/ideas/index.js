@@ -11,6 +11,7 @@ import styles from './main.scss';
 
 // import Masonry from 'masonry-layout';
 import Masonry from 'react-masonry-component';
+import Gallery from 'react-photo-gallery';
 
 
 class IdeasComponent extends React.Component {
@@ -127,7 +128,18 @@ class IdeasComponent extends React.Component {
 		// 		marginBottom: 24
 		// 	}
 		// };
-
+		// const photos = this.state.result.map(image => {
+		// 	return {
+		// 		src: image.MediaUrl,
+		// 		width: parseInt(image.Width),
+		// 		height: parseInt(image.Height),
+		// 		aspectRatio: 1.2,
+		// 		lightboxImage: {
+		// 			src: image.MediaUrl,
+		// 			caption: image.Title,
+		// 		}
+		// 	};
+		// });
 
 		return (
 			<section className={ styles.ideas }>
@@ -136,6 +148,9 @@ class IdeasComponent extends React.Component {
 						<h2>Discover holiday activity ideas</h2>
 					</header>
 					<main>
+						{/*<Gallery photos={photos} /> */}
+					{/*
+						*/}
 						<Masonry
 							className={'my-gallery-class'} // default ''
 							elementType={'ul'} // default 'div'
@@ -145,7 +160,8 @@ class IdeasComponent extends React.Component {
 							>
 							{this.state.result.map((image, index) => {
 								return (
-									<li key={index} className='grid-item' onClick={() => this.props.callback({ source: image.SourceUrl, image: image.MediaUrl})}>
+									<li key={index} className='grid-item' onClick={() => this.props.callback(image)}>
+									{/*<li key={index} className='grid-item' onClick={() => this.props.callback({ source: image.SourceUrl, image: image.MediaUrl})}>*/}
 										<div>
 											<p>{image.Title}</p>
 										</div>

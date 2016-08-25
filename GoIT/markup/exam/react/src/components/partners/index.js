@@ -2,7 +2,8 @@
 
 import React from 'react';
 import styles from './main.scss';
-
+import ReactCSSTransitionGroup  from 'react-addons-css-transition-group';
+require('./partner.css');
 
 class PartnersComponent extends React.Component {
 	constructor(props) {
@@ -70,25 +71,27 @@ class PartnersComponent extends React.Component {
 			<section className={ styles.partners }>
 				<header><h2>Meet a partner for your best holiday</h2></header>
 				<main>
-					{ this.state.partners.map((partner, index) => {
-						const photo = {
-							backgroundImage: `url(${partner.photo})`
-						};
-						const icon = {
-							backgroundColor: partner.color,
-							backgroundImage: `url(${partner.icon})`
-						};
-						return (
-							<section key={ index }>
-								<div>
-									<div className={ styles.photo } style={ photo }></div>
-									<div className={ styles.icon } style={ icon }></div>
-								</div>
-								<h3>{ partner.name }</h3>
-								<p>{ partner.info }</p>
-							</section>
-						);
-					}) }
+					<ReactCSSTransitionGroup transitionName="partner" transitionEnterTimeout={500} transitionLeaveTimeout={300}>
+						{ this.state.partners.map((partner, index) => {
+							const photo = {
+								backgroundImage: `url(${partner.photo})`
+							};
+							const icon = {
+								backgroundColor: partner.color,
+								backgroundImage: `url(${partner.icon})`
+							};
+							return (
+								<section key={ index }>
+									<div>
+										<div className={ styles.photo } style={ photo }></div>
+										<div className={ styles.icon } style={ icon }></div>
+									</div>
+									<h3>{ partner.name }</h3>
+									<p>{ partner.info }</p>
+								</section>
+							);
+						}) }
+					</ReactCSSTransitionGroup>
 				</main>
 				<footer><button onClick={() => this.togglePartners()}>{this.state.buttonCaption}</button></footer>
 			</section>
