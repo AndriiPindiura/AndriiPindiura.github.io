@@ -1,0 +1,17 @@
+.partner-enter {
+  opacity: 0.01;
+}
+
+.partner-enter.partner-enter-active {
+  opacity: 1;
+  transition: opacity .3s ease-in;
+}
+
+.partner-leave {
+  opacity: 1;
+}
+
+.partner-leave.partner-leave-active {
+  opacity: 0.01;
+  transition: opacity .2s ease-in;
+}
