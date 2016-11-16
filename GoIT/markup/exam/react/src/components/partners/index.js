@@ -93,7 +93,9 @@ class PartnersComponent extends React.Component {
 						}) }
 					</ReactCSSTransitionGroup>
 				</main>
-				<footer><button onClick={() => this.togglePartners()}>{this.state.buttonCaption}</button></footer>
+				<footer>
+					<button onClick={() => this.togglePartners()}>{this.state.buttonCaption}</button>
+				</footer>
 			</section>
 		);
 	}
